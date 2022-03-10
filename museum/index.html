@@ -12,106 +12,153 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="assets/favicon.ico">
+    <link rel="icon" href="./assets/favicon.ico">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> -->
 </head>
 
 <body>
     <header class="header">
-        <div class="container header-container dark-section">
-            <div class="logo-box">
-                <div class="logo"></div>
-                <p class="logo-text">Louvre</p>
-            </div>
-            <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="#visiting" class="nav-link">Visiting</a></li>
-                    <li><a href="#visiting" class="nav-link">Explore</a></li>
-                    <li><a href="#visiting" class="nav-link">Video</a></li>
-                    <li><a href="#visiting" class="nav-link">Gallery</a></li>
-                    <li><a href="#visiting" class="nav-link">Tickets</a></li>
-                    <li><a href="#visiting" class="nav-link">Contacts</a></li>
+        <div class="container header-container">
+            <a href="">
+                <div class="logo">
+                    <div class="logo-image"></div>
+                    <p class="logo-text">Louvre</p>
+                </div>
+            </a>
+            <nav class="header-nav">
+                <ul class="header-ul">
+                    <li><a href="#visiting" class="header-link">Visiting</a></li>
+                    <li><a href="#visiting" class="header-link">Explore</a></li>
+                    <li><a href="#visiting" class="header-link">Video</a></li>
+                    <li><a href="#visiting" class="header-link">Gallery</a></li>
+                    <li><a href="#visiting" class="header-link">Tickets</a></li>
+                    <li><a href="#visiting" class="header-link">Contacts</a></li>
                 </ul>
+            </nav>
         </div>
     </header>
 
     <main class="main">
-        <section class="section dark-section visiting-section" id="visiting">
-            <div class="container promo-container">
-                <div class="promo-content">
-                    <h1 class="section-title dark-section-title">Welcome to the louvre</h1>
-                    <p class="promo-text">
+        <section class="welcome" id="welcome">
+            <div class="container welcome-container">
+                <div class="welcome-content">
+                    <h1 class="section-title section-title-dark">Welcome<br>to the louvre</h1>
+                    <p class="welcome-text">
                         From the castle to the museum
                     </p>
-                    <button class="button">Discover the Louvre</button>
+                    <a class="welcome-button" target="_blank">Discover the louvre</a>
                 </div>
-                <img src="./assets/img/promo.png" class="promo-image" alt="The Design Thinking superpowers">
-            </div>
-        </section>
-
-
-
-
-
-
-        <!-- <div class="container"> -->
-        <section class="section">
-            <div class="container">
-                <h2 class="section-title gold-section-title">Virtual tour</h2>
-                <div class="underline-title"></div>
-
-
-                <div class="section-box">
-                    <div class="section-item">
-                        <img src="./assets/img/1.jpg" alt="">
-                        <div class="underline-title-image"></div>
-                        <h4 class="item-title">Royal Palace</h4>
-                        <p class="item-text1">360° Virtual Tour</p>
-                        <p class="item-text2">Google Street Panorama View</p>
-                    </div>
-                    <div class="section-item">
-                        <img src="./assets/img/2.jpg" alt="">
-                        <div class="underline-title-image"></div>
-                        <h4 class="item-title">Denon Wing</h4>
-                        <p class="item-text1">360° Virtual Tour</p>
-                        <p class="item-text2">Google Street Panorama View</p>
-                    </div>
-                    <div class="section-item">
-                        <img src="./assets/img/3.jpg" alt="">
-                        <div class="underline-title-image"></div>
-                        <h4 class="item-title">Colonnade Perrault</h4>
-                        <p class="item-text1">360° Virtual Tour</p>
-                        <p class="item-text2">Google Street Panorama View</p>
-                    </div>
-                    <div class="section-item">
-                        <img src="./assets/img/4.jpg" alt="">
-                        <div class="underline-title-image"></div>
-                        <h4 class="item-title">Greek hall</h4>
-                        <p class="item-text1">360° Virtual Tour</p>
-                        <p class="item-text2">Google Street Panorama View</p>
-                    </div>
-                    <div class="section-item">
-                        <img src="./assets/img/5.jpg" alt="">
-                        <div class="underline-title-image"></div>
-                        <h4 class="item-title">Mona Lisa</h4>
-                        <p class="item-text1">360° Virtual Tour</p>
-                        <p class="item-text2">Google Street Panorama View</p>
-                    </div>
-                    <div class="section-item">
-                        <img src="./assets/img/6.jpg" alt="">
-                        <div class="underline-title-image"></div>
-                        <h4 class="item-title">Night Palace</h4>
-                        <p class="item-text1">360° Virtual Tour</p>
-                        <p class="item-text2">Google Street Panorama View</p>
-                    </div>
-
+                <div>
+                    <img src="./assets/img/welcome.png" class="welcome-image" alt="The Design Thinking superpowers">
                 </div>
             </div>
         </section>
 
 
+        <section class="visiting" id="visiting">
+            <div class="container visiting-container">
+                <h2 class="section-title section-title-gold underline-title">Virtual tour</h2>
+
+                <div class="visiting-block">
+                    <a class="visiting-box" href="" target="_blank">
+                        <img src="./assets/img/1.jpg" class="visiting-image" alt="Royal Palace">
+                        <h4 class="visiting-title underline-title-image">Royal Palace</h4>
+                        <p class="visiting-text1">360° Virtual Tour</p>
+                        <p class="visiting-text2">Google Street Panorama View</p>
+                    </a>
+                    <a class="visiting-box" href="" target="_blank">
+                        <img src="./assets/img/2.jpg" class="visiting-image" alt="Denon Wing">
+                        <h4 class="visiting-title underline-title-image">Denon Wing</h4>
+                        <p class="visiting-text1">360° Virtual Tour</p>
+                        <p class="visiting-text2">Google Street Panorama View</p>
+                    </a>
+                    <a class="visiting-box" href="" target="_blank">
+                        <img src="./assets/img/3.jpg" class="visiting-image" alt="Colonnade Perrault">
+                        <h4 class="visiting-title underline-title-image">Colonnade Perrault</h4>
+                        <p class="visiting-text1">360° Virtual Tour</p>
+                        <p class="visiting-text2">Google Street Panorama View</p>
+                    </a>
+                    <a class="visiting-box" href="" target="_blank">
+                        <img src="./assets/img/4.jpg" class="visiting-image" alt="Greek hall">
+                        <h4 class="visiting-title underline-title-image">Greek hall</h4>
+                        <p class="visiting-text1">360° Virtual Tour</p>
+                        <p class="visiting-text2">Google Street Panorama View</p>
+                    </a>
+                    <a class="visiting-box" href="" target="_blank">
+                        <img src="./assets/img/5.jpg" class="visiting-image" alt="Mona Lisa">
+                        <h4 class="visiting-title underline-title-image">Mona Lisa</h4>
+                        <p class="visiting-text1">360° Virtual Tour</p>
+                        <p class="visiting-text2">Google Street Panorama View</p>
+                    </a>
+                    <a class="visiting-box" href="" target="_blank">
+                        <img src="./assets/img/6.jpg" class="visiting-image" alt="Night Palace">
+                        <h4 class="visiting-title underline-title-image">Night Palace</h4>
+                        <p class="visiting-text1">360° Virtual Tour</p>
+                        <p class="visiting-text2">Google Street Panorama View</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore" id="explore">
+            <div class="container explore-container">
+                <div class="explore-block">
+                    <div>
+                        <h2 class="section-title section-title-dark underline-title">Picture explore</h2>
+                        <p class="explore-text">
+                            Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden
+                            Age.
+                        </p>
+                        <p class="explore-text">It was cleaned in 1984 to remove a <span class="explore-span">"yellow
+                                veil"</span> of dust
+                            that had gathered since the previous restoration in the 19th century.</p>
+                        <p class="explore-text">The cleaning provoked furious protests, not because the picture had been
+                            damaged in any way, but because it looked different.</p>
+                    </div>
+                    <div>
+                        <img src="./assets/img/explore.jpg" class="explore-image" alt="The Design Thinking superpowers">
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
+        <section class="video" id="video">
+            <div class="container video-container">
+                <div class="video-block">
+                    <h2 class="section-title section-title-gold">Video journey</h2>
+                    <p class="video-text">
+                        Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona
+                        Lisa or Hammurabi's Code
+                    </p>
+                </div>
+                <div>
+                    <img src="./assets/img/video.jpg" class="video-image" alt="">
+                    <!-- <button class="video-button"></button> -->
+                    <!-- <div class="video-button"></div> -->
+                    <div class="control-box">
+                        <div class="play-icon"></div>
+                        <input type="range" value="40" min="0" max="100" step="1" class="progress">
+                        <div class="volume-icon"></div>
+                        <input type="range" value="40" min="0" max="100" step="1" class="volume">
+                        <div class="square-icon"></div>
+                    </div>
+                </div>
+                <div class="video-block-image">
+                    <a class="video-box" href="" target="_blank"><img src="./assets/img/video1.jpg" class="video-image1"
+                            alt=""></a>
+
+                    <a class="video-box" href="" target="_blank"><img src="./assets/img/video2.jpg" class="video-image2"
+                            alt=""></a>
+
+                    <a class="video-box" href="" target="_blank"><img src="./assets/img/video3.jpg" class="video-image3"
+                            alt=""></a>
+                </div>
+            </div>
+        </section>
+
+
+
         <section class="section">
             <div class="container"></div>
         </section>
@@ -121,13 +168,7 @@
         <section class="section">
             <div class="container"></div>
         </section>
-        <section class="section">
-            <div class="container"></div>
-        </section>
-        <section class="section">
-            <div class="container"></div>
-        </section>
-        <!-- </div> -->
+
     </main>
     <footer class="footer">
         <div class="container"></div>
