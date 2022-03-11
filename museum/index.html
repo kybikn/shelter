@@ -102,7 +102,7 @@
 
         <section class="explore" id="explore">
             <div class="container explore-container">
-                <div class="explore-block">
+                <div class="explore-content">
                     <div>
                         <h2 class="section-title section-title-dark underline-title">Picture explore</h2>
                         <p class="explore-text">
@@ -125,18 +125,17 @@
 
         <section class="video" id="video">
             <div class="container video-container">
-                <div class="video-block">
+                <div class="video-content">
                     <h2 class="section-title section-title-gold">Video journey</h2>
                     <p class="video-text">
                         Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona
                         Lisa or Hammurabi's Code
                     </p>
                 </div>
-                <div>
+                <div class="video-block">
                     <img src="./assets/img/video.jpg" class="video-image" alt="">
-                    <!-- <button class="video-button"></button> -->
-                    <!-- <div class="video-button"></div> -->
-                    <div class="control-box">
+                    <button class="video-button"></button>
+                    <div class="video-control-box">
                         <div class="play-icon"></div>
                         <input type="range" value="40" min="0" max="100" step="1" class="progress">
                         <div class="volume-icon"></div>
@@ -144,15 +143,35 @@
                         <div class="square-icon"></div>
                     </div>
                 </div>
+
                 <div class="video-block-image">
-                    <a class="video-box" href="" target="_blank"><img src="./assets/img/video1.jpg" class="video-image1"
-                            alt=""></a>
-
-                    <a class="video-box" href="" target="_blank"><img src="./assets/img/video2.jpg" class="video-image2"
-                            alt=""></a>
-
-                    <a class="video-box" href="" target="_blank"><img src="./assets/img/video3.jpg" class="video-image3"
-                            alt=""></a>
+                    <div class="video-box">
+                        <div class="video-box-title">
+                            <img src="./assets/img/Ellipse.jpg" class="ellipse" alt="">
+                            <h4 class="video-title">Exposition - Le Corps et l'Ame. De Dona...</h4>
+                            <img src="./assets/svg/three-dots.svg" class="three-dots" alt="">
+                        </div>
+                        <img src="./assets/img/video1.jpg" class="video-image1" alt="">
+                        <button class="youtube-icon arrow-left"></button>
+                    </div>
+                    <div class="video-box">
+                        <div class="video-box-title">
+                            <img src="./assets/img/Ellipse.jpg" class="ellipse" alt="">
+                            <h4 class="video-title">Au Louvre ! La Venus de Milo</h4>
+                            <img src="./assets/svg/three-dots.svg" class="three-dots" alt="">
+                        </div>
+                        <img src="./assets/img/video2.jpg" class="video-image2" alt="">
+                        <button class="youtube-icon arrow-left"></button>
+                    </div>
+                    <div class="video-box">
+                        <div class="video-box-title">
+                            <img src="./assets/img/Ellipse.jpg" class="ellipse" alt="">
+                            <h4 class="video-title">Promenade dans les collections mesop...</h4>
+                            <img src="./assets/svg/three-dots.svg" class="three-dots" alt="">
+                        </div>
+                        <img src="./assets/img/video3.jpg" class="video-image3" alt="">
+                        <button class="youtube-icon arrow-left"></button>
+                    </div>
                 </div>
             </div>
         </section>
