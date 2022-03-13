@@ -312,6 +312,22 @@ a {
   justify-content: space-between;
 }
 
+.underline-title-explore {
+  position: relative;
+}
+
+.underline-title-explore::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #710707;
+  border-radius: 0px;
+  width: 90%;
+}
+
 .explore-text {
   width: 660px;
   height: 77px;
@@ -679,18 +695,32 @@ a {
 }
 
 .tickets-container {
-  height: 1116px;
+  height: 743px;
   padding: 75px 0;
+  margin-bottom: 140px;
   background-color: white;
 }
 
 .tickets-block {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.ticket-type {
+.tickets-image {
+  height: 100%;
+  width: 50%;
+}
+
+.tickets-type {
   padding-right: 180px;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 5%; */
+  /* width: 45%; */
+  /* right: 0; */
+  /* justify-content: space-between; */
+  /* padding-bottom: 52px; */
 }
 
 .tickets-title {
@@ -700,40 +730,126 @@ a {
   font-size: 28px;
   line-height: 33px;
   color: #000000;
+  padding-bottom: 30px;
+  /* align-self: flex-end; */
 }
-.radio {
-}
-input {
-  /* appearance: none; */
-  /* border: 2px solid #000000; */
-  /* color: black; */
-  /* box-sizing: border-box; */
-  width: 17px;
-  height: 17px;
-  /* border-radius: 50%; */
-  /* outline: none; */
-}
-input:checked {
-  /* border: 2px solid #000000; */
 
-  /* color: black;
-  width: 7px;
-  height: 7px; */
-}
 .tickets-text {
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
+  padding-left: 35px;
+  padding-bottom: 15px;
 }
+
+.input-type {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  margin-top: 3px;
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  color: black;
+  outline: none;
+  appearance: none;
+}
+
+.input-type:checked {
+  border: 2px solid #000000;
+  color: black;
+  width: 7px;
+  height: 7px;
+}
+
+.tickets-amount {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-content: flex-end;
+}
+
+.tickets-title-amount {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  /* padding-left: 150px; */
+  /* margin-left: 100px; */
+}
+
+.tickets-button-number {
+  position: relative;
+  margin-bottom: 10px;
+  width: 150px;
+  /* height: 50px; */
+  /* display: inline-block; */
+}
+
+.number {
+  /* display: block; */
+  height: 50px;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  border: 3px solid #000000;
+}
+
+.button-minus {
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  position: absolute;
+  left: 14px;
+  line-height: 50px;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  text-align: center;
+  border: none;
+  font-size: 35px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.button-plus {
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 34px;
+  line-height: 50px;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  text-align: center;
+  border: none;
+  font-size: 32px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .tickets-button {
   background: #000000;
   border-radius: 2px;
+  padding: 0;
   height: 50px;
   width: 175px;
 }
+
 .tickets-text-button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -742,7 +858,9 @@ input:checked {
   line-height: 26px;
   letter-spacing: 2px;
   color: #ffffff;
-  /* display: flex;
-align-items: center;
-text-align: center; */
+}
+
+.tickets-photo {
+  width: 100%;
+  /* height: 400px; */
 }

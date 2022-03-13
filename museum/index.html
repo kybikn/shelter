@@ -104,7 +104,7 @@
             <div class="container explore-container">
                 <div class="explore-content">
                     <div>
-                        <h2 class="section-title section-title-dark underline-title">Picture explore</h2>
+                        <h2 class="section-title section-title-dark underline-title-explore">Picture explore</h2>
                         <p class="explore-text">
                             Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden
                             Age.
@@ -210,32 +210,47 @@
             <div class="container tickets-container">
                 <h2 class="section-title section-title-gold underline-title">Buy tickets</h2>
                 <div class="tickets-block">
-                    <img src="./assets/img/tickets1.jpg" alt="">
-                    <div class="ticket-type">
+                    <img src="./assets/img/tickets1.jpg" class="tickets-image" alt="">
+                    <div class="tickets-type">
                         <h3 class="tickets-title">Ticket Type</h3>
                         <form>
-                            <label><input type="radio" name="exhibition" value="rad1" checked>
+                            <label><input type="radio" class="input-type" name="exhibition" value="rad1" checked>
                                 <p class="tickets-text"> Permanent exhibition</p>
                             </label><br>
-                            <label><input type="radio" name="exhibition" value="rad2">
+                            <label><input type="radio" class="input-type" name="exhibition" value="rad2">
                                 <p class="tickets-text"> Temporary
                                     exhibition</p>
                             </label><br>
-                            <label><input type="radio" name="exhibition" value="rad3">
+                            <label><input type="radio" class="input-type" name="exhibition" value="rad3">
                                 <p class="tickets-text"> Combined Admission</p>
                             </label>
                         </form>
                     </div>
-                    <div>
+                    <div class="tickets-amount">
                         <h3 class="tickets-title">Amount</h3>
                         <p class="tickets-text">Basic 18+</p>
+                        <div class="tickets-button-number">
+                            <button class="button-minus" type="button">–</button>
+                            <input type="number" value="1" min="0" max="20" class="number" readonly>
+                            <button class="button-plus" type="button">+</button>
+                        </div>
                         <p class="tickets-text">Senior 65+</p>
-                        <p class="tickets-title">Total €<span>220</span></p>
+                        <div class="tickets-button-number">
+                            <button class="button-minus" type="button">–</button>
+                            <input type="number" value="1" min="0" max="20" readonly class="number">
+                            <button class="button-plus" type="button">+</button>
+                        </div>
+                        <p class="tickets-title-amount">Total €<span>220</span></p>
                         <button class="tickets-button">
                             <p class="tickets-text-button">Buy Now</p>
                         </button>
                     </div>
+
                 </div>
+
+            </div>
+            <img src="./assets/img/tickets2.jpg" class="tickets-photo" alt="">
+        </section>
 
     </main>
     <footer class="footer">
