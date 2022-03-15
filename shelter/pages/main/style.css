@@ -196,9 +196,7 @@ html {
 
 .about-image {
   margin-bottom: 50px;
-
   /* padding-bottom: 40px; */
-
   padding-left: 20px;
 }
 
@@ -207,6 +205,7 @@ html {
   margin-right: 30px;
   /* padding-top: 50px; */
 }
+
 .about-title {
   font-family: "Georgia";
   font-style: normal;
@@ -219,6 +218,7 @@ html {
   align-items: center; */
   margin-bottom: 20px;
 }
+
 .about-text {
   /* padding-top: 20px; */
   padding-bottom: 30px;
@@ -228,4 +228,297 @@ html {
   font-size: 15px;
   line-height: 160%;
   color: #4c4c4c;
+}
+
+/* ----------------------------OUR FRIENDS---------------------------- */
+.our-friends-container {
+  height: 877px;
+  padding-top: 80px;
+  background: #f6f6f6;
+}
+
+.our-friends-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.our-friends-title {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.our-friends-catalog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 55px;
+}
+
+.previous {
+  width: 52px;
+  height: 52px;
+  padding: 23px 19px;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+  margin-top: 195px;
+  background-image: url("../../assets/icons/Arrow1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.next {
+  width: 52px;
+  height: 52px;
+  padding: 23px 19px;
+  border: 2px solid #f1cdb3;
+  border-radius: 50%;
+  margin-top: 195px;
+  background-image: url("../../assets/icons/Arrow2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.card-box {
+  display: flex;
+}
+
+.card {
+  justify-content: space-between;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+}
+
+.card-image {
+  border-radius: 9px 9px 0px 0px;
+}
+
+.card-name {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  padding-top: 35px;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+}
+
+.card-button {
+  padding: 15px 45px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  background: #fafafa;
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  margin: 25px 0px;
+  /* box-sizing: border-box; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px; */
+}
+
+.our-friends-button {
+  padding: 15px 45px;
+  background: #f1cdb3;
+  border-radius: 100px;
+  border: none;
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  margin: 0 auto;
+  display: block;
+  margin-top: 65px;
+  width: 22%;
+  letter-spacing: 0.06em;
+  /* width: 261px; */
+  /* height: 52px; */
+  /* margin-left: 470px; */
+  /* top: 645px; */
+  /* margin: 50px 500px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* align-self: center; */
+}
+
+/* ----------------------------HELP---------------------------- */
+.help-container {
+  height: 611px;
+  background: #ffffff;
+  padding-top: 80px;
+}
+
+.help-title {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 57px;
+}
+
+.grid {
+  padding-left: 5px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 235px 235px 235px 235px 235px;
+  grid-template-rows: 170px 170px;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.grid-icon1 {
+  background-image: url("../../assets/icons/pet-food.svg");
+}
+.grid-icon2 {
+  background-image: url("../../assets/icons/transportation.svg");
+}
+.grid-icon3 {
+  background-image: url("../../assets/icons/toys.svg");
+}
+.grid-icon4 {
+  background-image: url("../../assets/icons/bowls-and-cups.svg");
+}
+.grid-icon5 {
+  background-image: url("../../assets/icons/shampoos.svg");
+}
+.grid-icon6 {
+  background-image: url("../../assets/icons/vitamins.svg");
+}
+.grid-icon7 {
+  background-image: url("../../assets/icons/medicines.svg");
+}
+.grid-icon8 {
+  background-image: url("../../assets/icons/collars-or-leashes.svg");
+}
+.grid-icon9 {
+  background-image: url("../../assets/icons/sleeping-area.svg");
+}
+
+.grid-text {
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+/* ----------------------------IN ADDITION---------------------------- */
+.in-addition-container {
+  height: 462px;
+  padding-top: 80px;
+  background: #f6f6f6;
+}
+
+.in-addition-block {
+  display: flex;
+  justify-content: center;
+}
+
+.in-addition-image {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.in-addition-content {
+  max-width: 380px;
+}
+
+.in-addition-title {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  padding-bottom: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.in-addition-text {
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.in-addition-text-transparent {
+  font-family: "Arial", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+}
+
+.credit-button {
+  padding: 10px 15px;
+  width: 349px;
+  height: 43px;
+  background: #f1cdb3;
+  border-radius: 9px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Georgia", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.credit-icon {
+  background-image: url("../../assets/icons/credit-card.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  /* margin-left: 30px;
+  margin-right: 30px;
+  padding-right: 30px; */
+  /* width: 30px;
+  height: 23px; */
+  /* background: #292929; */
 }
