@@ -17,14 +17,14 @@
     <header class="container header-container">
         <div>
             <h1 class="logo-title">Cozy House</h1>
-            <p class="logo-text">Shelter for pets in Boston</p>
+            <p class="logo-subtitle">Shelter for pets in Boston</p>
         </div>
         <nav class="header-nav">
             <ul>
-                <li class="header-li"><a href="#" class="header-link">About the shelter</a></li>
-                <li class="header-li"><a href="#" class="header-link">Our pets</a></li>
-                <li class="header-li"><a href="#" class="header-link">Help the shelter</a></li>
-                <li class="header-li"><a href="#" class="header-link">Contacts</a></li>
+                <li class="header-li"><a href="#about" class="header-link bottom current">About the shelter</a></li>
+                <li class="header-li"><a href="#pets" class="header-link">Our pets</a></li>
+                <li class="header-li"><a href="#help" class="header-link">Help the shelter</a></li>
+                <li class="header-li"><a href="#contacts" class="header-link">Contacts</a></li>
             </ul>
         </nav>
     </header>
@@ -40,9 +40,9 @@
                     </p>
                     <button class="not-only-button">Make a friend</button>
                 </div>
-                <!-- <div> -->
-                <img src="../../assets/images/start-puppy.jpg" class="not-only-image" alt="">
-                <!-- </div> -->
+                <div>
+                    <img src="../../assets/images/start-puppy.jpg" class="not-only-image" alt="">
+                </div>
             </div>
         </section>
         <section class="container about-container" id="about">
@@ -67,35 +67,149 @@
                 </div>
         </section>
 
-        <section class="container our-friends-container">
+        <section class="container our-friends-container" id="pets">
             <div class="our-friends-block">
                 <h2 class="our-friends-title">Our friends who<br>are looking for a house</h2>
                 <div class="our-friends-catalog">
-                    <button class="previous"></button>
+                    <button class="previous">
+                        <img src="../../assets/icons/arrow1.svg" alt="">
+                    </button>
                     <div class="card-box">
                         <div class="card">
                             <img src="../../assets/images/pets-katrine.jpg" class="card-image" alt="">
                             <h4 class="card-name">Katrine</h4>
-                            <button class="card-button">Learn more</button>
+                            <button class="card-button"><a href="#openModal1" class="card-link">Learn more</a></button>
+                            <!-- ------ modal -------->
+                            <div id="openModal1" class="modal-block">
+                                <a href="#close" class="close-all"></a>
+                                <div class="modal-content">
+                                    <button class="close">
+                                        <a href="#close" title="Закрыть"><img src="../../assets/icons/modal-close.svg"
+                                                alt="">
+                                        </a>
+                                    </button>
+                                    <img src="../../assets/images/pets-katrine.jpg" class="modal-image" alt="">
+                                    <div class="modal-box">
+                                        <h2 class="modal-title">Katrine</h2>
+                                        <p class="modal-subtitle">Cat - British Shorthair</p>
+                                        <p class="modal-text">Katrine is a beautiful girl. She is as soft as the finest
+                                            velvet with a thick lush fur. Will love you until the last breath she takes
+                                            as long as you are the one. She is picky about her affection. She loves
+                                            cuddles and to stretch into your hands for a deeper relaxations.</p>
+                                        <ul>
+                                            <li><span class="modal-span1">Age:</span>
+                                                <span class="modal-span2"> 2 months</span>
+                                            </li>
+                                            <li><span class="modal-span1">Inoculations:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                            <li><span class="modal-span1">Diseases:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                            <li><span class="modal-span1">Parasites:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -------------------- -->
                         </div>
                         <div class="card">
                             <img src="../../assets/images/pets-jennifer.jpg" class="card-image" alt="">
                             <h4 class="card-name">Jennifer</h4>
-                            <button class="card-button">Learn more</button>
+                            <button class="card-button"><a href="#openModal2" class="card-link">Learn more</a></button>
+                            <!-- ------ modal -------->
+                            <div id="openModal2" class="modal-block">
+                                <a href="#close" class="close-all"></a>
+                                <div class="modal-content">
+                                    <button class="close">
+                                        <a href="#close" title="Закрыть"><img src="../../assets/icons/modal-close.svg"
+                                                alt="">
+                                        </a>
+                                    </button>
+                                    <img src="../../assets/images/pets-jennifer.jpg" class="modal-image" alt="">
+                                    <div class="modal-box">
+                                        <h2 class="modal-title">Jennifer</h2>
+                                        <p class="modal-subtitle">Dog - Labrador</p>
+                                        <p class="modal-text">Jennifer is a sweet 2 months old Labrador that is
+                                            patiently waiting to
+                                            find a
+                                            new
+                                            forever home. This girl really enjoys being able to go outside to run
+                                            and
+                                            play,
+                                            but won't hesitate to play up a storm in the house if she has all of her
+                                            favorite toys.</p>
+                                        <ul>
+                                            <li><span class="modal-span1">Age:</span>
+                                                <span class="modal-span2"> 2 months</span>
+                                            </li>
+                                            <li><span class="modal-span1">Inoculations:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                            <li><span class="modal-span1">Diseases:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                            <li><span class="modal-span1">Parasites:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -------------------- -->
                         </div>
                         <div class="card">
                             <img src="../../assets/images/pets-woody.jpg" class="card-image" alt="">
                             <h4 class="card-name">Woody</h4>
-                            <button class="card-button">Learn more</button>
+                            <button class="card-button"><a href="#openModal3" class="card-link">Learn more</a></button>
+                            <!-- ------ modal -------->
+                            <div id="openModal3" class="modal-block">
+                                <a href="#close" class="close-all"></a>
+                                <div class="modal-content">
+                                    <button class="close">
+                                        <a href="#close" title="Закрыть"><img src="../../assets/icons/modal-close.svg"
+                                                alt="">
+                                        </a>
+                                    </button>
+                                    <img src="../../assets/images/pets-woody.jpg" class="modal-image" alt="">
+                                    <div class="modal-box">
+                                        <h2 class="modal-title">Woody</h2>
+                                        <p class="modal-subtitle">Dog - Golden Retriever</p>
+                                        <p class="modal-text">Woody is a handsome 3 1/2 year old boy. Woody does know
+                                            basic commands and is a smart pup. Since he is on the stronger side, he will
+                                            learn a lot from your training. Woody will be happier when he finds a new
+                                            family that can spend a lot of time with him.</p>
+                                        <ul>
+                                            <li><span class="modal-span1">Age:</span>
+                                                <span class="modal-span2"> 2 months</span>
+                                            </li>
+                                            <li><span class="modal-span1">Inoculations:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                            <li><span class="modal-span1">Diseases:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                            <li><span class="modal-span1">Parasites:</span>
+                                                <span class="modal-span2"> none</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -------------------- -->
                         </div>
                     </div>
-                    <button class="next"></button>
+                    <button class="next">
+                        <img src="../../assets/icons/arrow2.svg" alt="">
+                    </button>
                 </div>
                 <button class="our-friends-button">Get to know the rest</button>
             </div>
         </section>
 
-        <section class="container help-container">
+        <section class="container help-container" id="help">
             <h2 class="help-title">How you can help<br>our shelter</h2>
             <div class="grid">
                 <div>
@@ -137,7 +251,7 @@
             </div>
         </section>
 
-        <section class="container in-addition-container">
+        <section class="container in-addition-container" id="contacts">
             <div class="in-addition-block">
                 <img src="../../assets/images/donation-dog.jpg" class="in-addition-image" alt="">
                 <div class="in-addition-content">
@@ -172,11 +286,24 @@
                 <h2 class="footer-title">We are waiting<br>for your visit</h2>
                 <div class="link-box-locations">
                     <img src="../../assets/icons/icon-map.svg" alt="">
-                    <a href="" class="footer-link">1 Central Street, Boston<br>(entrance from the store)</a>
+                    <a href="##" class="footer-link">1 Central Street, Boston<br>(entrance from the store)</a>
                 </div>
+
+                <!-- <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.2479011884125!2d-71.05691498454685!3d42.35855584318925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370868bc2ce7b%3A0x82fa7db94f5fea9e!2zMSBDZW50cmFsIFN0LCBCb3N0b24sIE1BIDAyMTA5LCDQodCo0JA!5e0!3m2!1sru!2sru!4v1647425872738!5m2!1sru!2sru"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <button id="myBtn">Открыть модальный</button>
+                    <div id="myModal" class="modal">
+                        <div class="">
+                            <span class="close">&times;</span>
+                            <p>Некоторый текст в модальном..</p>
+                        </div>
+                    -->
                 <div class="link-box-locations">
                     <img src="../../assets/icons/icon-map.svg" alt="">
-                    <a href="" class="footer-link">18 South Park, London</a>
+                    <a href="##" class="footer-link">18 South Park, London</a>
                 </div>
             </div>
             <div class="footer-image">
