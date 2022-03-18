@@ -59,7 +59,7 @@ html {
 
 .header-nav {
   margin-left: auto;
-  padding-top: 50px;
+  padding-top: 67px;
   /* height: 27px; */
   /* max-width: 720px; */
 }
@@ -89,14 +89,14 @@ html {
 .header-link:hover,
 .header-link:focus {
   border-bottom: 3px solid #f1cdb3;
-  color: #fddcc4;
+  /* color: #fddcc4; */
   /* text-decoration: underline; */
 }
 /* ----------------------------NOT ONLY---------------------------- */
 
 .not-only-container {
   background-image: url("../../assets/images/gradient-bg.jpg");
-  padding-top: 120px;
+  padding-top: 62px;
   /* background-repeat: no-repeat; */
   /* background-position: center -90px; */
   /* height: 908px; */
@@ -139,8 +139,8 @@ html {
 
 .not-only-text {
   /* margin-bottom: 25px; */
-  padding-top: 20px;
-  padding-bottom: 35px;
+  padding-top: 17px;
+  padding-bottom: 37px;
   font-family: "Arial", serif;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +159,7 @@ html {
   font-size: 17px;
   line-height: 130%;
   color: #292929;
-  padding: 15px 45px;
+  padding: 17px 0;
   width: 207px;
   height: 52px;
   background: #f1cdb3;
@@ -529,17 +529,21 @@ li {
   background: #f1cdb3;
   border-radius: 100px;
   border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 65px;
+  width: 22%;
+}
+
+.our-friends-button-link {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 130%;
   color: #292929;
-  margin: 0 auto;
-  display: block;
-  margin-top: 65px;
-  width: 22%;
   letter-spacing: 0.06em;
+  text-decoration: none;
 }
 
 .our-friends-button:hover {
@@ -785,35 +789,22 @@ li {
   padding-top: 40px;
 }
 
-.map-responsive {
-  /* position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(41, 41, 41, 0.6);
-  transition: all 0.8s ease 0s;
-  pointer-events: none; */
-  /* opacity: 0;
-  visibility: hidden; */
-  /* z-index: 1;
-  display: none; */
-  /* position: relative; */
-  /* overflow: hidden; */
-  /* padding-bottom: 56.25%; */
-  /* height: 0; */
+/* ----------- */
+/* .map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
 }
+
 .map-responsive iframe {
-  /* left: 0;
+  left: 0;
   top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
-  position: relative; */
-}
-.map-responsive:active {
-  /* overflow: hidden;
-  opacity: 1;
   visibility: visible;
-  display: block; */
-}
+  opacity: 1;
+} */
