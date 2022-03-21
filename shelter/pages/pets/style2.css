@@ -33,7 +33,7 @@ html {
   display: flex;
   align-items: center;
   color: #545454;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.09em;
   padding-top: 30px;
   /* padding-bottom: 50px; */
   /* padding-bottom: 25px; */
@@ -50,7 +50,8 @@ html {
   align-items: center;
   letter-spacing: 0.1em;
   color: #292929;
-  padding-top: 12px;
+  padding-top: 10px;
+  padding-left: 3px;
   /* padding-bottom: 40px; */
 }
 
@@ -64,7 +65,7 @@ html {
 .header-li {
   display: inline-block;
   list-style: none;
-  padding-left: 30px;
+  padding-left: 32px;
 }
 
 .header-link {
@@ -387,7 +388,6 @@ li {
 .footer-container {
   height: 350px;
   background-image: url("../../assets/images/gradient-bg.jpg");
-  /* padding-top: 60px; */
 }
 
 .footer-block {
@@ -398,11 +398,6 @@ li {
 
 .contacts {
   padding-top: 58px;
-}
-
-.locations {
-  /* padding-right: 30px; */
-  padding-top: 55px;
 }
 
 .footer-title {
@@ -420,17 +415,11 @@ li {
   justify-content: space-between;
   align-items: center;
   padding-top: 38px;
-  /* padding-right: 33px; */
-  /* padding-left: 10px; */
-  /* padding-bottom: 10px; */
 }
 
-.link-box-locations {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 34px;
-  width: 302px;
+.footer-icon-contacts {
+  padding-right: 20px;
+  padding-bottom: 2px;
 }
 
 .footer-link {
@@ -444,16 +433,33 @@ li {
   text-decoration: none;
 }
 
-.footer-link-span {
-  padding-right: 30px;
-}
-
 .link-email {
-  padding-right: 30px;
+  padding-right: 28px;
 }
 
 .link-tel {
   padding-right: 40px;
+}
+
+.locations {
+  padding-top: 55px;
+}
+
+.link-box-locations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 302px;
+  padding-top: 32px;
+}
+
+.link-map {
+  padding-right: 10px;
+}
+
+.link-map2 {
+  padding-right: 32px;
+  padding-top: 3px;
 }
 
 .footer-image {
