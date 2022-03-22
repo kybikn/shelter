@@ -14,10 +14,10 @@ html {
   /* background-image: url("../../assets/images/gradient-bg.jpg"); */
   background-repeat: no-repeat;
   height: 120px;
+  position: sticky;
+  top: 0;
   /* background-position: center 0; */
   /* align-items: center; */
-  /* position: sticky;
-    top: 0; */
   /* height: 60px; */
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
@@ -80,16 +80,18 @@ html {
   border-bottom: 3px solid transparent;
 }
 
-/* .bottom {
-    border-bottom: 3px solid #f1cdb3;
-  } */
+.bottom {
+  border-bottom: 3px solid #f1cdb3;
+  padding-bottom: 4px;
+}
+/* 
 .header-link:active,
 .header-link:hover,
 .header-link:focus {
   border-bottom: 3px solid #f1cdb3;
-  /* color: #fddcc4; */
-  /* text-decoration: underline; */
-}
+  color: #fddcc4;
+  text-decoration: underline;
+} */
 
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends-container {
@@ -169,7 +171,7 @@ html {
   margin: 27px 0px;
 }
 
-.card-button:hover {
+.card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
@@ -370,7 +372,8 @@ li {
   /* background-position: center; */
 }
 
-.one:focus {
+.one:focus,
+.one:hover {
   background: #f1cdb3;
   cursor: pointer;
   transition: 0.8s;

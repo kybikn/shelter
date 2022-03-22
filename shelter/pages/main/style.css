@@ -84,16 +84,18 @@ html {
   border-bottom: 3px solid transparent;
 }
 
-/* .bottom {
+.bottom {
   border-bottom: 3px solid #f1cdb3;
-} */
-.header-link:active,
+  padding-bottom: 4px;
+}
+
+/* .header-link:active,
 .header-link:hover,
 .header-link:focus {
   border-bottom: 3px solid #f1cdb3;
-  /* color: #fddcc4; */
-  /* text-decoration: underline; */
-}
+  color: #fddcc4;
+  text-decoration: underline;
+} */
 /* ----------------------------NOT ONLY---------------------------- */
 
 .not-only-container {
@@ -155,6 +157,14 @@ html {
 
 .not-only-button {
   border: none;
+  padding: 17px 0;
+  width: 207px;
+  height: 52px;
+  background: #f1cdb3;
+  border-radius: 100px;
+}
+
+.not-only-button-link {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -162,11 +172,7 @@ html {
   line-height: 130%;
   letter-spacing: 1px;
   color: #292929;
-  padding: 17px 0;
-  width: 207px;
-  height: 52px;
-  background: #f1cdb3;
-  border-radius: 100px;
+  text-decoration: none;
 }
 
 .not-only-button:hover {
@@ -350,7 +356,7 @@ html {
   margin: 25px 0px;
 }
 
-.card-button:hover {
+.card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
@@ -394,6 +400,7 @@ html {
   transform: translate(0px, 0px);
   opacity: 1;
 }
+
 .modal-content {
   position: relative;
   max-width: 900px;
@@ -698,6 +705,11 @@ li {
   padding-left: 58px;
   /* position: relative; */
   /* padding: 0; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* 
+  padding-top: 32px; */
 }
 
 .credit-icon {
@@ -728,26 +740,6 @@ li {
   transition: 0.7s;
   /* margin-left: 40px; */
 }
-
-/* ----------- */
-/* .map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  visibility: visible;
-  opacity: 1;
-} */
 
 /* ----------------------------FOOTER---------------------------- */
 
@@ -829,4 +821,13 @@ li {
 
 .footer-image {
   padding-top: 40px;
+}
+
+/* --------slider---------- */
+.no {
+  display: none;
+}
+.yes {
+  /* display: none; */
+  /* display: block; */
 }
