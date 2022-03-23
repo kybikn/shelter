@@ -32,21 +32,48 @@
 // };
 // =====================================
 
-const btnPrev = document.querySelector(".previous");
-const btnNext = document.querySelector(".next");
-let modal = document.querySelector(".no");
-let modal2 = document.querySelector(".yes");
+// const btnPrev = document.querySelector(".previous");
+// const btnNext = document.querySelector(".next");
+// let modal = document.querySelector(".no");
+// let modal2 = document.querySelector(".yes");
 
 // btnPrev.addEventListener("click", prevSlide);
 // btnNext.addEventListener("click", nextSlide);
 
-btnNext.onclick = function () {
-  modal.style.display = "block";
-};
+// btnNext.onclick = function () {
+//   modal.style.display = "block";
+// };
 
-window.onclick = function (event) {
-  if (event.target == modal2) {
-    modal.style.display = "none";
-  }
-};
-//   modal2.style.display = "none";
+// window.onclick = function (event) {
+//   if (event.target == modal2) {
+//     modal.style.display = "none";
+//   }
+// };
+// modal2.style.display = "none";
+
+// ============================================
+// var slideIndex = 1;
+// showSlides(slideIndex);
+
+// functionplusSlides(n) {
+//     showSlides(slideIndex += n);
+// }
+
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//     var i;
+//     var slides = document.getElementsByClassName('card-box');
+//     if (n > slides.length) {
+//         slideIndex = 1;
+//     }
+//     if (n < 1) {
+//         slideIndex = slides.length;
+//     }
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = 'none';
+//     }
+//     slides[slideIndex - 1].style.display = 'block';
+// }
