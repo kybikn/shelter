@@ -60,15 +60,66 @@
     /* padding-right: 0px; */
     /* padding-top: 50px; */
   }
+  .about-image {
+    padding-left: 0;
+  }
+
   .our-friends-container {
-    padding-top: 80px;
+    /* padding-top: 80px; */
+  }
+  .our-friends-block {
+    /* height: 877px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
   }
 
   .our-friends-title {
+    padding-top: 80px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
     /* text-align: center; */
-    /* align-items: center; */
+  }
 
-    /* margin: 0 auto; */
-    /* letter-spacing: 0.06em; */
+  .our-friends-catalog {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    flex-wrap: nowrap;
+    padding-top: 55px;
+    /* padding-top: 0; */
+  }
+
+  .card-box {
+    /* display: flex;
+    justify-content: space-between; */
+  }
+
+  .card {
+    /* margin-bottom: 5px; */
+    margin: 0;
+    /* margin: 0; */
+  }
+  .card1 {
+    margin-right: 20px;
+  }
+  .card2 {
+    margin-left: 20px;
+  }
+  .card3 {
+    display: none;
+  }
+  .previous {
+    /* margin-top: 0; */
+    /* align-items: center; */
+  }
+
+  .next {
+    /* margin-right: 90px; */
+    /* margin-top: 0; */
+  }
+  .card-button {
+    padding: 13px 44px;
+    margin: 27px 0px;
   }
 }
