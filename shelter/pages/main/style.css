@@ -22,7 +22,6 @@ html {
   align-items: center;
   /* position: sticky;
   top: 0; */
-  /* height: 60px; */
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
 }
@@ -182,7 +181,8 @@ html {
 }
 
 .not-only-image {
-  /* background-image: url("../../assets/images/start-puppy.jpg"); */
+  /* background-image: url("../../assets/images/puppy-1280.jpg"); */
+  /* display: block; */
   /* position: absolute; */
   /* background-color: transparent !important; */
   /* background-color: url(../../assets/images/gradient-bg.jpg); */
@@ -190,7 +190,9 @@ html {
   /* background: transparent url("../../assets/images/start-puppy.jpg") 50% 50% */
   /* no-repeat; */
 }
-
+.not-only-image2 {
+  display: none;
+}
 /* ----------------------------ABOUT---------------------------- */
 .about-container {
   background-color: #ffffff;
@@ -200,7 +202,7 @@ html {
 
 .about-block {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
