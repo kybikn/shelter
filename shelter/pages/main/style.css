@@ -356,6 +356,7 @@ html {
   border-radius: 100px;
   background: #fafafa;
   margin: 25px 0px;
+  /* width: 260px; */
 }
 
 .card:hover .card-button {
@@ -574,6 +575,11 @@ li {
   height: 611px;
   background: #ffffff;
   padding-top: 80px;
+  /* width: 1280px; */
+  /* margin: 0; */
+  /* margin-left: 0; */
+  /* padding-left: 0; */
+  /* padding-right: 0; */
 }
 
 .help-title {
@@ -586,25 +592,58 @@ li {
   letter-spacing: 0.06em;
   color: #545454;
   margin-bottom: 57px;
+  text-align: center;
 }
 
 .grid {
-  padding-left: 5px;
-  padding-right: 10px;
-  display: grid;
-  grid-template-columns: 235px 235px 235px 235px 235px;
-  grid-template-rows: 170px 170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 281px;
+  /* width: 1026px; */
+  column-gap: 120px;
+  /* margin-left: 40px;
+  margin-right: 40px; */
+  /* padding: 0; */
+  /* justify-content: center; */
+  /* align-items: stretch; */
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* padding-left: 5px; */
+  /* padding-right: 10px; */
+  /* display: grid; */
+  /* padding-left: 40px;
+  padding-right: 40px; */
 }
 
 .icon {
   background-repeat: no-repeat;
   background-position: center;
-  align-items: center;
   width: 60px;
   height: 60px;
   margin: 0 auto;
   margin-bottom: 30px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
 }
+.flex {
+  margin-bottom: 50px;
+  text-align: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* margin-left: 90px; */
+  /* margin-right: 70px; */
+  /* height: 113px; */
+  /* width: 82px; */
+}
+
 .grid-icon1 {
   background-image: url("../../assets/icons/pet-food.svg");
 }

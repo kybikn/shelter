@@ -3,6 +3,8 @@
     max-width: 768px;
     padding: 0 30px;
   }
+
+  /* ----------------------------HEADER---------------------------- */
   .header-container {
     background-image: url("../../assets/images/gradient-bg-768.png");
     height: 60px;
@@ -10,9 +12,10 @@
   .logo-title {
     padding-top: 60px;
   }
+
+  /* ----------------------------NOT ONLY---------------------------- */
   .not-only-container {
     background-image: url("../../assets/images/gradient-bg-768.png");
-    /* height: 1165px; */
   }
   .not-only-content {
     padding-top: 60px;
@@ -34,10 +37,10 @@
   }
   .not-only-image2 {
     display: block;
-    /* right: 0; */
-    /* margin-left: auto; */
     margin-left: 145px;
   }
+
+  /* ----------------------------ABOUT---------------------------- */
   .about-container {
     padding-top: 80px;
     height: 1048px;
@@ -45,60 +48,25 @@
   .about-block {
     flex-direction: column-reverse;
     align-items: center;
-    /* margin: 0 auto; */
-    /* justify-content: center; */
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; */
   }
-
   .about-content {
-    /* max-width: 430px; */
     margin-right: 0;
     padding-bottom: 55px;
-    /* margin-left: 20px; */
-    /* padding-right: 0px; */
-    /* padding-top: 50px; */
   }
   .about-image {
     padding-left: 0;
   }
 
-  .our-friends-container {
-    /* padding-top: 80px; */
-  }
-  .our-friends-block {
-    /* height: 877px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-  }
-
+  /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-title {
     padding-top: 80px;
-    /* padding-right: 10px; */
-    /* padding-left: 10px; */
-    /* text-align: center; */
   }
-
   .our-friends-catalog {
-    /* display: flex; */
-    /* justify-content: space-between; */
     flex-wrap: nowrap;
     padding-top: 55px;
-    /* padding-top: 0; */
   }
-
-  .card-box {
-    /* display: flex;
-    justify-content: space-between; */
-  }
-
   .card {
-    /* margin-bottom: 5px; */
     margin: 0;
-    /* margin: 0; */
   }
   .card1 {
     margin-right: 20px;
@@ -109,17 +77,19 @@
   .card3 {
     display: none;
   }
-  .previous {
-    /* margin-top: 0; */
-    /* align-items: center; */
-  }
-
-  .next {
-    /* margin-right: 90px; */
-    /* margin-top: 0; */
-  }
   .card-button {
     padding: 13px 44px;
     margin: 27px 0px;
+  }
+  .our-friends-button {
+    padding: 0;
+    margin-top: 65px;
+    width: 260px;
+    height: 52px;
+  }
+
+  /* ----------------------------HELP---------------------------- */
+  .help-container {
+    height: 779px;
   }
 }
