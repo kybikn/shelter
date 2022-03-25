@@ -32,12 +32,12 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 110%;
+  /* line-height: 110%; */
   display: flex;
   align-items: center;
   color: #f1cdb3;
   letter-spacing: 0.09em;
-  padding-top: 57px;
+  padding-top: 58px;
   /* padding-bottom: 25px; */
   margin: 0;
 }
@@ -52,7 +52,7 @@ html {
   align-items: center;
   letter-spacing: 0.1em;
   color: #ffffff;
-  padding-top: 12px;
+  padding-top: 10px;
   padding-left: 5px;
   /* padding-bottom: 40px; */
 }
@@ -142,8 +142,8 @@ html {
 
 .not-only-text {
   /* margin-bottom: 25px; */
-  padding-top: 17px;
-  padding-bottom: 37px;
+  padding-top: 15px;
+  padding-bottom: 40px;
   font-family: "Arial", serif;
   font-style: normal;
   font-weight: 400;
@@ -196,7 +196,7 @@ html {
 /* ----------------------------ABOUT---------------------------- */
 .about-container {
   background-color: #ffffff;
-  padding-top: 95px;
+  padding-top: 92px;
   height: 588px;
 }
 
@@ -208,8 +208,8 @@ html {
 
 .about-image {
   margin-bottom: 50px;
-  /* padding-bottom: 0px; */
   padding-left: 20px;
+  /* padding-bottom: 0px; */
 }
 
 .about-content {
@@ -230,13 +230,13 @@ html {
   /* display: flex;
   align-items: center; */
   /* margin-bottom: 20px; */
-  padding-bottom: 22px;
+  padding-bottom: 23px;
   /* margin-right: 5px; */
 }
 
 .about-text {
   /* padding-top: 20px; */
-  padding-bottom: 25px;
+  padding-bottom: 26px;
   font-family: "Arial", serif;
   font-style: normal;
   font-weight: 400;
@@ -248,7 +248,7 @@ html {
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends-container {
   height: 877px;
-  padding-top: 80px;
+  padding-top: 78px;
   background: #f6f6f6;
 }
 
@@ -351,11 +351,11 @@ html {
 }
 
 .card-button {
-  padding: 14px 45px;
+  padding: 14px 44px;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
   background: #fafafa;
-  margin: 25px 0px;
+  margin: 26px 0px;
   /* width: 260px; */
 }
 
@@ -439,22 +439,6 @@ html {
   padding: 10px 15px;
   border: 2px solid #f1cdb3;
   border-radius: 50%;
-  /* text-decoration: none; */
-  /* font-weight: bold; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* text-align: center; */
-  /* color: #ffffff; */
-  /* width: 24px; */
-  /* margin-top: 195px; */
-  /* border-radius: 12px; */
-  /* box-shadow: 1px 1px 3px #000; */
-  /* color: #aaa; */
-  /* float: right; */
-  /* font-size: 28px; */
-  /* font-weight: bold; */
-  /* box-sizing: border-box; */
-  /* border-radius: 100px; */
 }
 
 .close:hover {
@@ -540,6 +524,7 @@ li {
   letter-spacing: 0.06em;
   color: #000000;
 }
+
 /* ------------------ */
 
 .our-friends-button {
@@ -575,11 +560,6 @@ li {
   height: 611px;
   background: #ffffff;
   padding-top: 80px;
-  /* width: 1280px; */
-  /* margin: 0; */
-  /* margin-left: 0; */
-  /* padding-left: 0; */
-  /* padding-right: 0; */
 }
 
 .help-title {
@@ -587,7 +567,7 @@ li {
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
-  line-height: 130%;
+  line-height: 127%;
   text-align: center;
   letter-spacing: 0.06em;
   color: #545454;
@@ -595,26 +575,46 @@ li {
   text-align: center;
 }
 
-.grid {
+.help-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   height: 281px;
-  /* width: 1026px; */
   column-gap: 120px;
-  /* margin-left: 40px;
-  margin-right: 40px; */
-  /* padding: 0; */
-  /* justify-content: center; */
-  /* align-items: stretch; */
-  /* flex-direction: row; */
-  /* justify-content: space-evenly; */
   align-items: center;
-  /* padding-left: 5px; */
-  /* padding-right: 10px; */
-  /* display: grid; */
-  /* padding-left: 40px;
-  padding-right: 40px; */
+}
+
+.help-box {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.help-icon1 {
+  background-image: url("../../assets/icons/pet-food.svg");
+}
+.help-icon2 {
+  background-image: url("../../assets/icons/transportation.svg");
+}
+.help-icon3 {
+  background-image: url("../../assets/icons/toys.svg");
+}
+.help-icon4 {
+  background-image: url("../../assets/icons/bowls-and-cups.svg");
+}
+.help-icon5 {
+  background-image: url("../../assets/icons/shampoos.svg");
+}
+.help-icon6 {
+  background-image: url("../../assets/icons/vitamins.svg");
+}
+.help-icon7 {
+  background-image: url("../../assets/icons/medicines.svg");
+}
+.help-icon8 {
+  background-image: url("../../assets/icons/collars-or-leashes.svg");
+}
+.help-icon9 {
+  background-image: url("../../assets/icons/sleeping-area.svg");
 }
 
 .icon {
@@ -624,55 +624,9 @@ li {
   height: 60px;
   margin: 0 auto;
   margin-bottom: 30px;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-}
-.flex {
-  margin-bottom: 50px;
-  text-align: center;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  /* margin-left: 90px; */
-  /* margin-right: 70px; */
-  /* height: 113px; */
-  /* width: 82px; */
 }
 
-.grid-icon1 {
-  background-image: url("../../assets/icons/pet-food.svg");
-}
-.grid-icon2 {
-  background-image: url("../../assets/icons/transportation.svg");
-}
-.grid-icon3 {
-  background-image: url("../../assets/icons/toys.svg");
-}
-.grid-icon4 {
-  background-image: url("../../assets/icons/bowls-and-cups.svg");
-}
-.grid-icon5 {
-  background-image: url("../../assets/icons/shampoos.svg");
-}
-.grid-icon6 {
-  background-image: url("../../assets/icons/vitamins.svg");
-}
-.grid-icon7 {
-  background-image: url("../../assets/icons/medicines.svg");
-}
-.grid-icon8 {
-  background-image: url("../../assets/icons/collars-or-leashes.svg");
-}
-.grid-icon9 {
-  background-image: url("../../assets/icons/sleeping-area.svg");
-}
-
-.grid-text {
+.help-text {
   text-align: center;
   font-family: "Georgia", serif;
   font-style: normal;

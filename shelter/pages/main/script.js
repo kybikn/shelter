@@ -1,9 +1,11 @@
-//  <div id="popup" class="modal-block">
-// <a href="#close" class="close-all"></a>
-// <div class="modal-content">
-//     <h2 class="modal-title">Woody</h2>
-// </div>
-// </div>
+{
+  /* <div id="popup" class="modal-block">
+  <a href="#close" class="close-all"></a>
+  <div class="modal-content">
+    <h2 class="modal-title">Woody</h2>
+  </div>
+</div>; */
+}
 
 // Получить модальный
 // var modal = document.getElementById("modal-content");

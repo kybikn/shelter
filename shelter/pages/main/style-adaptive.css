@@ -91,5 +91,15 @@
   /* ----------------------------HELP---------------------------- */
   .help-container {
     height: 779px;
+    padding-top: 80px;
+  }
+  .help-block {
+    column-gap: 60px;
+  }
+  .help-text {
+    width: 170px;
+  }
+  .help-box {
+    margin-bottom: 55px;
   }
 }
