@@ -180,7 +180,7 @@ html {
   transition: 1s;
 }
 
-.not-only-image {
+.not-only-image1 {
   display: block;
 }
 
@@ -204,7 +204,7 @@ html {
   justify-content: space-evenly;
 }
 
-.about-image {
+.about-image1 {
   display: block;
   padding-left: 50px;
 }
@@ -462,11 +462,12 @@ html {
 }
 
 .close {
-  background: rgba(41, 41, 41, 0.6);
+  background: transparent;
+  /* background: rgba(41, 41, 41, 0.6); */
   line-height: 25px;
   position: absolute;
-  right: -50px;
-  top: -45px;
+  right: -43px;
+  top: -50px;
   width: 52px;
   height: 52px;
   padding: 10px 15px;
@@ -497,7 +498,8 @@ html {
 }
 
 .modal-title {
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-left: 10px;
   padding-bottom: 10px;
   font-family: "Georgia", serif;
   font-style: normal;
@@ -509,6 +511,7 @@ html {
 }
 
 .modal-subtitle {
+  padding-left: 10px;
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -520,21 +523,26 @@ html {
 
 .modal-text {
   padding-top: 40px;
-  padding-bottom: 40px;
-  width: 350px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  /* padding-right: 10px; */
+  width: 360px;
+  /* height: 102px; */
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 110%;
+  line-height: 114%;
   letter-spacing: 0.06em;
   color: #000000;
 }
 
+.modal-ul {
+  padding: 20px;
+}
+
 li {
-  /* text-align: left; */
-  /* left: 0; */
-  padding-bottom: 11px;
+  padding-bottom: 10px;
   color: #f1cdb3;
 }
 
@@ -546,6 +554,7 @@ li {
   line-height: 110%;
   letter-spacing: 0.06em;
   color: #000000;
+  padding-left: 5px;
 }
 
 .modal-span2 {
@@ -683,7 +692,7 @@ li {
   justify-content: center;
 }
 
-.in-addition-image {
+.in-addition-image1 {
   height: 261px;
   margin-right: 25px;
   margin-top: 10px;
