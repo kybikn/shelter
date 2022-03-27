@@ -16,7 +16,7 @@ html {
 
 .header-container {
   display: flex;
-  background-image: url("../../assets/images/gradient-bg.jpg");
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
   align-items: center;
@@ -98,7 +98,7 @@ html {
 /* ----------------------------NOT ONLY---------------------------- */
 
 .not-only-container {
-  background-image: url("../../assets/images/gradient-bg.jpg");
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
   padding-top: 59px;
   /* background-repeat: no-repeat; */
   /* background-position: center -90px; */
@@ -181,22 +181,20 @@ html {
 }
 
 .not-only-image {
-  /* background-image: url("../../assets/images/puppy-1280.jpg"); */
-  /* display: block; */
-  /* position: absolute; */
-  /* background-color: transparent !important; */
-  /* background-color: url(../../assets/images/gradient-bg.jpg); */
-  /* opacity: 0.4; */
-  /* background: transparent url("../../assets/images/start-puppy.jpg") 50% 50% */
-  /* no-repeat; */
+  display: block;
 }
+
 .not-only-image2 {
+  display: none;
+}
+
+.not-only-image3 {
   display: none;
 }
 /* ----------------------------ABOUT---------------------------- */
 .about-container {
   background-color: #ffffff;
-  padding-top: 92px;
+  padding-top: 80px;
   height: 588px;
 }
 
@@ -207,14 +205,21 @@ html {
 }
 
 .about-image {
-  margin-bottom: 50px;
-  padding-left: 20px;
-  /* padding-bottom: 0px; */
+  display: block;
+  padding-left: 50px;
+}
+
+.about-image2 {
+  display: none;
+}
+
+.about-image3 {
+  display: none;
 }
 
 .about-content {
   max-width: 430px;
-  margin-right: 35px;
+  margin-right: 50px;
   /* padding-bottom: 85px; */
   /* padding-top: 50px; */
 }
@@ -230,11 +235,13 @@ html {
   /* display: flex;
   align-items: center; */
   /* margin-bottom: 20px; */
+  padding-top: 17px;
   padding-bottom: 23px;
   /* margin-right: 5px; */
 }
 
 .about-text {
+  display: flex;
   /* padding-top: 20px; */
   padding-bottom: 26px;
   font-family: "Arial", serif;
@@ -248,7 +255,7 @@ html {
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends-container {
   height: 877px;
-  padding-top: 78px;
+  padding-top: 80px;
   background: #f6f6f6;
 }
 
@@ -274,13 +281,14 @@ html {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 55px;
+  padding-top: 57px;
 }
 
 .previous {
   width: 52px;
   height: 52px;
   border: 2px solid #f1cdb3;
+  background-color: transparent;
   border-radius: 50%;
   margin-top: 195px;
 }
@@ -295,13 +303,14 @@ html {
 .next {
   width: 52px;
   height: 52px;
-  padding: 22px 16px;
   border: 2px solid #f1cdb3;
+  background-color: transparent;
   border-radius: 50%;
   margin-top: 195px;
-  background-repeat: no-repeat;
+  /* padding: 22px 16px; */
+  /* background-repeat: no-repeat;
   background-position: center;
-  display: flex;
+  display: flex; */
   /* background-image: url("../../assets/icons/arrow2.svg"); */
   /* padding: 23px 19px; */
 }
@@ -310,6 +319,30 @@ html {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
+}
+
+.previous-next-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 22px;
+}
+.previous-320 {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: none;
+}
+.next-320 {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-left: 5px;
+  display: none;
 }
 
 .arrow {
@@ -559,7 +592,7 @@ li {
 .help-container {
   height: 611px;
   background: #ffffff;
-  padding-top: 80px;
+  padding-top: 83px;
 }
 
 .help-title {
@@ -667,10 +700,11 @@ li {
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  padding-bottom: 18px;
+  padding-bottom: 20px;
   letter-spacing: 0.06em;
   color: #545454;
 }
+
 .in-addition-text {
   font-family: "Georgia", serif;
   font-style: normal;
@@ -680,6 +714,7 @@ li {
   letter-spacing: 0.06em;
   color: #545454;
 }
+
 .in-addition-text-transparent {
   font-family: "Arial", serif;
   font-style: italic;
@@ -690,7 +725,7 @@ li {
 }
 
 .credit-button {
-  padding: 10px 15px;
+  padding: 11px 15px;
   width: 349px;
   height: 43px;
   background: #f1cdb3;
@@ -711,6 +746,7 @@ li {
   background-image: url("../../assets/icons/credit-card.svg");
   background-repeat: no-repeat;
   background-position: 0;
+  /* padding-top: 3px; */
   /* position: absolute; */
   /* background-position: left; */
   /* padding-left: 20px; */
@@ -740,19 +776,18 @@ li {
 
 .footer-container {
   height: 350px;
-  background-image: url("../../assets/images/gradient-bg.jpg");
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
 }
 
 .footer-block {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* padding-top: 55px; */
 }
-
 .contacts {
   padding-top: 55px;
 }
-
 .footer-title {
   font-family: "Georgia", serif;
   font-style: normal;

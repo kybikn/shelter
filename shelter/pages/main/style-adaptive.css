@@ -1,3 +1,5 @@
+/* -----------------------768px------------------------- */
+
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
@@ -6,7 +8,7 @@
 
   /* ----------------------------HEADER---------------------------- */
   .header-container {
-    background-image: url("../../assets/images/gradient-bg-768.png");
+    background-image: url("../../assets/images/gradient-bg-768.jpg");
     height: 60px;
   }
   .logo-title {
@@ -15,7 +17,7 @@
 
   /* ----------------------------NOT ONLY---------------------------- */
   .not-only-container {
-    background-image: url("../../assets/images/gradient-bg-768.png");
+    background-image: url("../../assets/images/gradient-bg-768.jpg");
   }
   .not-only-content {
     padding-top: 60px;
@@ -39,10 +41,13 @@
     display: block;
     margin-left: 145px;
   }
+  .not-only-image3 {
+    display: none;
+  }
 
   /* ----------------------------ABOUT---------------------------- */
   .about-container {
-    padding-top: 80px;
+    padding-top: 62px;
     height: 1048px;
   }
   .about-block {
@@ -53,10 +58,16 @@
     margin-right: 0;
     padding-bottom: 55px;
   }
-  .about-image {
+  .about-image2 {
     padding-left: 0;
+    display: block;
   }
-
+  .about-image {
+    display: none;
+  }
+  .about-image3 {
+    display: none;
+  }
   /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-title {
     padding-top: 80px;
@@ -94,12 +105,327 @@
     padding-top: 80px;
   }
   .help-block {
-    column-gap: 62px;
+    column-gap: 60px;
   }
   .help-text {
     width: 170px;
   }
   .help-box {
-    margin-bottom: 55px;
+    margin-bottom: 57px;
+  }
+
+  /* ----------------------------IN ADDITION---------------------------- */
+  .in-addition-container {
+    height: 783px;
+    padding-top: 80px;
+  }
+  .in-addition-block {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .in-addition-image {
+    margin-right: 0;
+    margin-top: 60px;
+  }
+  .in-addition-content {
+    margin-left: 2px;
+  }
+
+  /* ----------------------------FOOTER---------------------------- */
+
+  .footer-container {
+    height: 639px;
+  }
+  .footer-block {
+    justify-content: space-around;
+  }
+  .contacts {
+    padding-top: 29px;
+  }
+  .locations {
+    padding-top: 29px;
+  }
+  .footer-image {
+    padding-top: 63px;
+  }
+}
+
+/* -----------------------320px------------------------- */
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0;
+  }
+  .header-container {
+    background-image: url("../../assets/images/gradient-bg-320.jpg");
+    justify-content: space-between;
+  }
+  .logo-title {
+    padding-top: 58px;
+    padding-left: 10px;
+  }
+  .logo-subtitle {
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  .header-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 53px;
+    z-index: 2;
+  }
+  .hamburger .line {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #f1cdb3;
+    margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+    transition: 0.7s;
+  }
+  .hamburger.change .line-1 {
+    transform: translateY(13px) rotate(45deg);
+  }
+  .hamburger.change .line-2 {
+    opacity: 0;
+  }
+  .hamburger.change .line-3 {
+    transform: translateY(-13px) rotate(-45deg);
+  }
+  .hamburger:hover {
+    cursor: pointer;
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
+      brightness(92%) contrast(87%);
+  }
+
+  /* ----------------------------NOT ONLY---------------------------- */
+
+  .not-only-container {
+    background-image: url("../../assets/images/gradient-bg-320.jpg");
+    padding-top: 0;
+    /* height: 823px; */
+    /* padding: 0; */
+  }
+  .not-only-block {
+    justify-content: center;
+  }
+  .not-only-content {
+    padding-left: 0;
+    /* padding-top: 60px; */
+    /* width: 300px; */
+    /* padding-top: 133px; */
+    /* padding-right: 30px; */
+    /* z-index: 1; */
+    /* position: absolute; */
+    /* // position: relative; */
+    /* // width: calc(30% - 32px); */
+  }
+  .not-only-title {
+    font-size: 25px;
+    letter-spacing: 0.06em;
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    text-indent: -17px;
+    /* margin-left: 86px; */
+    /* padding-left: 125px; */
+  }
+  .not-only-text {
+    padding-top: 25px;
+    padding-bottom: 43px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    /* margin-left: 16px; */
+    /* padding-left: 30px; */
+    /* text-indent: -1px; */
+    /* white-space: post-wrap; */
+    /* padding-right: 0; */
+    /* padding-left: 10px; */
+    /* height: 60px; */
+  }
+  .not-only-image {
+    display: none;
+  }
+  .not-only-image2 {
+    display: none;
+  }
+  .not-only-image3 {
+    display: block;
+    padding-left: 40px;
+    padding-top: 105px;
+    margin-left: 0;
+  }
+  .not-only-button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  /* ----------------------------ABOUT---------------------------- */
+  .about-container {
+    padding-top: 25px;
+    height: 974px;
+  }
+  .about-title {
+    font-size: 25px;
+    padding-bottom: 24px;
+    padding-left: 52px;
+    text-indent: -24px;
+  }
+  .about-text {
+    padding-bottom: 23px;
+    text-align: justify;
+    display: flex;
+    width: 270px;
+  }
+  .about-image {
+    display: none;
+  }
+  .about-image2 {
+    display: none;
+  }
+  .about-image3 {
+    display: block;
+    /* padding-top: 0;
+    margin-top: 0; */
+    /* padding-bottom: 238px; */
+    /* margin-bottom: 200px; */
+  }
+
+  /* ----------------------------OUR FRIENDS---------------------------- */
+  .our-friends-container {
+    height: 791px;
+    padding-top: 41px;
+  }
+  .our-friends-title {
+    font-size: 25px;
+    padding-top: 0;
+  }
+  .our-friends-catalog {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+  .card {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card1 {
+    display: block;
+  }
+  .card2 {
+    display: none;
+  }
+  /* .card3 {
+    display: none;
+  } */
+  .card-name {
+    padding-top: 25px;
+    padding-bottom: 4px;
+  }
+  .previous {
+    display: none;
+  }
+  .next {
+    display: none;
+  }
+  .previous-320 {
+    display: block;
+  }
+  .next-320 {
+    display: block;
+  }
+  .our-friends-button {
+    margin-top: 43px;
+  }
+
+  /* ----------------------------HELP---------------------------- */
+  .help-container {
+    height: 745px;
+    padding-top: 41px;
+  }
+  .help-title {
+    margin-bottom: 37px;
+    font-size: 25px;
+    line-height: 130%;
+  }
+  .help-block {
+    display: flex;
+    flex-wrap: wrap;
+    height: 555px;
+    /* width: 290px; */
+    /* margin-left: 12px; */
+
+    /* column-gap: 60px; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* height: 281px; */
+    /* column-gap: 180px; */
+    /* align-items: center; */
+  }
+  .icon {
+    /* margin-bottom: 15px; */
+    column-gap: 10px;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* width: 30px;
+    height: 30px; */
+    /* margin: 0 auto; */
+    /* margin-right: 7px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-right: 2px; */
+  }
+  .help-text {
+    font-size: 15px;
+    line-height: 110%;
+    /* padding-right: 30px; */
+
+    /* margin-right: 10px; */
+    /* width: 130px; */
+    /* margin-left: 10px; */
+  }
+  .help-box {
+    width: 130px;
+    /* margin-bottom: 10px; */
+    /* column-gap: 25px; */
+    /* column-gap: 15px; */
+    /* margin-bottom: 57px; */
+  }
+  .help-icon1 {
+    background-image: url("../../assets/icons/pet-food-320.svg");
+  }
+  .help-icon2 {
+    background-image: url("../../assets/icons/transportation-320.svg");
+  }
+  .help-icon3 {
+    background-image: url("../../assets/icons/toys-320.svg");
+  }
+  .help-icon4 {
+    background-image: url("../../assets/icons/bowls-and-cups-320.svg");
+  }
+  .help-icon5 {
+    background-image: url("../../assets/icons/shampoos-320.svg");
+  }
+  .help-icon6 {
+    background-image: url("../../assets/icons/vitamins-320.svg");
+  }
+  .help-icon7 {
+    background-image: url("../../assets/icons/medicines-320.svg");
+  }
+  .help-icon8 {
+    background-image: url("../../assets/icons/collars-or-leashes-320.svg");
+  }
+  .help-icon9 {
+    background-image: url("../../assets/icons/sleeping-area-320.svg");
   }
 }

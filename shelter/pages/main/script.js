@@ -79,3 +79,15 @@
 //     }
 //     slides[slideIndex - 1].style.display = 'block';
 // }
+
+// ----------------------hg------------------------
+const hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", toggleMenu);
+function toggleMenu() {
+  hamburger.classList.toggle("change");
+}
+function closeMenu(event) {
+  if (event.target.classList.contains("nav-link")) {
+    hamburger.classList.remove("change");
+  }
+}
