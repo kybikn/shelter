@@ -567,7 +567,8 @@ li {
   border: none;
   margin: 0 auto;
   display: block;
-  margin-top: 65px;
+  margin-top: 42px;
+  /* margin-bottom: 25px; */
   width: 22%;
 }
 
@@ -689,6 +690,10 @@ li {
   /* margin-bottom: 10px; */
 }
 
+.in-addition-image3 {
+  display: none;
+}
+
 .in-addition-content {
   margin-left: 5px;
   max-width: 380px;
@@ -787,6 +792,8 @@ li {
 }
 .contacts {
   padding-top: 55px;
+  /* width: 278px;
+  height: 90px; */
 }
 .footer-title {
   font-family: "Georgia", serif;
@@ -796,6 +803,8 @@ li {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #ffffff;
+  width: 280px;
+  /* height: 90px; */
 }
 
 .link-box-contacts {
@@ -805,7 +814,12 @@ li {
   padding-top: 38px;
 }
 
-.footer-icon-contacts {
+.footer-icon-contacts-email {
+  padding-right: 20px;
+  padding-bottom: 2px;
+}
+
+.footer-icon-contacts-phone {
   padding-right: 20px;
   padding-bottom: 2px;
 }
@@ -842,6 +856,7 @@ li {
 }
 
 .link-map {
+  padding-top: 2px;
   padding-right: 10px;
 }
 
@@ -851,6 +866,10 @@ li {
 
 .footer-image {
   padding-top: 40px;
+}
+
+.footer-puppy3 {
+  display: none;
 }
 
 /* --------slider---------- */
