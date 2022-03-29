@@ -8,24 +8,20 @@
 
   /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-container {
-    /* height: 100%; */
     height: 1733px;
     padding-top: 80px;
   }
   .our-friends-block {
-    /* height: 1603px; */
-    padding-left: 18px;
-    padding-right: 18px;
-    /* height: 1365px; */
+    padding-left: 19px;
+    padding-right: 19px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
   .our-friends-title {
-    /* margin-right: 0; */
     margin: 0;
     padding: 0;
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
   }
   .our-friends-catalog {
     padding-bottom: 0;
@@ -40,25 +36,12 @@
   .card8 {
     display: none;
   }
-  .card-image {
-    /* padding-bottom: 2px; */
-    /* margin-bottom: 0; */
-    /* padding-bottom: 0; */
-  }
   .card-name {
     padding-top: 33px;
-    /* padding-top: 30px; */
-    /* padding-bottom: 3px; */
-    /* display: flex;
-      align-items: center;
-      text-align: center; */
-    /* margin-top: 2px; */
   }
   .card-button {
     padding: 14px 44px;
     margin: 27px 0px;
-    /* margin-top: 23px;
-    margin-bottom: 35px; */
   }
   .slider-block {
     padding-top: 12px;
@@ -74,9 +57,11 @@
   }
   .contacts {
     padding-top: 29px;
+    margin-left: 5px;
   }
   .locations {
     padding-top: 29px;
+    margin-right: 5px;
   }
   .footer-image {
     padding-top: 63px;
@@ -137,29 +122,14 @@
   }
   .our-friends-block {
     padding: 0;
-    /* height: 1603px; */
-    /* padding-left: 18px;
-    padding-right: 18px; */
-    /* justify-content: center; */
-    /* height: 1365px; */
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
   }
   .our-friends-title {
     font-size: 25px;
-    /* margin: 0; */
-    /* padding: 0; */
-
-    /* margin-right: 20px; */
-    /* text-align: center; */
-    /* padding-top: 0; */
-    /* padding: 0; */
+    padding-bottom: 40px;
   }
   .our-friends-catalog {
     flex-direction: column;
-    padding-top: 40px;
-    /* padding-bottom: 20px; */
+    padding-bottom: 8px;
   }
   .card4,
   .card5,
@@ -172,46 +142,75 @@
   .card4 {
     padding: 0;
   }
-
   .slider-block {
-    width: 300px;
-    /* justify-content: center;
-    align-items: center;
- padding-top: 12px;
-    text-align: center; */
     padding-top: 0;
-    /* margin-left: 6px; */
-    /* margin-left: 10px; */
-    /* padding-bottom: 15px; */
   }
-
   .slider-button {
-    /* margin: 0 5px; */
-    /* margin: 0 auto; */
     width: 52px;
     height: 52px;
     border: 2px solid #cdcdcd;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    /* text-align: center; */
     justify-content: center;
-    /* justify-content: space-evenly; */
-    /* margin: 0 10px; */
-    /* width: 52px;
-    height: 52px;
-    border: 2px solid #cdcdcd;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* justify-content: space-between; */
-    margin: 0 4px;
-    /* margin-left: 6px; */
-    /* margin-right: 5px; */
-    /* margin-bottom: 75px; */
-    /* margin-bottom: 10px; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
+    margin: 0 5px;
+  }
+
+  /* ----------------------------FOOTER---------------------------- */
+
+  .footer-container {
+    height: 809px;
+    background-image: url("../../assets/images/gradient-bg-footer-320.jpg");
+  }
+  .contacts {
+    padding-top: 30px;
+    width: 300px;
+  }
+  .footer-title {
+    font-size: 25px;
+    text-align: center;
+    padding-right: 4px;
+    padding-left: 0;
+  }
+  .footer-icon-contacts-email {
+    padding-left: 22px;
+    padding-bottom: 4px;
+  }
+  .link-email {
+    padding-right: 35px;
+  }
+  .link-tel {
+    padding-right: 35px;
+    padding-bottom: 5px;
+  }
+  .footer-icon-contacts-phone {
+    padding-bottom: 4px;
+    padding-left: 25px;
+  }
+  .locations {
+    margin-right: 3px;
+  }
+  .title-locations {
+    padding-left: 10px;
+    padding-top: 6px;
+  }
+  .link-box-locations {
+    padding-top: 40px;
+  }
+  .link-map {
+    padding-right: 8px;
+    padding-top: 0;
+  }
+  .link-map2 {
+    padding-top: 0;
+  }
+  .footer-image {
+    padding-top: 40px;
+  }
+  .footer-puppy1 {
+    display: none;
+  }
+  .footer-puppy3 {
+    display: block;
   }
 }

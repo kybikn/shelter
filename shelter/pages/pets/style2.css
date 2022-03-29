@@ -14,8 +14,8 @@ html {
   /* background-image: url("../../assets/images/gradient-bg.jpg"); */
   background-repeat: no-repeat;
   height: 120px;
-  /* position: sticky;
-  top: 0; */
+  position: sticky;
+  top: 0;
   /* background-position: center 0; */
   /* align-items: center; */
   /* height: 60px; */
@@ -177,11 +177,11 @@ html {
   margin: 27px 0px;
 }
 
-.card:hover .card-button {
+/* .card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
-}
+} */
 
 /* ----modal---- */
 .card-link {
@@ -406,7 +406,8 @@ li {
 }
 
 .contacts {
-  padding-top: 58px;
+  padding-top: 57px;
+  width: 280px;
 }
 
 .footer-title {
@@ -457,6 +458,7 @@ li {
 
 .locations {
   padding-top: 55px;
+  width: 300px;
 }
 
 .link-box-locations {
@@ -478,6 +480,10 @@ li {
 
 .footer-image {
   padding-top: 40px;
+}
+
+.footer-puppy1 {
+  display: block;
 }
 
 .footer-puppy3 {

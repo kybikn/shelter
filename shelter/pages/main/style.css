@@ -392,11 +392,11 @@ html {
   /* width: 260px; */
 }
 
-.card:hover .card-button {
+/* .card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
-}
+} */
 
 /* ----modal---- */
 .card-link {

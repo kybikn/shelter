@@ -14,6 +14,12 @@
   .logo-title {
     padding-top: 60px;
   }
+  .header-nav {
+    padding-top: 63px;
+  }
+  .header-li {
+    padding-left: 30px;
+  }
 
   /* ----------------------------NOT ONLY---------------------------- */
   .not-only-container {
@@ -222,8 +228,8 @@
   }
   .hamburger:hover {
     cursor: pointer;
-    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
-      brightness(92%) contrast(87%);
+    /* filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
+      brightness(92%) contrast(87%); */
   }
 
   /* ----------------------------NOT ONLY---------------------------- */
@@ -594,10 +600,10 @@
     padding-left: 39px;
     /* margin-right: 0; */
   }
-  .link-box-contacts {
+  /* .link-box-contacts {
     display: flex;
     justify-content: space-between;
-  }
+  } */
   .footer-icon-contacts-email {
     padding-left: 34px;
     padding-bottom: 4px;
