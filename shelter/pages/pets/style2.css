@@ -14,8 +14,8 @@ html {
   /* background-image: url("../../assets/images/gradient-bg.jpg"); */
   background-repeat: no-repeat;
   height: 120px;
-  position: sticky;
-  top: 0;
+  /* position: sticky;
+  top: 0; */
   /* background-position: center 0; */
   /* align-items: center; */
   /* height: 60px; */
@@ -24,7 +24,6 @@ html {
 }
 
 .logo-title {
-  /* font-family: "Georgia", serif; */
   font-family: "Noto Serif Georgian", serif;
   font-style: normal;
   font-weight: 400;
@@ -35,9 +34,9 @@ html {
   color: #545454;
   letter-spacing: 0.09em;
   padding-top: 30px;
+  margin: 0;
   /* padding-bottom: 50px; */
   /* padding-bottom: 25px; */
-  margin: 0;
 }
 
 .logo-subtitle {
@@ -127,12 +126,13 @@ html {
   padding: 0;
   margin: 0;
   /* padding-top: 55px; */
-  padding-bottom: 30px;
+  padding-bottom: 31px;
 }
 
 .card-box {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -140,9 +140,15 @@ html {
   justify-content: space-between;
   /* margin: 0 20px; */
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   background: #fafafa;
+  border-radius: 9px;
+}
+
+.card:hover {
+  background: #ffffff;
 }
 
 .card-image {
@@ -356,7 +362,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 35px;
+  padding-top: 34px;
 }
 
 .slider-button {
@@ -390,7 +396,7 @@ li {
 
 .footer-container {
   height: 350px;
-  background-image: url("../../assets/images/gradient-bg.jpg");
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
 }
 
 .footer-block {
@@ -420,7 +426,12 @@ li {
   padding-top: 38px;
 }
 
-.footer-icon-contacts {
+.footer-icon-contacts-email {
+  padding-right: 20px;
+  padding-bottom: 2px;
+}
+
+.footer-icon-contacts-phone {
   padding-right: 20px;
   padding-bottom: 2px;
 }
@@ -467,4 +478,8 @@ li {
 
 .footer-image {
   padding-top: 40px;
+}
+
+.footer-puppy3 {
+  display: none;
 }
