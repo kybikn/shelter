@@ -1,12 +1,29 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* body {
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
+} */
+/* .visiting {
+  background-color: white;
+}
+.visiting-container {
+  height: 1116px;
+  padding: 75px 0;
+  background-color: white;
+} */
 /* ----------------------------HEADER---------------------------- */
+.header {
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  /* background: url(noise_lines_transparent@2X.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
+}
+
 .container {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
   padding: 0 40px;
+  /* width: 100%; */
 }
 
 .header-container {
@@ -78,6 +95,10 @@ html {
   border-bottom: 3px solid transparent;
 }
 
+.header-link:hover {
+  color: #fafafa;
+}
+
 .bottom {
   border-bottom: 3px solid #f1cdb3;
   padding-bottom: 4px;
@@ -91,7 +112,11 @@ html {
   text-decoration: underline;
 } */
 /* ----------------------------NOT ONLY---------------------------- */
-
+.not-only {
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  /* background: url(noise_lines_transparent@2X.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
+}
 .not-only-container {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
   padding-top: 59px;
@@ -187,6 +212,9 @@ html {
   display: none;
 }
 /* ----------------------------ABOUT---------------------------- */
+.about {
+  background-color: #ffffff;
+}
 .about-container {
   background-color: #ffffff;
   padding-top: 80px;
@@ -248,6 +276,10 @@ html {
 }
 
 /* ----------------------------OUR FRIENDS---------------------------- */
+.our-friends {
+  background: #f6f6f6;
+}
+
 .our-friends-container {
   height: 877px;
   padding-top: 80px;
@@ -599,6 +631,10 @@ li {
 }
 
 /* ----------------------------HELP---------------------------- */
+.help {
+  background: #ffffff;
+}
+
 .help-container {
   height: 611px;
   background: #ffffff;
@@ -681,6 +717,10 @@ li {
 }
 
 /* ----------------------------IN ADDITION---------------------------- */
+.in-addition {
+  background: #f6f6f6;
+}
+
 .in-addition-container {
   height: 462px;
   padding-top: 80px;
@@ -787,6 +827,13 @@ li {
 }
 
 /* ----------------------------FOOTER---------------------------- */
+.footer {
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  /* background: url(noise_lines_transparent@2X.png),
+    radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
+    #211f20; */
+  /* background: url(.......) repeat, linear-gradient(....); */
+}
 
 .footer-container {
   height: 350px;

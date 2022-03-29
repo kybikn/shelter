@@ -74,35 +74,6 @@
   .about-image3 {
     display: none;
   }
-  .modal-content {
-    max-width: 630px;
-    height: 350px;
-    margin: 10% auto;
-  }
-  .modal-image {
-    width: 350px;
-    height: 350px;
-  }
-  .modal-box {
-    margin-left: 350px;
-  }
-  .modal-title {
-    padding-top: 10px;
-  }
-  .modal-text {
-    padding-top: 18px;
-    padding-bottom: 0;
-    width: 275px;
-    font-size: 13px;
-    line-height: 110%;
-  }
-  li {
-    padding-bottom: 4px;
-    color: #f1cdb3;
-  }
-  .modal-span1 {
-    padding-left: 4px;
-  }
 
   /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-title {
@@ -134,7 +105,36 @@
     width: 260px;
     height: 52px;
   }
-
+  /* ------modal------- */
+  .modal-content {
+    max-width: 630px;
+    height: 350px;
+    margin: 10% auto;
+  }
+  .modal-image {
+    width: 350px;
+    height: 350px;
+  }
+  .modal-box {
+    margin-left: 350px;
+  }
+  .modal-title {
+    padding-top: 10px;
+  }
+  .modal-text {
+    padding-top: 18px;
+    padding-bottom: 0;
+    width: 275px;
+    font-size: 13px;
+    line-height: 110%;
+  }
+  li {
+    padding-bottom: 4px;
+    color: #f1cdb3;
+  }
+  .modal-span1 {
+    padding-left: 4px;
+  }
   /* ----------------------------HELP---------------------------- */
   .help-container {
     height: 779px;
@@ -204,9 +204,6 @@
     padding-top: 10px;
     padding-left: 15px;
   }
-  .header-nav {
-    display: none;
-  }
   .hamburger {
     display: block;
     position: absolute;
@@ -231,7 +228,52 @@
     /* filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
       brightness(92%) contrast(87%); */
   }
+  /* .header-nav {
+    display: none;
+  } */
+  .header-nav {
+    position: fixed;
+    width: 320px;
+    right: -320px;
+    height: 823px;
+    top: 0;
+    background-image: url("../../assets/images/bg-burger-320.jpg");
+    overflow-x: hidden;
+    transition: right 0.8s;
+    z-index: 1;
+    padding-top: 249px;
+    padding-right: 21px;
+  }
 
+  .header-ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+    /* margin: 0; */
+  }
+
+  .header-li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 41px;
+    margin-right: 15px;
+  }
+
+  .header-link {
+    font-size: 32px;
+  }
+
+  .header-nav.navbar {
+    position: absolute;
+    right: 0px;
+  }
+  .logo-title.navbar {
+    position: absolute;
+    right: 0px;
+  }
   /* ----------------------------NOT ONLY---------------------------- */
 
   .not-only-container {
@@ -329,33 +371,6 @@
     display: block;
   }
 
-  .modal-content {
-    max-width: 240px;
-    height: 341px;
-  }
-  .modal-image {
-    display: none;
-  }
-  .modal-box {
-    padding: 0;
-    margin: 0;
-  }
-  .modal-text {
-    margin-bottom: 22px;
-    padding-right: 0;
-    width: 220px;
-    height: 112px;
-    text-align: justify;
-  }
-  li {
-    float: left;
-  }
-  .modal-span1 {
-    padding-left: 5px;
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-
   /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-container {
     height: 791px;
@@ -400,6 +415,34 @@
   }
   .our-friends-button {
     margin-top: 43px;
+  }
+
+  /* ------modal------- */
+  .modal-content {
+    max-width: 240px;
+    height: 341px;
+  }
+  .modal-image {
+    display: none;
+  }
+  .modal-box {
+    padding: 0;
+    margin: 0;
+  }
+  .modal-text {
+    margin-bottom: 22px;
+    padding-right: 0;
+    width: 220px;
+    height: 112px;
+    text-align: justify;
+  }
+  li {
+    float: left;
+  }
+  .modal-span1 {
+    padding-left: 5px;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 
   /* ----------------------------HELP---------------------------- */
