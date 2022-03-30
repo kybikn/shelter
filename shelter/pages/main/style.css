@@ -4,17 +4,11 @@ html {
 /* body {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
 } */
-/* .visiting {
-  background-color: white;
-}
-.visiting-container {
-  height: 1116px;
-  padding: 75px 0;
-  background-color: white;
-} */
+
 /* ----------------------------HEADER---------------------------- */
 .header {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  background-size: 100%;
   /* background: url(noise_lines_transparent@2X.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
 }
@@ -28,10 +22,10 @@ html {
 
 .header-container {
   display: flex;
-  background-image: url("../../assets/images/gradient-bg-1280.jpg");
   background-repeat: no-repeat;
   background-position: center 0;
   align-items: center;
+  /* background-image: url("../../assets/images/gradient-bg-1280.jpg"); */
   /* position: sticky;
   top: 0; */
   /* flex-wrap: wrap; */
@@ -114,11 +108,12 @@ html {
 /* ----------------------------NOT ONLY---------------------------- */
 .not-only {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  background-size: 100%;
   /* background: url(noise_lines_transparent@2X.png),
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
 }
 .not-only-container {
-  background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  /* background-image: url("../../assets/images/gradient-bg-1280.jpg"); */
   padding-top: 59px;
   /* background-repeat: no-repeat; */
   /* background-position: center -90px; */
@@ -214,9 +209,10 @@ html {
 /* ----------------------------ABOUT---------------------------- */
 .about {
   background-color: #ffffff;
+  background-size: 100%;
 }
 .about-container {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding-top: 80px;
   height: 588px;
 }
@@ -278,12 +274,13 @@ html {
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends {
   background: #f6f6f6;
+  background-size: 100%;
 }
 
 .our-friends-container {
   height: 877px;
   padding-top: 80px;
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
 }
 
 .our-friends-block {
@@ -309,6 +306,7 @@ html {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 57px;
+  margin-bottom: 30px;
 }
 
 .previous {
@@ -353,6 +351,7 @@ html {
   justify-content: space-evenly;
   margin-top: 22px;
 }
+
 .previous-320 {
   width: 52px;
   height: 52px;
@@ -362,6 +361,7 @@ html {
   margin-right: 5px;
   display: none;
 }
+
 .next-320 {
   width: 52px;
   height: 52px;
@@ -380,6 +380,7 @@ html {
 
 .card-box {
   display: flex;
+  /* margin-bottom: 30px; */
 }
 
 .card {
@@ -408,27 +409,43 @@ html {
   line-height: 23px;
   letter-spacing: 0.06em;
   color: #545454;
-  padding-top: 33px;
-  padding-bottom: 2px;
+  padding-top: 28px;
+  padding-bottom: 30px;
+  text-align: center;
   /* display: flex;
   align-items: center;
-  text-align: center; */
+  */
 }
 
 .card-button {
-  padding: 14px 44px;
+  padding: 13px 44px;
   border: 2px solid #f1cdb3;
   border-radius: 100px;
   background: #fafafa;
-  margin: 26px 0px;
+  margin-top: 0;
+  margin-left: 41px;
+  margin-bottom: 30px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  /* margin-bottom: 70px; */
+  /* margin: 0 auto; */
+  /* display: block; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* text-align: center; */
   /* width: 260px; */
 }
 
-/* .card:hover .card-button {
+.card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
-} */
+}
 
 /* ----modal---- */
 .card-link {
@@ -440,6 +457,7 @@ html {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
+  display: block;
 }
 
 .modal-block {
@@ -573,7 +591,7 @@ html {
   padding: 20px;
 }
 
-li {
+.modal-li {
   padding-bottom: 10px;
   color: #f1cdb3;
 }
@@ -602,15 +620,20 @@ li {
 /* ------------------ */
 
 .our-friends-button {
-  padding: 15px 45px;
+  padding: 15px 46px;
   background: #f1cdb3;
   border-radius: 100px;
   border: none;
   margin: 0 auto;
   display: block;
-  margin-top: 42px;
-  /* margin-bottom: 25px; */
+  /* margin-top: 42px; */
+  /* margin-bottom: 55px; */
+  margin-top: 8px;
   width: 22%;
+  /* display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; */
 }
 
 .our-friends-button-link {
@@ -633,11 +656,12 @@ li {
 /* ----------------------------HELP---------------------------- */
 .help {
   background: #ffffff;
+  background-size: 100%;
 }
 
 .help-container {
   height: 611px;
-  background: #ffffff;
+  /* background: #ffffff; */
   padding-top: 83px;
 }
 
@@ -719,12 +743,13 @@ li {
 /* ----------------------------IN ADDITION---------------------------- */
 .in-addition {
   background: #f6f6f6;
+  background-size: 100%;
 }
 
 .in-addition-container {
   height: 462px;
   padding-top: 80px;
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
 }
 
 .in-addition-block {
@@ -799,7 +824,7 @@ li {
 .credit-icon {
   background-image: url("../../assets/icons/credit-card.svg");
   background-repeat: no-repeat;
-  background-position: 0;
+  background-position: 15px 10px;
   /* padding-top: 3px; */
   /* position: absolute; */
   /* background-position: left; */
@@ -829,6 +854,7 @@ li {
 /* ----------------------------FOOTER---------------------------- */
 .footer {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  background-size: 100%;
   /* background: url(noise_lines_transparent@2X.png),
     radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
     #211f20; */
@@ -837,7 +863,7 @@ li {
 
 .footer-container {
   height: 350px;
-  background-image: url("../../assets/images/gradient-bg-1280.jpg");
+  /* background-image: url("../../assets/images/gradient-bg-1280.jpg"); */
 }
 
 .footer-block {

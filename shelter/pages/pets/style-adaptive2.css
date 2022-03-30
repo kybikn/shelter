@@ -80,11 +80,11 @@
     font-size: 13px;
     line-height: 110%;
   }
-  li {
+  .modal-li {
     padding-bottom: 4px;
     padding-left: 4px;
   }
-  ul {
+  .modal-ul {
     margin-left: 22px;
     padding: 0;
   }
@@ -133,7 +133,79 @@
     padding-top: 10px;
     padding-left: 15px;
   }
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 53px;
+    z-index: 2;
+  }
+  .hamburger.change {
+    transform: rotate(90deg);
+  }
+  .hamburger .line {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #000000;
+    margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+    transition: 0.7s;
+  }
+  .hamburger:hover {
+    cursor: pointer;
+    /* filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
+      brightness(92%) contrast(87%); */
+  }
+  /* .header-nav {
+    display: none;
+  } */
   .header-nav {
+    position: fixed;
+    width: 320px;
+    right: -320px;
+    height: 823px;
+    top: 0;
+    background: #ffffff;
+    /* background-image: url("../../assets/images/bg-burger-320.jpg"); */
+    overflow-x: hidden;
+    transition: right 0.8s;
+    z-index: 1;
+    padding-top: 249px;
+    padding-right: 21px;
+  }
+
+  .header-ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+    /* margin: 0; */
+  }
+
+  .header-li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 41px;
+    margin-right: 15px;
+  }
+
+  .header-link {
+    font-size: 32px;
+  }
+
+  .header-nav.navbar {
+    position: absolute;
+    right: 0px;
+  }
+  /* .logo-title.navbar {
+    position: absolute;
+    right: 0px;
+  } */
+
+  /* .header-nav {
     display: none;
   }
   .hamburger {
@@ -159,7 +231,7 @@
     cursor: pointer;
     filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
       brightness(92%) contrast(87%);
-  }
+  } */
 
   /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-container {
@@ -238,11 +310,11 @@
     height: 112px;
     text-align: justify;
   }
-  ul {
+  .modal-ul {
     margin-left: 22px;
     padding: 0;
   }
-  li {
+  .modal-li {
     /* float: left;
     text-align: left;
     left: 0; */
