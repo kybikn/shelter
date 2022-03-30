@@ -9,7 +9,6 @@
   /* ----------------------------HEADER---------------------------- */
   .header-container {
     background-image: url("../../assets/images/gradient-bg-768.jpg");
-    background-size: 100%;
     height: 60px;
   }
   .logo-title {
@@ -25,7 +24,6 @@
   /* ----------------------------NOT ONLY---------------------------- */
   .not-only-container {
     background-image: url("../../assets/images/gradient-bg-768.jpg");
-    background-size: 100%;
   }
   .not-only-content {
     padding-top: 60px;
@@ -97,21 +95,13 @@
   .card3 {
     display: none;
   }
-  .card-name {
-    /* padding-top: 28px; */
-    padding-bottom: 2px;
-    /* text-align: center; */
-    /* display: flex;
-    align-items: center;
-    */
-  }
   .card-button {
-    margin-top: 30px;
-    margin-left: 41px;
-    margin-bottom: 30px;
+    padding: 13px 44px;
+    margin: 27px 0px;
   }
   .our-friends-button {
     padding: 0;
+    /* margin-top: 65px; */
     width: 260px;
     height: 52px;
   }
@@ -178,10 +168,7 @@
   }
 
   /* ----------------------------FOOTER---------------------------- */
-  .footer {
-    background-image: url("../../assets/images/gradient-bg-footer-768.jpg");
-    background-size: 100%;
-  }
+
   .footer-container {
     height: 639px;
   }
@@ -205,14 +192,8 @@
     max-width: 320px;
     padding: 0;
   }
-  .header {
-    background-image: url("../../assets/images/gradient-bg-320.jpg");
-    background-size: 100%;
-    /* background: url(noise_lines_transparent@2X.png),
-    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
-  }
   .header-container {
-    /* background-image: url("../../assets/images/gradient-bg-320.jpg"); */
+    background-image: url("../../assets/images/gradient-bg-320.jpg");
     justify-content: space-between;
   }
   .logo-title {
@@ -294,14 +275,9 @@
     right: 0px;
   }
   /* ----------------------------NOT ONLY---------------------------- */
-  .not-only {
-    background-image: url("../../assets/images/gradient-bg-320.jpg");
-    background-size: 100%;
-    /* background: url(noise_lines_transparent@2X.png),
-      radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
-  }
+
   .not-only-container {
-    /* background-image: url("../../assets/images/gradient-bg-320.jpg"); */
+    background-image: url("../../assets/images/gradient-bg-320.jpg");
     padding-top: 0;
     /* height: 823px; */
     /* padding: 0; */
@@ -366,10 +342,6 @@
   }
 
   /* ----------------------------ABOUT---------------------------- */
-  .about {
-    background-color: #ffffff;
-    background-size: 100%;
-  }
   .about-container {
     padding-top: 25px;
     height: 974px;
@@ -400,10 +372,6 @@
   }
 
   /* ----------------------------OUR FRIENDS---------------------------- */
-  .our-friends {
-    background: #f6f6f6;
-    background-size: 100%;
-  }
   .our-friends-container {
     height: 791px;
     padding-top: 41px;
@@ -431,11 +399,7 @@
   } */
   .card-name {
     padding-top: 25px;
-    padding-bottom: 2px;
-  }
-  .card-button {
-    margin-left: 3px;
-    padding: 13px 44px;
+    padding-bottom: 4px;
   }
   .previous {
     display: none;
@@ -443,24 +407,14 @@
   .next {
     display: none;
   }
-  .our-friends-catalog {
-    /* padding-top: 27px; */
-    margin-bottom: 20px;
-  }
-  .previous-next-box {
-    margin-top: 0;
-    margin-bottom: 32px;
-  }
   .previous-320 {
     display: block;
-    padding-bottom: 6px;
   }
   .next-320 {
     display: block;
-    padding-bottom: 6px;
   }
   .our-friends-button {
-    margin-top: 10px;
+    margin-top: 43px;
   }
 
   /* ------modal------- */
@@ -482,7 +436,7 @@
     height: 112px;
     text-align: justify;
   }
-  .modal-li {
+  li {
     float: left;
   }
   .modal-span1 {
@@ -492,10 +446,6 @@
   }
 
   /* ----------------------------HELP---------------------------- */
-  .help {
-    background: #ffffff;
-    background-size: 100%;
-  }
   .help-container {
     height: 745px;
     padding-top: 41px;
@@ -625,10 +575,6 @@
   }
 
   /* ----------------------------IN ADDITION---------------------------- */
-  .in-addition {
-    background: #f6f6f6;
-    background-size: 100%;
-  }
   .in-addition-container {
     height: 542px;
     padding-top: 41px;
@@ -685,16 +631,10 @@
   }
 
   /* ----------------------------FOOTER---------------------------- */
-  .footer {
-    background-image: url("../../assets/images/gradient-bg-footer-320.jpg");
-    background-size: 100%;
-    /* background: url(noise_lines_transparent@2X.png),
-      radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
-      #211f20; */
-    /* background: url(.......) repeat, linear-gradient(....); */
-  }
+
   .footer-container {
     height: 809px;
+    background-image: url("../../assets/images/gradient-bg-footer-320.jpg");
   }
   .footer-title {
     font-size: 25px;

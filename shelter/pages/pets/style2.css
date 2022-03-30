@@ -11,7 +11,6 @@ html {
 
 .header {
   background-color: #ffffff;
-  background-size: 100%;
 }
 
 .header-container {
@@ -104,14 +103,13 @@ html {
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends {
   background: #f6f6f6;
-  background-size: 100%;
 }
 
 .our-friends-container {
   height: 1342px;
   /* max-width: 1200px; */
   padding-top: 80px;
-  /* background: #f6f6f6; */
+  background: #f6f6f6;
 }
 
 .our-friends-block {
@@ -191,11 +189,11 @@ html {
   margin: 27px 0px;
 }
 
-.card:hover .card-button {
+/* .card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
-}
+} */
 
 /* ----modal---- */
 .card-link {
@@ -345,7 +343,7 @@ html {
   color: #000000;
 }
 
-.modal-li {
+li {
   /* text-align: left; */
   /* left: 0; */
   padding-bottom: 11px;
@@ -409,7 +407,6 @@ html {
 /* ----------------------------FOOTER---------------------------- */
 .footer {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
-  background-size: 100%;
   /* background: url(noise_lines_transparent@2X.png),
     radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
     #211f20; */
@@ -417,7 +414,7 @@ html {
 
 .footer-container {
   height: 350px;
-  /* background-image: url("../../assets/images/gradient-bg-1280.jpg"); */
+  background-image: url("../../assets/images/gradient-bg-1280.jpg");
 }
 
 .footer-block {
