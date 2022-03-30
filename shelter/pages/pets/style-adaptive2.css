@@ -7,10 +7,6 @@
   }
 
   /* ----------------------------OUR FRIENDS---------------------------- */
-  .our-friends {
-    background: #f6f6f6;
-    background-size: 100%;
-  }
   .our-friends-container {
     height: 1733px;
     padding-top: 80px;
@@ -34,24 +30,21 @@
     justify-content: space-evenly;
   }
   .card {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
   }
   .card7,
   .card8 {
     display: none;
   }
   .card-name {
-    padding-top: 24px;
+    padding-top: 33px;
   }
   .card-button {
-    /* padding: 14px 44px; */
-    margin-top: 27px;
-    /* margin: 27px 0px; */
-    /* margin-left: 3px; */
-    padding: 13px 44px;
+    padding: 14px 44px;
+    margin: 27px 0px;
   }
   .slider-block {
-    padding-top: 10px;
+    padding-top: 12px;
   }
 
   /* ------modal------- */
@@ -267,30 +260,8 @@
   .card4 {
     padding: 0;
   }
-  .card-name {
-    padding-top: 25px;
-  }
-  .card-button {
-    padding: 13px 45px;
-    margin-top: 28px;
-    /* margin-left: 39px; */
-    /* margin-bottom: 30px; */
-
-    /* margin: 27px 0px; */
-    /* margin-left: 44px; */
-    /* margin-bottom: 3px; */
-  }
-  .card {
-    margin-bottom: 29px;
-    /* padding-bottom: 0; */
-  }
   .slider-block {
-    /* margin-top: 10px; */
-    /* padding-top: 10px; */
-    padding: 0;
-    margin: 0;
-    /* margin-bottom: 30px; */
-    /* padding-bottom: 96px; */
+    padding-top: 0;
   }
   .slider-button {
     width: 52px;
@@ -301,7 +272,6 @@
     align-items: center;
     justify-content: center;
     margin: 0 5px;
-    /* margin-bottom: 60px; */
   }
 
   /* ------modal------- */
