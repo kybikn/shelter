@@ -7,23 +7,24 @@
   }
 
   /* ----------------------------HEADER---------------------------- */
-  .header-container {
+  .header {
     background-image: url("../../assets/images/gradient-bg-768.jpg");
+    background-size: 100%;
+  }
+  .header-container {
     height: 60px;
   }
   .logo-title {
     padding-top: 60px;
-  }
-  .header-nav {
-    padding-top: 63px;
   }
   .header-li {
     padding-left: 30px;
   }
 
   /* ----------------------------NOT ONLY---------------------------- */
-  .not-only-container {
+  .not-only {
     background-image: url("../../assets/images/gradient-bg-768.jpg");
+    background-size: 100%;
   }
   .not-only-content {
     padding-top: 60px;
@@ -83,6 +84,9 @@
     flex-wrap: nowrap;
     padding-top: 55px;
   }
+  .arrow {
+    padding-bottom: 0;
+  }
   .card {
     margin: 0;
   }
@@ -128,13 +132,14 @@
     font-size: 13px;
     line-height: 110%;
   }
-  li {
+  .modal-li {
     padding-bottom: 4px;
     color: #f1cdb3;
   }
   .modal-span1 {
     padding-left: 4px;
   }
+
   /* ----------------------------HELP---------------------------- */
   .help-container {
     height: 779px;
@@ -169,6 +174,10 @@
 
   /* ----------------------------FOOTER---------------------------- */
 
+  .footer {
+    background-image: url("../../assets/images/gradient-bg-footer-768.jpg");
+    background-size: 100%;
+  }
   .footer-container {
     height: 639px;
   }
@@ -176,10 +185,18 @@
     justify-content: space-around;
   }
   .contacts {
-    padding-top: 29px;
+    padding-top: 30px;
+    padding-left: 3px;
   }
   .locations {
-    padding-top: 29px;
+    padding-top: 30px;
+    padding-right: 3px;
+  }
+  .link-map {
+    padding-top: 0;
+  }
+  .link-map2 {
+    padding-right: 34px;
   }
   .footer-image {
     padding-top: 63px;
@@ -192,8 +209,12 @@
     max-width: 320px;
     padding: 0;
   }
-  .header-container {
+  .header {
     background-image: url("../../assets/images/gradient-bg-320.jpg");
+    background-size: 100%;
+  }
+  .header-container {
+    /* background-image: url("../../assets/images/gradient-bg-320.jpg"); */
     justify-content: space-between;
   }
   .logo-title {
@@ -430,17 +451,29 @@
     margin: 0;
   }
   .modal-text {
-    margin-bottom: 22px;
+    /* margin-bottom: 22px; */
     padding-right: 0;
-    width: 220px;
-    height: 112px;
+    width: 228px;
     text-align: justify;
+    /* height: 112px; */
+    /* padding-top: 20px; */
+    /* padding-left: 5px; */
+    /* padding-bottom: 20px; */
   }
-  li {
+  .modal-ul {
+    padding: 0;
+    padding-left: 24px;
+    padding-top: 22px;
+    /* padding-bottom: 60px; */
+    /* margin-bottom: 30px; */
+  }
+  .modal-li {
     float: left;
+    padding-bottom: 4px;
+    color: #f1cdb3;
   }
   .modal-span1 {
-    padding-left: 5px;
+    padding-left: 0;
     padding-bottom: 0;
     padding-top: 0;
   }
@@ -643,10 +676,6 @@
     padding-left: 39px;
     /* margin-right: 0; */
   }
-  /* .link-box-contacts {
-    display: flex;
-    justify-content: space-between;
-  } */
   .footer-icon-contacts-email {
     padding-left: 34px;
     padding-bottom: 4px;
@@ -656,11 +685,17 @@
   }
   .link-tel {
     padding-bottom: 5px;
+    padding-right: 41px;
   }
   .footer-icon-contacts-phone {
     margin-left: 5px;
     padding-bottom: 4px;
     padding-left: 34px;
+  }
+  .locations {
+    padding-top: 27px;
+    padding-right: 0;
+    /* margin-bottom: 2px; */
   }
   .title-locations {
     width: 270px;

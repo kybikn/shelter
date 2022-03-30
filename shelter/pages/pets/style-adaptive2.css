@@ -80,11 +80,11 @@
     font-size: 13px;
     line-height: 110%;
   }
-  li {
+  .modal-li {
     padding-bottom: 4px;
     padding-left: 4px;
   }
-  ul {
+  .modal-ul {
     margin-left: 22px;
     padding: 0;
   }
