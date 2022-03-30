@@ -141,9 +141,9 @@ html {
   margin: 0;
   /* padding-top: 55px; */
   padding-bottom: 0;
-  /* 
-  padding-top: 57px;
-  margin-bottom: 30px; */
+
+  /* padding-top: 57px; */
+  margin-bottom: 26px;
 }
 
 .card-box {
@@ -252,6 +252,7 @@ html {
   transform: translate(0px, 0px);
   opacity: 1;
 }
+
 .modal-content {
   position: relative;
   max-width: 900px;
@@ -280,8 +281,8 @@ html {
   background: rgba(41, 41, 41, 0.6);
   line-height: 25px;
   position: absolute;
-  right: -50px;
-  top: -45px;
+  right: -43px;
+  top: -50px;
   width: 52px;
   height: 52px;
   padding: 10px 15px;
@@ -328,8 +329,9 @@ html {
 }
 
 .modal-title {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 10px;
+  padding-left: 10px;
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -340,6 +342,7 @@ html {
 }
 
 .modal-subtitle {
+  padding-left: 10px;
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -351,8 +354,10 @@ html {
 
 .modal-text {
   padding-top: 40px;
-  padding-bottom: 40px;
-  width: 350px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  /* width: 350px; */
+  width: 360px;
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -362,13 +367,14 @@ html {
   color: #000000;
 }
 
-.modal-li {
-  /* text-align: left; */
-  /* left: 0; */
-  padding-bottom: 11px;
-  color: #f1cdb3;
+.modal-ul {
+  padding: 20px;
 }
 
+.modal-li {
+  padding-bottom: 10px;
+  color: #f1cdb3;
+}
 .modal-span1 {
   font-family: "Georgia", serif;
   font-style: normal;
@@ -377,6 +383,7 @@ html {
   line-height: 110%;
   letter-spacing: 0.06em;
   color: #000000;
+  padding-left: 5px;
 }
 
 .modal-span2 {
