@@ -132,13 +132,13 @@
     padding-top: 10px;
   }
   .modal-text {
-    padding-top: 20px;
+    padding-top: 18px;
     padding-bottom: 0;
     width: 275px;
     font-size: 13px;
     line-height: 110%;
   }
-  .modal-li {
+  li {
     padding-bottom: 4px;
     color: #f1cdb3;
   }
@@ -467,11 +467,6 @@
   .modal-content {
     max-width: 240px;
     height: 341px;
-  }
-
-  .close {
-    right: -30px;
-    top: -50px;
   }
   .modal-image {
     display: none;
