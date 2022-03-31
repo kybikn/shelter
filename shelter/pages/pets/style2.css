@@ -28,6 +28,7 @@ html {
 }
 
 .logo-title {
+  display: block;
   font-family: "Noto Serif Georgian", serif;
   font-style: normal;
   font-weight: 400;
@@ -35,7 +36,7 @@ html {
   line-height: 110%;
   display: flex;
   align-items: center;
-  color: #545454;
+  /* color: #545454; */
   letter-spacing: 0.09em;
   padding-top: 30px;
   margin: 0;
@@ -44,6 +45,7 @@ html {
 }
 
 .logo-subtitle {
+  display: block;
   font-family: "Arial", serif;
   font-style: normal;
   font-weight: 400;
@@ -52,10 +54,22 @@ html {
   display: flex;
   align-items: center;
   letter-spacing: 0.1em;
-  color: #292929;
+  /* color: #292929; */
   padding-top: 10px;
   padding-left: 3px;
   /* padding-bottom: 40px; */
+}
+
+.logo-link-title {
+  text-decoration: none;
+  cursor: pointer;
+  color: #545454;
+}
+
+.logo-link-subtitle {
+  text-decoration: none;
+  cursor: pointer;
+  color: #292929;
 }
 
 .header-nav {

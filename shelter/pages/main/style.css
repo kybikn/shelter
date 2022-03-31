@@ -187,7 +187,7 @@ html {
   transition: 1s;
 }
 
-.not-only-button-link {
+.not-only-link {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -195,7 +195,6 @@ html {
   line-height: 130%;
   letter-spacing: 1px;
   color: #292929;
-  text-decoration: none;
 }
 
 .not-only-image1 {
@@ -618,7 +617,7 @@ html {
   transition: 1s;
 }
 
-.our-friends-button-link {
+.our-friends-link {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -626,9 +625,7 @@ html {
   line-height: 130%;
   color: #292929;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
-
 /* ----------------------------HELP---------------------------- */
 .help {
   background: #ffffff;
