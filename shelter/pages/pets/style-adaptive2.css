@@ -272,11 +272,11 @@
     height: 112px;
     text-align: justify;
   }
-  ul {
+  .modal-ul {
     margin-left: 22px;
     padding: 0;
   }
-  li {
+  .modal-li {
     /* float: left;
     text-align: left;
     left: 0; */

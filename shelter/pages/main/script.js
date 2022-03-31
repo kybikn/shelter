@@ -83,7 +83,7 @@
 // ----------------------hg------------------------
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".header-nav");
-// const logo = document.querySelector(".logo-title");
+// const logo = document.querySelector(".logo);
 
 hamburger.addEventListener("click", toggleMenu);
 nav.addEventListener("click", closeMenu);

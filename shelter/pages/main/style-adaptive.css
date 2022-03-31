@@ -265,6 +265,29 @@
     padding-top: 249px;
     padding-right: 21px;
   }
+  /* .logo2 {
+    position: fixed;
+    width: 320px;
+    right: -320px;
+    height: 823px;
+    top: 0;
+    background-image: url("../../assets/images/bg-burger-320.jpg");
+    overflow-x: hidden;
+    transition: right 0.8s;
+    z-index: 1;
+    padding-top: 49px;
+    padding-right: 11px;
+  } */
+  /* .logo {
+    position: fixed;
+    width: 320px;
+    right: -320px;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    padding-top: 39px;
+    padding-right: 11px;
+  } */
 
   .header-ul {
     display: flex;
@@ -291,6 +314,10 @@
     position: absolute;
     right: 0px;
   }
+  /* .logo.navbar {
+    position: absolute;
+    right: 0px;
+  } */
   /* .logo-title.navbar {
     position: absolute;
     right: 0px;
@@ -298,10 +325,15 @@
   /* ----------------------------NOT ONLY---------------------------- */
 
   .not-only-container {
-    background-image: url("../../assets/images/bg-320.jpg");
     padding-top: 0;
     /* height: 823px; */
     /* padding: 0; */
+  }
+  .not-only {
+    background-image: url("../../assets/images/bg-320.jpg");
+    background-size: 100%;
+    /* background: url(noise_lines_transparent@2X.png),
+      radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
   }
   .not-only-block {
     justify-content: center;
