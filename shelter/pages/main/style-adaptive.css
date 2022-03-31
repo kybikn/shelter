@@ -8,7 +8,7 @@
 
   /* ----------------------------HEADER---------------------------- */
   .header {
-    background-image: url("../../assets/images/gradient-bg-768.jpg");
+    background-image: url("../../assets/images/bg-768.jpg");
     background-size: 100%;
   }
   .header-container {
@@ -23,7 +23,7 @@
 
   /* ----------------------------NOT ONLY---------------------------- */
   .not-only {
-    background-image: url("../../assets/images/gradient-bg-768.jpg");
+    background-image: url("../../assets/images/bg-768.jpg");
     background-size: 100%;
   }
   .not-only-content {
@@ -175,7 +175,7 @@
   /* ----------------------------FOOTER---------------------------- */
 
   .footer {
-    background-image: url("../../assets/images/gradient-bg-footer-768.jpg");
+    background-image: url("../../assets/images/bg-footer-768.jpg");
     background-size: 100%;
   }
   .footer-container {
@@ -210,7 +210,7 @@
     padding: 0;
   }
   .header {
-    background-image: url("../../assets/images/gradient-bg-320.jpg");
+    background-image: url("../../assets/images/bg-320.jpg");
     background-size: 100%;
   }
   .header-container {
@@ -291,14 +291,14 @@
     position: absolute;
     right: 0px;
   }
-  .logo-title.navbar {
+  /* .logo-title.navbar {
     position: absolute;
     right: 0px;
-  }
+  } */
   /* ----------------------------NOT ONLY---------------------------- */
 
   .not-only-container {
-    background-image: url("../../assets/images/gradient-bg-320.jpg");
+    background-image: url("../../assets/images/bg-320.jpg");
     padding-top: 0;
     /* height: 823px; */
     /* padding: 0; */
@@ -664,10 +664,12 @@
   }
 
   /* ----------------------------FOOTER---------------------------- */
-
+  .footer {
+    background-image: url("../../assets/images/bg-footer-320.jpg");
+    background-size: 100%;
+  }
   .footer-container {
     height: 809px;
-    background-image: url("../../assets/images/gradient-bg-footer-320.jpg");
   }
   .footer-title {
     font-size: 25px;

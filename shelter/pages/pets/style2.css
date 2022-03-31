@@ -11,11 +11,11 @@ html {
 
 .header {
   background-color: #ffffff;
+  background-size: 100%;
 }
 
 .header-container {
   display: flex;
-  /* background-image: url("../../assets/images/gradient-bg.jpg"); */
   background-repeat: no-repeat;
   height: 120px;
   position: sticky;
@@ -103,13 +103,13 @@ html {
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends {
   background: #f6f6f6;
+  background-size: 100%;
 }
 
 .our-friends-container {
   height: 1342px;
   /* max-width: 1200px; */
   padding-top: 80px;
-  background: #f6f6f6;
 }
 
 .our-friends-block {
@@ -189,11 +189,11 @@ html {
   margin: 27px 0px;
 }
 
-/* .card:hover .card-button {
+.card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
-} */
+}
 
 /* ----modal---- */
 .card-link {
@@ -233,6 +233,7 @@ html {
   transform: translate(0px, 0px);
   opacity: 1;
 }
+
 .modal-content {
   position: relative;
   max-width: 900px;
@@ -261,8 +262,8 @@ html {
   background: rgba(41, 41, 41, 0.6);
   line-height: 25px;
   position: absolute;
-  right: -50px;
-  top: -45px;
+  right: -43px;
+  top: -50px;
   width: 52px;
   height: 52px;
   padding: 10px 15px;
@@ -309,7 +310,8 @@ html {
 }
 
 .modal-title {
-  padding-top: 20px;
+  padding-left: 10px;
+  padding-top: 50px;
   padding-bottom: 10px;
   font-family: "Georgia", serif;
   font-style: normal;
@@ -321,6 +323,7 @@ html {
 }
 
 .modal-subtitle {
+  padding-left: 10px;
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -332,8 +335,14 @@ html {
 
 .modal-text {
   padding-top: 40px;
-  padding-bottom: 40px;
-  width: 350px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  /* padding-right: 10px; */
+  width: 360px;
+
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+  /* width: 350px; */
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -342,15 +351,20 @@ html {
   letter-spacing: 0.06em;
   color: #000000;
 }
+.modal-ul {
+  /* padding: 20px; */
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 23px;
+}
 
-li {
-  /* text-align: left; */
-  /* left: 0; */
-  padding-bottom: 11px;
+.modal-li {
+  padding-bottom: 10px;
   color: #f1cdb3;
 }
 
 .modal-span1 {
+  padding-left: 5px;
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 700;
@@ -406,15 +420,12 @@ li {
 
 /* ----------------------------FOOTER---------------------------- */
 .footer {
-  background-image: url("../../assets/images/gradient-bg-1280.jpg");
-  /* background: url(noise_lines_transparent@2X.png),
-    radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%),
-    #211f20; */
+  background-image: url("../../assets/images/bg2-footer-1280.jpg");
+  background-size: 100%;
 }
 
 .footer-container {
   height: 350px;
-  background-image: url("../../assets/images/gradient-bg-1280.jpg");
 }
 
 .footer-block {
