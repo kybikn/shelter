@@ -83,22 +83,28 @@
 // ----------------------hg------------------------
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".header-nav");
-// const logo = document.querySelector(".logo);
+const logo = document.querySelector(".logo");
 
 hamburger.addEventListener("click", toggleMenu);
 nav.addEventListener("click", closeMenu);
+// nav1.addEventListener("click", closeMenu);
 // logo.addEventListener("click", closeMenu);
 
+// function start() {
+//   logo.classList.add("change");
+//   toggleMenu();
+// }
+
 function toggleMenu() {
-  // logo.classList.toggle("navbar");
-  nav.classList.toggle("navbar");
-  hamburger.classList.toggle("change");
+  logo.classList.toggle("active");
+  nav.classList.toggle("active");
+  hamburger.classList.toggle("active");
 }
 
 function closeMenu(event) {
   if (event.target.classList.contains("header-nav")) {
-    nav.classList.remove("navbar");
-    // logo.classList.remove("navbar");
-    hamburger.classList.remove("change");
+    nav.classList.remove("active");
+    logo.classList.remove("active");
+    hamburger.classList.remove("active");
   }
 }

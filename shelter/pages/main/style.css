@@ -31,8 +31,8 @@ html {
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
 }
-/* 
-.logo2 {
+
+/* .logo2 {
   display: none;
 } */
 
@@ -627,6 +627,100 @@ html {
   color: #292929;
   letter-spacing: 0.06em;
 }
+
+/* =============================== */
+/* .slider-container {
+  position: relative;
+  margin: 20px auto 0;
+  width: 20%;
+  height: 0;
+  padding-bottom: 40%;
+  border: 10px solid #f08080;
+}
+.slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.slides img {
+  width: 100%;
+  height: 100%;
+}
+.slide_img {
+  display: none;
+}
+#arrow_next label,
+#arrow_prev label {
+  color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  visibility: hidden;
+  cursor: pointer;
+  top: 45%;
+  font-size: 80px;
+}
+#arrow_prev label {
+  left: -50px;
+}
+#arrow_next label {
+  right: -50px;
+}
+.switchers {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  text-align: center;
+}
+.switcher {
+  background: rgba(0, 0, 0, 0.7);
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 7px;
+  margin: 0 4px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#img_1:checked ~ #first,
+#img_2:checked ~ #second,
+#img_3:checked ~ #third {
+  visibility: visible;
+}
+#img_1:checked ~ div #switcher1,
+#img_2:checked ~ div #switcher2,
+#img_3:checked ~ div #switcher3 {
+  background: #f08080;
+}
+#img_1:checked ~ #arrow_next label:nth-child(2),
+#img_2:checked ~ #arrow_next label:nth-child(3),
+#img_3:checked ~ #arrow_next label:nth-child(1) {
+  visibility: visible;
+}
+#img_1:checked ~ #arrow_prev label:nth-child(3),
+#img_2:checked ~ #arrow_prev label:nth-child(1),
+#img_3:checked ~ #arrow_prev label:nth-child(2) {
+  visibility: visible;
+}
+.slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#img_1:checked ~ #first,
+#img_2:checked ~ #second,
+#img_3:checked ~ #third {
+  visibility: visible;
+  opacity: 1;
+} */
+
 /* ----------------------------HELP---------------------------- */
 .help {
   background: #ffffff;

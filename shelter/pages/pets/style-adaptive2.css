@@ -11,6 +11,7 @@
     height: 1733px;
     padding-top: 80px;
   }
+
   .our-friends-block {
     padding-left: 19px;
     padding-right: 19px;
@@ -18,31 +19,39 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   .our-friends-title {
     margin: 0;
     padding: 0;
     padding-bottom: 30px;
   }
+
   .our-friends-catalog {
     padding-bottom: 0;
   }
+
   .card-box {
     justify-content: space-evenly;
   }
+
   .card {
     margin-bottom: 30px;
   }
+
   .card7,
   .card8 {
     display: none;
   }
+
   .card-name {
     padding-top: 33px;
   }
+
   .card-button {
     padding: 14px 44px;
     margin: 27px 0px;
   }
+
   .slider-block {
     padding-top: 12px;
   }
@@ -53,25 +62,31 @@
     height: 350px;
     margin: 10% auto;
   }
+
   .close {
     right: -43px;
     top: -53px;
     background: transparent;
   }
+
   .modal-image {
     width: 350px;
     height: 350px;
   }
+
   .modal-box {
     margin-left: 350px;
   }
+
   .modal-title {
     padding-top: 9px;
     padding-left: 10px;
   }
+
   .modal-subtitle {
     padding-left: 10px;
   }
+
   .modal-text {
     padding-top: 20px;
     padding-left: 10px;
@@ -80,14 +95,17 @@
     font-size: 13px;
     line-height: 110%;
   }
+
   .modal-li {
     padding-bottom: 4px;
     padding-left: 4px;
   }
+
   .modal-ul {
     margin-left: 22px;
     padding: 0;
   }
+
   .modal-span1 {
     padding-left: 0;
     margin-right: 0;
@@ -98,20 +116,25 @@
     background-image: url("../../assets/images/bg2-footer-768.jpg");
     background-size: 100%;
   }
+
   .footer-container {
     height: 639px;
   }
+
   .footer-block {
     justify-content: space-around;
   }
+
   .contacts {
     padding-top: 29px;
     margin-left: 5px;
   }
+
   .locations {
     padding-top: 29px;
     margin-right: 5px;
   }
+
   .footer-image {
     padding-top: 63px;
   }
@@ -128,14 +151,23 @@
   .header-container {
     justify-content: space-between;
   }
+
+  .logo.active {
+    position: absolute;
+    padding-left: 10px;
+    z-index: 2;
+  }
+
   .logo-title {
     padding-top: 30px;
     padding-left: 10px;
   }
+
   .logo-subtitle {
     padding-top: 10px;
     padding-left: 15px;
   }
+
   .hamburger {
     display: block;
     position: absolute;
@@ -143,9 +175,11 @@
     right: 53px;
     z-index: 2;
   }
-  .hamburger.change {
+
+  .hamburger.active {
     transform: rotate(90deg);
   }
+
   .hamburger .line {
     width: 30px;
     height: 2px;
@@ -155,11 +189,13 @@
     transition: all 0.3s ease-in-out;
     transition: 0.7s;
   }
+
   .hamburger:hover {
     cursor: pointer;
     /* filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
       brightness(92%) contrast(87%); */
   }
+
   .header-nav {
     position: fixed;
     width: 320px;
@@ -173,6 +209,7 @@
     padding-top: 249px;
     padding-right: 21px;
   }
+
   .header-ul {
     display: flex;
     flex-wrap: nowrap;
@@ -181,6 +218,7 @@
     /* gap: 10px; */
     /* margin: 0; */
   }
+
   .header-li {
     display: block;
     margin: 0;
@@ -188,29 +226,36 @@
     margin-bottom: 41px;
     margin-right: 15px;
   }
+
   .header-link {
     font-size: 32px;
   }
-  .header-nav.navbar {
+
+  .header-nav.active {
     position: absolute;
     right: 0px;
   }
+
   /* ----------------------------OUR FRIENDS---------------------------- */
   .our-friends-container {
     height: 1649px;
     padding-top: 41px;
   }
+
   .our-friends-block {
     padding: 0;
   }
+
   .our-friends-title {
     font-size: 25px;
     padding-bottom: 40px;
   }
+
   .our-friends-catalog {
     flex-direction: column;
     padding-bottom: 8px;
   }
+
   .card4,
   .card5,
   .card6,
@@ -219,12 +264,15 @@
     display: none;
     padding: 0;
   }
+
   .card4 {
     padding: 0;
   }
+
   .slider-block {
     padding-top: 0;
   }
+
   .slider-button {
     width: 52px;
     height: 52px;
@@ -241,18 +289,22 @@
     max-width: 240px;
     height: 341px;
   }
+
   .close {
     background: transparent;
     right: -30px;
     top: -51px;
   }
+
   .modal-image {
     display: none;
   }
+
   .modal-box {
     padding: 0;
     margin: 0;
   }
+
   .modal-title {
     padding-top: 10px;
     /* padding-left: 15px; */
@@ -260,10 +312,12 @@
     padding-bottom: 10px;
     padding-left: 2px;
   }
+
   .modal-subtitle {
     text-align: center;
     padding-right: 8px;
   }
+
   .modal-text {
     margin-bottom: 46px;
     padding-right: 0;
@@ -272,16 +326,19 @@
     height: 112px;
     text-align: justify;
   }
+
   .modal-ul {
     margin-left: 22px;
     padding: 0;
   }
+
   .modal-li {
     /* float: left;
     text-align: left;
     left: 0; */
     /* padding-left: 0; */
   }
+
   .modal-span1 {
     /* padding-left: 5px; */
     margin-right: 0;
@@ -295,57 +352,72 @@
     background-image: url("../../assets/images/bg2-footer-320.jpg");
     background-size: 100%;
   }
+
   .footer-container {
     height: 809px;
   }
+
   .contacts {
     padding-top: 30px;
     width: 300px;
   }
+
   .footer-title {
     font-size: 25px;
     text-align: center;
     padding-right: 4px;
     padding-left: 0;
   }
+
   .footer-icon-contacts-email {
     padding-left: 22px;
     padding-bottom: 4px;
   }
+
   .link-email {
     padding-right: 35px;
   }
+
   .link-tel {
     padding-right: 35px;
     padding-bottom: 5px;
   }
+
   .footer-icon-contacts-phone {
     padding-bottom: 4px;
     padding-left: 25px;
   }
+
   .locations {
     margin-right: 3px;
   }
+
   .title-locations {
     padding-left: 10px;
     padding-top: 6px;
   }
+
   .link-box-locations {
     padding-top: 40px;
   }
+
   .link-map {
     padding-right: 8px;
     padding-top: 0;
   }
+
   .link-map2 {
     padding-top: 0;
   }
+
   .footer-image {
     padding-top: 40px;
   }
+
   .footer-puppy1 {
     display: none;
   }
+
   .footer-puppy3 {
     display: block;
   }
