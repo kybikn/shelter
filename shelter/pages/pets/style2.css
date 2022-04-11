@@ -12,14 +12,15 @@ html {
 .header {
   background-color: #ffffff;
   background-size: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .header-container {
   display: flex;
   background-repeat: no-repeat;
   height: 120px;
-  position: sticky;
-  top: 0;
+
   /* background-position: center 0; */
   /* align-items: center; */
   /* height: 60px; */
