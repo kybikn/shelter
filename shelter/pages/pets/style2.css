@@ -175,6 +175,7 @@ html {
 
 .card:hover {
   background: #ffffff;
+  cursor: pointer;
 }
 
 .card-image {
@@ -414,20 +415,25 @@ html {
   align-items: center;
   justify-content: center;
   margin: 0 10px;
+  background: #f6f6f6;
   /* background-repeat: no-repeat; */
   /* background-position: center; */
 }
 
-.one:focus,
-.one:hover {
+.one {
+  border: 2px solid #f1cdb3;
   background: #f1cdb3;
-  cursor: pointer;
-  transition: 0.8s;
 }
 
-.switch:focus,
-.switch:hover {
+.switch {
   border: 2px solid #f1cdb3;
+  /* background: #f6f6f6; */
+}
+
+/* .switch:focus, */
+.switch:hover {
+  /* border: 2px solid #f1cdb3; */
+  background: #f1cdb3;
   cursor: pointer;
   transition: 0.8s;
 }
