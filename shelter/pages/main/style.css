@@ -885,7 +885,12 @@ html {
 }
 
 .credit-button:hover {
+  background: #fddcc4;
   cursor: pointer;
+  transition: 1s;
+  background-image: url("../../assets/icons/credit-card.svg");
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
 }
 
 .credit-icon {
