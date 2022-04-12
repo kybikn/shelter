@@ -29,7 +29,7 @@ html {
 }
 
 .logo-title {
-  display: block;
+  /* display: block; */
   font-family: "Noto Serif Georgian", serif;
   font-style: normal;
   font-weight: 400;

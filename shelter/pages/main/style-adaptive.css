@@ -379,7 +379,8 @@
   .not-only-title {
     font-size: 25px;
     letter-spacing: 0.06em;
-    /* padding-top: 12px; */
+    padding-top: 12px;
+    padding-bottom: 16px;
     /* margin-top: 12px; */
     display: flex;
     align-items: center;
