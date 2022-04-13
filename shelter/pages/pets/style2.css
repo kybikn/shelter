@@ -2,6 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/arial.ttf);
+}
+@font-face {
+  font-family: Georgia;
+  src: url(../../assets/fonts/georgia.ttf);
+}
+
 /* ----------------------------HEADER---------------------------- */
 .container {
   max-width: 1280px;
@@ -20,16 +29,9 @@ html {
   display: flex;
   background-repeat: no-repeat;
   height: 120px;
-
-  /* background-position: center 0; */
-  /* align-items: center; */
-  /* height: 60px; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
 }
 
 .logo-title {
-  /* display: block; */
   font-family: "Georgia", "Noto Serif Georgian", serif;
   font-style: normal;
   font-weight: 400;
@@ -37,12 +39,9 @@ html {
   line-height: 110%;
   display: flex;
   align-items: center;
-  /* color: #545454; */
   letter-spacing: 0.06em;
   padding-top: 30px;
   margin: 0;
-  /* padding-bottom: 50px; */
-  /* padding-bottom: 25px; */
 }
 
 .logo-subtitle {
@@ -55,10 +54,8 @@ html {
   display: flex;
   align-items: center;
   letter-spacing: 0.1em;
-  /* color: #292929; */
   padding-top: 10px;
   padding-left: 3px;
-  /* padding-bottom: 40px; */
 }
 
 .logo-link-title {
@@ -76,8 +73,6 @@ html {
 .header-nav {
   margin-left: auto;
   padding-top: 46px;
-  /* height: 27px; */
-  /* max-width: 720px; */
 }
 
 .header-li {
@@ -107,14 +102,6 @@ html {
   padding-bottom: 4px;
   color: #292929;
 }
-/* 
-.header-link:active,
-.header-link:hover,
-.header-link:focus {
-  border-bottom: 3px solid #f1cdb3;
-  color: #fddcc4;
-  text-decoration: underline;
-} */
 
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends {
@@ -124,7 +111,6 @@ html {
 
 .our-friends-container {
   height: 1342px;
-  /* max-width: 1200px; */
   padding-top: 80px;
 }
 
@@ -153,7 +139,6 @@ html {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  /* padding-top: 55px; */
   padding-bottom: 31px;
 }
 
@@ -166,7 +151,6 @@ html {
 
 .card {
   justify-content: space-between;
-  /* margin: 0 20px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -194,9 +178,6 @@ html {
   letter-spacing: 0.06em;
   color: #545454;
   padding-top: 33px;
-  /* display: flex;
-    align-items: center;
-    text-align: center; */
 }
 
 .card-button {
@@ -237,15 +218,12 @@ html {
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
-  /* display: none; */
-  /* z-index: 1; */
 }
 
 .modal-block:target {
   pointer-events: auto;
   opacity: 1;
   visibility: visible;
-  /* display: block; */
 }
 
 .modal-block:target .modal-content {
@@ -264,9 +242,6 @@ html {
   transform: translate(0px, -100%);
   opacity: 0;
   transition: all 0.8s ease 0s;
-  /* padding: 5px 20px 13px 20px; */
-  /* padding: 20px; */
-  /* width: 80%;  */
 }
 
 .close-all {
@@ -288,22 +263,6 @@ html {
   padding: 10px 15px;
   border: 2px solid #f1cdb3;
   border-radius: 50%;
-  /* text-decoration: none; */
-  /* font-weight: bold; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* text-align: center; */
-  /* color: #ffffff; */
-  /* width: 24px; */
-  /* margin-top: 195px; */
-  /* border-radius: 12px; */
-  /* box-shadow: 1px 1px 3px #000; */
-  /* color: #aaa; */
-  /* float: right; */
-  /* font-size: 28px; */
-  /* font-weight: bold; */
-  /* box-sizing: border-box; */
-  /* border-radius: 100px; */
 }
 
 .close:hover {
@@ -356,12 +315,7 @@ html {
   padding-top: 40px;
   padding-bottom: 20px;
   padding-left: 10px;
-  /* padding-right: 10px; */
   width: 360px;
-
-  /* padding-top: 40px;
-  padding-bottom: 40px; */
-  /* width: 350px; */
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
@@ -370,8 +324,8 @@ html {
   letter-spacing: 0.06em;
   color: #000000;
 }
+
 .modal-ul {
-  /* padding: 20px; */
   padding: 0;
   padding-left: 20px;
   padding-top: 23px;
@@ -420,24 +374,18 @@ html {
   justify-content: center;
   margin: 0 10px;
   background: #f6f6f6;
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
 }
 
 .one {
   border: 2px solid #fddcc4;
-  /* background: #f1cdb3; */
   background: #fddcc4;
 }
 
 .switch {
   border: 2px solid #f1cdb3;
-  /* background: #f6f6f6; */
 }
 
-/* .switch:focus, */
 .switch:hover {
-  /* border: 2px solid #f1cdb3; */
   background: #fddcc4;
   cursor: pointer;
   transition: 0.8s;

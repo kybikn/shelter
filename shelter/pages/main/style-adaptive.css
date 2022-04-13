@@ -127,7 +127,6 @@
 
   .our-friends-button {
     padding: 0;
-    /* margin-top: 65px; */
     width: 260px;
     height: 52px;
   }
@@ -267,13 +266,9 @@
 
   .logo.active {
     position: absolute;
-    /* padding-left: 10px; */
     z-index: 2;
   }
 
-  /* .logo.change {
-    display: none;
-  } */
   .hamburger {
     display: block;
     position: absolute;
@@ -298,8 +293,6 @@
 
   .hamburger:hover {
     cursor: pointer;
-    /* filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg)
-      brightness(92%) contrast(87%); */
   }
 
   .header-nav {
@@ -326,10 +319,6 @@
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 150px; */
-    /* margin-bottom: 400px; */
-    /* gap: 10px; */
-    /* margin: 0; */
   }
 
   .header-li {
@@ -348,15 +337,11 @@
 
   .not-only-container {
     padding-top: 0;
-    /* height: 823px; */
-    /* padding: 0; */
   }
 
   .not-only {
     background-image: url("../../assets/images/bg-320.jpg");
     background-size: 100%;
-    /* background: url(noise_lines_transparent@2X.png),
-      radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20; */
   }
 
   .not-only-block {
@@ -366,14 +351,6 @@
   .not-only-content {
     padding-left: 0;
     padding-top: 78px;
-    /* margin-bottom: 12px; */
-    /* width: 300px; */
-    /* padding-top: 133px; */
-    /* padding-right: 30px; */
-    /* z-index: 1; */
-    /* position: absolute; */
-    /* // position: relative; */
-    /* // width: calc(30% - 32px); */
   }
 
   .not-only-title {
@@ -381,14 +358,10 @@
     letter-spacing: 0.06em;
     padding-top: 12px;
     padding-bottom: 16px;
-    /* margin-top: 12px; */
     display: flex;
     align-items: center;
     padding-left: 70px;
     text-indent: -17px;
-    /* padding-bottom: 0; */
-    /* margin-left: 86px; */
-    /* padding-left: 125px; */
   }
 
   .not-only-text {
@@ -399,13 +372,6 @@
     text-align: center;
     justify-content: center;
     width: 300px;
-    /* margin-left: 16px; */
-    /* padding-left: 30px; */
-    /* text-indent: -1px; */
-    /* white-space: post-wrap; */
-    /* padding-right: 0; */
-    /* padding-left: 10px; */
-    /* height: 60px; */
   }
 
   .not-only-image1 {
@@ -494,9 +460,6 @@
     display: none;
   }
 
-  /* .card3 {
-    display: none;
-  } */
   .card-name {
     padding-top: 25px;
     padding-bottom: 4px;
@@ -538,22 +501,15 @@
   }
 
   .modal-text {
-    /* margin-bottom: 22px; */
     padding-right: 0;
     width: 228px;
     text-align: justify;
-    /* height: 112px; */
-    /* padding-top: 20px; */
-    /* padding-left: 5px; */
-    /* padding-bottom: 20px; */
   }
 
   .modal-ul {
     padding: 0;
     padding-left: 24px;
     padding-top: 22px;
-    /* padding-bottom: 60px; */
-    /* margin-bottom: 30px; */
   }
 
   .modal-li {
@@ -580,98 +536,24 @@
     line-height: 130%;
   }
 
-  /* .help-block {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 281px;
-    column-gap: 120px;
-    align-items: center;
-  } */
   .help-block {
-    /* height: 555px; */
     margin-left: 15px;
     column-gap: 30px;
-    /* row-gap: -12px; */
-    /* row-gap: 10px; */
     justify-content: flex-start;
-    /* padding: 0; */
-    /* display: flex; */
-    /* flex-w 15px
-    rap: wrap; */
-    /* padding: 0 15px; */
-    /* gap: 0 10px 10px 10px; */
-    /* width: 290px; */
-    /* margin-left: 12px; */
-    /* justify-content: baseline; */
-    /* justify-content: space-evenly; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* column-gap: 20px; */
-    /* column-gap: 60px; */
-    /* flex-direction: column; */
-    /* left: 0;
-    right: 0; */
-    /* height: 281px; */
-    /* column-gap: 180px; */
-    /* align-items: center; */
   }
 
   .icon {
-    /* padding-top: 30px; */
-    /* padding-bottom: 40px; */
-    /* padding-bottom: -10px; */
-    /* row-gap: 60px; */
-    /* margin-top: 10px; */
-    /* margin-bottom: 25px; */
-    /* padding-top: 60px; */
-    /* padding-bottom: 0; */
-    /* column-gap: 30px; */
-    /* column-gap: 100px; */
-    /* padding-top: 20px; */
-    /* margin-bottom: 20px; */
-    /* column-gap: 25px;
-    row-gap: 20px; */
-    /* background-repeat: no-repeat;
-    background-position: center; */
-    /* width: 30px;
-    height: 30px; */
-    /* margin: 0 auto; */
-    /* margin-right: 7px; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* margin-right: 2px; */
-    /* margin-top: 20px; */
     margin-bottom: 15px;
   }
 
   .help-text {
-    /* row-gap: 30px; */
-    /* column-gap: 20px; */
     font-size: 15px;
     line-height: 110%;
-    /* padding-right: 30px; */
-    /* margin-right: 10px; */
     width: 130px;
-    /* padding-bottom: 10px; */
-    /* padding-top: 10px; */
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
-    /* margin-top: -10px; */
-    /* margin-left: 10px; */
   }
 
   .help-box {
-    /* width: 130px; */
-    /* padding-top: 20px; */
-    /* padding-bottom: 20px; */
     margin-bottom: 25px;
-    /* margin-bottom: 55px; */
-    /* column-gap: 5px; */
-    /* height: 87px; */
-    /* column-gap: 15px; */
-    /* margin-bottom: 57px; */
   }
 
   .help-icon1 {
@@ -720,13 +602,9 @@
     font-size: 25px;
     text-align: center;
     padding-bottom: 20px;
-    /* margin-bottom: 37px; */
   }
 
   .in-addition-text {
-    /* padding-top: 1px; */
-    /* padding-bottom: 2px; */
-    /* line-height: 110%; */
     letter-spacing: 0;
     line-height: 160%;
     text-align: center;
@@ -741,24 +619,15 @@
   .credit-button {
     width: 281px;
     margin-left: 18px;
-    /* padding: 8px 11px; */
     height: 43px;
     border-radius: 9px;
     border: none;
-    /* margin: 20px 0; */
-    /* padding-left: 58px; */
-    /* position: relative; */
-    /* padding: 0; */
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* padding-top: 32px; */
   }
 
   .credit-link {
     font-size: 15px;
     line-height: 110%;
     transition: 0.7s;
-    /* margin-left: 40px; */
   }
 
   .in-addition-image1 {
@@ -783,9 +652,7 @@
   .footer-title {
     font-size: 25px;
     text-align: center;
-    /* width: 270px; */
     padding-left: 39px;
-    /* margin-right: 0; */
   }
 
   .footer-icon-contacts-email {
@@ -811,7 +678,6 @@
   .locations {
     padding-top: 27px;
     padding-right: 0;
-    /* margin-bottom: 2px; */
   }
 
   .title-locations {
