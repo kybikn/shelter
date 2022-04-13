@@ -140,12 +140,12 @@ html {
   height: 52px;
   background: #f1cdb3;
   border-radius: 100px;
+  transition: 1s;
 }
 
 .not-only-button:hover {
   background: #fddcc4;
   cursor: pointer;
-  transition: 1s;
 }
 
 .not-only-link {
