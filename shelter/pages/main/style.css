@@ -5,6 +5,14 @@ html {
   background-image: url("../../assets/images/gradient-bg-1280.jpg");
 } */
 
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/arial.ttf);
+}
+@font-face {
+  font-family: Georgia;
+  src: url(../../assets/fonts/georgia.ttf);
+}
 /* ----------------------------HEADER---------------------------- */
 .header {
   background-image: url("../../assets/images/bg-1280.jpg");
@@ -38,7 +46,7 @@ html {
 
 .logo-title {
   /* font-family: "Georgia", serif; */
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -46,7 +54,7 @@ html {
   display: flex;
   align-items: center;
   color: #f1cdb3;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.06em;
   padding-top: 58px;
   /* padding-bottom: 25px; */
   margin: 0;

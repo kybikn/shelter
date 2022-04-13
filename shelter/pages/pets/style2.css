@@ -30,7 +30,7 @@ html {
 
 .logo-title {
   /* display: block; */
-  font-family: "Noto Serif Georgian", serif;
+  font-family: "Georgia", "Noto Serif Georgian", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -38,7 +38,7 @@ html {
   display: flex;
   align-items: center;
   /* color: #545454; */
-  letter-spacing: 0.09em;
+  letter-spacing: 0.06em;
   padding-top: 30px;
   margin: 0;
   /* padding-bottom: 50px; */
