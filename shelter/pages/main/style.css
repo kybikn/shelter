@@ -100,6 +100,7 @@ html {
 .bottom {
   border-bottom: 3px solid #f1cdb3;
   padding-bottom: 4px;
+  color: #fafafa;
 }
 
 /* .header-link:active,
@@ -327,6 +328,7 @@ html {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
+  border: #fddcc4;
   /* background-image: url("../../assets/icons/arrow1-hover.svg"); */
 }
 
@@ -349,6 +351,7 @@ html {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
+  border: #fddcc4;
 }
 
 .arrow {
@@ -409,6 +412,7 @@ html {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
+  border: #fddcc4;
 }
 
 /* ----modal---- */
@@ -621,6 +625,7 @@ html {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
+  border: #fddcc4;
 }
 
 .our-friends-link {

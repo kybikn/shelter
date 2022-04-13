@@ -105,6 +105,7 @@ html {
 .bottom {
   border-bottom: 3px solid #f1cdb3;
   padding-bottom: 4px;
+  color: #292929;
 }
 /* 
 .header-link:active,
@@ -210,6 +211,7 @@ html {
   background: #fddcc4;
   cursor: pointer;
   transition: 1s;
+  border: #fddcc4;
 }
 
 /* ----modal---- */
@@ -423,8 +425,9 @@ html {
 }
 
 .one {
-  border: 2px solid #f1cdb3;
-  background: #f1cdb3;
+  border: 2px solid #fddcc4;
+  /* background: #f1cdb3; */
+  background: #fddcc4;
 }
 
 .switch {
@@ -435,9 +438,10 @@ html {
 /* .switch:focus, */
 .switch:hover {
   /* border: 2px solid #f1cdb3; */
-  background: #f1cdb3;
+  background: #fddcc4;
   cursor: pointer;
   transition: 0.8s;
+  border: #f1cdb3;
 }
 
 /* ----------------------------FOOTER---------------------------- */
