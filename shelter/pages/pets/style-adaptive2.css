@@ -92,7 +92,8 @@
     padding-left: 10px;
     padding-bottom: 20px;
     width: 275px;
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 1.3rem;
     line-height: 110%;
   }
 
@@ -224,7 +225,8 @@
   }
 
   .header-link {
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 3.2rem;
   }
 
   .header-nav.active {
@@ -243,7 +245,8 @@
   }
 
   .our-friends-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     padding-bottom: 40px;
   }
 
@@ -350,7 +353,8 @@
   }
 
   .footer-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     text-align: center;
     padding-right: 4px;
     padding-left: 0;

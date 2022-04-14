@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-size: 10px;
 }
 
 @font-face {
@@ -43,7 +44,8 @@ html {
   font-family: "Georgia", "Noto Serif Georgian", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 3.2rem;
   line-height: 110%;
   display: flex;
   align-items: center;
@@ -57,7 +59,8 @@ html {
   font-family: "Arial", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  /* font-size: 13px; */
+  font-size: 1.3rem;
   line-height: 15px;
   display: flex;
   align-items: center;
@@ -86,14 +89,16 @@ html {
 .header-li {
   display: inline-block;
   list-style: none;
-  padding-left: 32px;
+  padding-left: 34px;
+  /* padding-right: 3px; */
 }
 
 .header-link {
   font-family: "Arial", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 1.5rem;
   line-height: 160%;
   color: #545454;
   text-decoration: none;
@@ -133,7 +138,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-size: 3.5rem;
   line-height: 130%;
   text-align: center;
   letter-spacing: 0.06em;
@@ -182,7 +188,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 2rem;
   line-height: 23px;
   letter-spacing: 0.06em;
   color: #545454;
@@ -210,7 +217,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  /* font-size: 17px; */
+  font-size: 1.7rem;
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
@@ -303,7 +311,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-size: 3.5rem;
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #000000;
@@ -314,7 +323,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 2rem;
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #000000;
@@ -328,7 +338,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: 0.06em;
   color: #000000;
@@ -350,7 +361,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: 0.06em;
   color: #000000;
@@ -360,7 +372,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: 0.06em;
   color: #000000;
@@ -426,7 +439,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  /* font-size: 35px; */
+  font-size: 3.5rem;
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -453,7 +467,8 @@ html {
   font-family: "Georgia", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: 2rem;
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #f1cdb3;

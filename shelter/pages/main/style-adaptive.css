@@ -1,4 +1,5 @@
 /* -----------------------768px------------------------- */
+/* @media (min-width: 321px) and (max-width: 768px) */
 
 @media (max-width: 768px) {
   .container {
@@ -155,7 +156,8 @@
     padding-top: 18px;
     padding-bottom: 0;
     width: 275px;
-    font-size: 13px;
+    /* font-size: 13px; */
+    font-size: 1.3rem;
     line-height: 110%;
   }
 
@@ -330,7 +332,8 @@
   }
 
   .header-link {
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: 3.2rem;
   }
 
   /* ----------------------------NOT ONLY---------------------------- */
@@ -354,7 +357,8 @@
   }
 
   .not-only-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     letter-spacing: 0.06em;
     padding-top: 12px;
     padding-bottom: 16px;
@@ -406,7 +410,8 @@
   }
 
   .about-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     padding-bottom: 24px;
     padding-left: 52px;
     text-indent: -24px;
@@ -438,7 +443,8 @@
   }
 
   .our-friends-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     padding-top: 0;
   }
 
@@ -538,7 +544,8 @@
 
   .help-title {
     margin-bottom: 37px;
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     line-height: 130%;
   }
 
@@ -553,7 +560,8 @@
   }
 
   .help-text {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 1.5rem;
     line-height: 110%;
     width: 130px;
   }
@@ -605,7 +613,8 @@
   }
 
   .in-addition-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     text-align: center;
     padding-bottom: 20px;
   }
@@ -631,7 +640,8 @@
   }
 
   .credit-link {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 1.5rem;
     line-height: 110%;
   }
 
@@ -655,7 +665,8 @@
   }
 
   .footer-title {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 2.5rem;
     text-align: center;
     padding-left: 39px;
   }
