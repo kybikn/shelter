@@ -3,12 +3,12 @@ html {
 }
 
 @font-face {
-  font-family: Arial;
-  src: url(../../assets/fonts/arial.ttf);
+  font-family: "Arial";
+  src: url("../../assets/fonts/arial.ttf");
 }
 @font-face {
-  font-family: Georgia;
-  src: url(../../assets/fonts/georgia.ttf);
+  font-family: "Georgia";
+  src: url("../../assets/fonts/georgia.ttf");
 }
 
 /* ----------------------------HEADER---------------------------- */
@@ -89,7 +89,7 @@ html {
   line-height: 160%;
   color: #545454;
   text-decoration: none;
-  transition: 0.7s;
+  transition: 1s;
   border-bottom: 3px solid transparent;
 }
 
@@ -157,12 +157,13 @@ html {
   align-items: center;
   background: #fafafa;
   border-radius: 9px;
+  transition: 1s;
 }
 
 .card:hover {
   background: #ffffff;
   cursor: pointer;
-  box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
 
 .card-image {
@@ -186,12 +187,12 @@ html {
   border-radius: 100px;
   background: #fafafa;
   margin: 27px 0px;
+  transition: 1s;
 }
 
 .card:hover .card-button {
   background: #fddcc4;
   cursor: pointer;
-  transition: 1s;
   border: #fddcc4;
 }
 
@@ -263,12 +264,12 @@ html {
   padding: 10px 15px;
   border: 2px solid #f1cdb3;
   border-radius: 50%;
+  transition: 1s;
 }
 
 .close:hover {
   background: #fddcc4;
   cursor: pointer;
-  transition: 1s;
 }
 
 .modal-image {
@@ -383,12 +384,12 @@ html {
 
 .switch {
   border: 2px solid #f1cdb3;
+  transition: 1s;
 }
 
 .switch:hover {
   background: #fddcc4;
   cursor: pointer;
-  transition: 0.8s;
   border: #f1cdb3;
 }
 
