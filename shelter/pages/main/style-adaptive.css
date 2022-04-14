@@ -491,6 +491,12 @@
     height: 341px;
   }
 
+  .close {
+    background: transparent;
+    right: -30px;
+    top: -51px;
+  }
+
   .modal-image {
     display: none;
   }

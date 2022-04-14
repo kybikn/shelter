@@ -8,7 +8,14 @@ html {
 }
 @font-face {
   font-family: "Georgia";
+  font-weight: 400;
   src: url("../../assets/fonts/georgia.ttf");
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-weight: 700;
+  src: url("../../assets/fonts/georgiab.ttf");
 }
 
 /* ----------------------------HEADER---------------------------- */
@@ -419,7 +426,7 @@ html {
   line-height: 25px;
   position: absolute;
   right: -43px;
-  top: -50px;
+  top: -52px;
   width: 52px;
   height: 52px;
   padding: 10px 15px;

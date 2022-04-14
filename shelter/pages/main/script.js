@@ -22,7 +22,7 @@ function toggleMenu() {
 function closeMenu(event) {
   if (event.target.classList.contains("header-nav")) {
     nav.classList.remove("active");
-    logo.classList.remove("active");
+    // logo.classList.remove("active");
     hamburger.classList.remove("active");
   }
 }
