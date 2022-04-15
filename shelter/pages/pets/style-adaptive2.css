@@ -1,3 +1,21 @@
+:root {
+  color: var(--color-dark-s);
+
+  --font-additional: "Georgia", serif;
+  --color-primary: #f1cdb3;
+  --color-modal: #000000;
+  --color-transparent: transparent;
+  --color-light-s: #fafafa;
+  --color-light-m: #fddcc4;
+  --color-light-l: #f6f6f6;
+  --color-light-xl: #ffffff;
+  --color-dark-s: #cdcdcd;
+  --color-dark-m: #b2b2b2;
+  --color-dark-l: #545454;
+  --color-dark-xl: #4c4c4c;
+  --color-dark-3xl: #292929;
+}
+
 /* -----------------------768px------------------------- */
 
 @media (max-width: 768px) {
@@ -66,7 +84,7 @@
   .close {
     right: -43px;
     top: -53px;
-    background: transparent;
+    background-color: var(--color-transparent);
   }
 
   .modal-image {
@@ -185,7 +203,7 @@
     width: 30px;
     height: 2px;
     display: block;
-    background-color: #000000;
+    background-color: var(--color-modal);
     margin: 8px auto;
     transition: all 0.3s ease-in-out;
     transition: 1s;
@@ -201,7 +219,7 @@
     right: -320px;
     height: 823px;
     top: 0;
-    background-color: #ffffff;
+    background-color: var(--color-light-xl);
     overflow-x: hidden;
     transition: right 0.8s;
     z-index: 1;
@@ -275,7 +293,7 @@
   .slider-button {
     width: 52px;
     height: 52px;
-    border: 2px solid #cdcdcd;
+    border: 2px solid var(--color-dark-s);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -290,7 +308,7 @@
   }
 
   .close {
-    background: transparent;
+    background-color: var(--color-transparent);
     right: -30px;
     top: -51px;
   }

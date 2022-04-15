@@ -1,3 +1,21 @@
+:root {
+  color: var(--color-primary);
+
+  --font-additional: "Georgia", serif;
+  --color-primary: #f1cdb3;
+  --color-modal: #000000;
+  --color-transparent: transparent;
+  --color-light-s: #fafafa;
+  --color-light-m: #fddcc4;
+  --color-light-l: #f6f6f6;
+  --color-light-xl: #ffffff;
+  --color-dark-s: #cdcdcd;
+  --color-dark-m: #b2b2b2;
+  --color-dark-l: #545454;
+  --color-dark-xl: #4c4c4c;
+  --color-dark-3xl: #292929;
+}
+
 /* -----------------------768px------------------------- */
 /* @media (min-width: 321px) and (max-width: 768px) */
 
@@ -163,7 +181,7 @@
 
   .modal-li {
     padding-bottom: 4px;
-    color: #f1cdb3;
+    color: var(--color-primary);
   }
 
   .modal-span1 {
@@ -287,7 +305,7 @@
     width: 30px;
     height: 2px;
     display: block;
-    background-color: #f1cdb3;
+    background-color: var(--color-primary);
     margin: 8px auto;
     transition: all 0.3s ease-in-out;
     transition: 1s;
@@ -527,7 +545,7 @@
   .modal-li {
     float: left;
     padding-bottom: 4px;
-    color: #f1cdb3;
+    color: var(--color-primary);
   }
 
   .modal-span1 {

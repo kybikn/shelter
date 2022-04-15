@@ -1,22 +1,50 @@
-html {
-  scroll-behavior: smooth;
-  font-size: 10px;
-}
-
 @font-face {
-  font-family: "Arial";
+  font-family: "Arial", serif;
   src: url("../../assets/fonts/arial.ttf");
 }
 @font-face {
-  font-family: "Georgia";
+  font-family: "Georgia", serif;
   font-weight: 400;
   src: url("../../assets/fonts/georgia.ttf");
 }
 
 @font-face {
-  font-family: "Georgia";
+  font-family: "Georgia", serif;
   font-weight: 700;
   src: url("../../assets/fonts/georgiab.ttf");
+}
+
+:root {
+  /* color: var(--color-primary);
+  font-size: var(--font-size-s); */
+  /* --font-size-s: 12px;
+  --font-size-m: 15px;
+  --font-size-l: 20px;
+  --font-size-xl: 25px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 35px;
+  --font-size-4xl: 44px; */
+  --font-additional: "Georgia", serif;
+  --color-primary: #f1cdb3;
+  --color-modal: #000000;
+  --color-transparent: transparent;
+  --color-light-s: #fafafa;
+  --color-light-m: #fddcc4;
+  --color-light-l: #f6f6f6;
+  --color-light-xl: #ffffff;
+  --color-dark-s: #cdcdcd;
+  --color-dark-m: #b2b2b2;
+  --color-dark-l: #545454;
+  --color-dark-xl: #4c4c4c;
+  --color-dark-3xl: #292929;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+  font-family: "Arial", serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* ----------------------------HEADER---------------------------- */
@@ -39,14 +67,15 @@ html {
 }
 
 .logo-title {
-  font-family: "Georgia", serif;
+  font-family: var(--font-additional);
+  /* font-family: "Georgia", serif; */
   font-style: normal;
   font-weight: 400;
   /* font-size: 32px; */
   font-size: 3.2rem;
   display: flex;
   align-items: center;
-  color: #f1cdb3;
+  color: var(--color-primary);
   letter-spacing: 0.06em;
   padding-top: 58px;
   margin: 0;
@@ -54,16 +83,16 @@ html {
 }
 
 .logo-subtitle {
-  font-family: "Arial", serif;
+  /* font-family: "Arial", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; */
   /* font-size: 13px; */
   font-size: 1.3rem;
   line-height: 15px;
   display: flex;
   align-items: center;
   letter-spacing: 0.1em;
-  color: #ffffff;
+  color: var(--color-light-xl);
   padding-top: 10px;
   padding-left: 5px;
   cursor: pointer;
@@ -82,26 +111,27 @@ html {
 }
 
 .header-link {
-  font-family: "Arial", serif;
+  /* font-family: "Arial", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; */
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 160%;
-  color: #cdcdcd;
+  color: var(--color-dark-s);
   text-decoration: none;
   transition: 1s;
-  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid var(--color-transparent);
 }
 
 .header-link:hover {
-  color: #fafafa;
+  color: var(--color-light-s);
 }
 
 .bottom {
-  border-bottom: 3px solid #f1cdb3;
+  /* border-bottom: 3px solid #f1cdb3; */
+  border-bottom: 3px solid var(--color-primary);
   padding-bottom: 4px;
-  color: #fafafa;
+  color: var(--color-light-s);
 }
 
 /* ----------------------------NOT ONLY---------------------------- */
@@ -126,12 +156,13 @@ html {
 }
 
 .not-only-title {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 44px; */
   font-size: 4.4rem;
-  color: #ffffff;
+  color: var(--color-light-xl);
   line-height: 130%;
   padding-bottom: 28px;
 }
@@ -139,13 +170,13 @@ html {
 .not-only-text {
   padding-top: 15px;
   padding-bottom: 40px;
-  font-family: "Arial", serif;
+  /* font-family: "Arial", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; */
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 160%;
-  color: #cdcdcd;
+  color: var(--color-dark-s);
 }
 
 .not-only-button {
@@ -153,25 +184,26 @@ html {
   padding: 17px 0;
   width: 207px;
   height: 52px;
-  background: #f1cdb3;
+  background: var(--color-primary);
   border-radius: 100px;
   transition: 1s;
 }
 
 .not-only-button:hover {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
 }
 
 .not-only-link {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 17px; */
   font-size: 1.7rem;
   line-height: 130%;
   letter-spacing: 1px;
-  color: #292929;
+  color: var(--color-dark-3xl);
 }
 
 .not-only-image1 {
@@ -188,7 +220,7 @@ html {
 
 /* ----------------------------ABOUT---------------------------- */
 .about {
-  background-color: #ffffff;
+  background-color: var(--color-light-xl);
   background-size: 100%;
 }
 .about-container {
@@ -222,14 +254,15 @@ html {
 }
 
 .about-title {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 35px; */
   font-size: 3.5rem;
   line-height: 130%;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
   padding-top: 17px;
   padding-bottom: 23px;
 }
@@ -237,18 +270,18 @@ html {
 .about-text {
   display: flex;
   padding-bottom: 26px;
-  font-family: "Arial", serif;
+  /* font-family: "Arial", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400; */
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 160%;
-  color: #4c4c4c;
+  color: var(--color-dark-xl);
 }
 
 /* ----------------------------OUR FRIENDS---------------------------- */
 .our-friends {
-  background: #f6f6f6;
+  background-color: var(--color-light-l);
   background-size: 100%;
 }
 
@@ -264,7 +297,8 @@ html {
 }
 
 .our-friends-title {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 35px; */
@@ -272,7 +306,7 @@ html {
   line-height: 130%;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
 }
 
 .our-friends-catalog {
@@ -285,33 +319,33 @@ html {
 .previous {
   width: 52px;
   height: 52px;
-  border: 2px solid #f1cdb3;
-  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-transparent);
   border-radius: 50%;
   margin-top: 195px;
   transition: 1s;
 }
 
 .previous:hover {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
-  border: #fddcc4;
+  border: var(--color-light-m);
 }
 
 .next {
   width: 52px;
   height: 52px;
-  border: 2px solid #f1cdb3;
-  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-transparent);
   border-radius: 50%;
   margin-top: 195px;
   transition: 1s;
 }
 
 .next:hover {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
-  border: #fddcc4;
+  border: var(--color-light-m);
 }
 
 .arrow {
@@ -330,13 +364,13 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #fafafa;
+  background-color: var(--color-light-s);
   border-radius: 9px;
   transition: 1s;
 }
 
 .card:hover {
-  background: #ffffff;
+  background-color: var(--color-light-xl);
   cursor: pointer;
   box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 }
@@ -346,44 +380,46 @@ html {
 }
 
 .card-name {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 20px; */
   font-size: 2rem;
   line-height: 23px;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
   padding-top: 33px;
   padding-bottom: 2px;
 }
 
 .card-button {
   padding: 14px 44px;
-  border: 2px solid #f1cdb3;
+  border: 2px solid var(--color-primary);
   border-radius: 100px;
-  background: #fafafa;
+  background-color: var(--color-light-s);
   margin: 26px 0px;
   transition: 1s;
 }
 
 .card:hover .card-button {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
-  border: #fddcc4;
+  border: var(--color-light-m);
 }
 
 /* ----modal---- */
 .card-link {
   text-decoration: none;
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 17px; */
   font-size: 1.7rem;
   line-height: 130%;
   letter-spacing: 0.06em;
-  color: #292929;
+  color: var(--color-dark-3xl);
 }
 
 .modal-block {
@@ -416,7 +452,7 @@ html {
   height: 500px;
   margin: 10% auto;
   border-radius: 9px;
-  background: #fafafa;
+  background-color: var(--color-light-s);
   border: none;
   transform: translate(0px, -100%);
   opacity: 0;
@@ -432,7 +468,7 @@ html {
 }
 
 .close {
-  background: transparent;
+  background-color: var(--color-transparent);
   line-height: 25px;
   position: absolute;
   right: -43px;
@@ -440,13 +476,13 @@ html {
   width: 52px;
   height: 52px;
   padding: 10px 15px;
-  border: 2px solid #f1cdb3;
+  border: 2px solid var(--color-primary);
   border-radius: 50%;
   transition: 1s;
 }
 
 .close:hover {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
 }
 
@@ -470,26 +506,28 @@ html {
   padding-top: 50px;
   padding-left: 10px;
   padding-bottom: 10px;
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 35px; */
   font-size: 3.5rem;
   line-height: 130%;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: var(--color-modal);
 }
 
 .modal-subtitle {
   padding-left: 10px;
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 20px; */
   font-size: 2rem;
   line-height: 115%;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: var(--color-modal);
 }
 
 .modal-text {
@@ -497,14 +535,15 @@ html {
   padding-bottom: 20px;
   padding-left: 10px;
   width: 360px;
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 114%;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: var(--color-modal);
 }
 
 .modal-ul {
@@ -513,30 +552,32 @@ html {
 
 .modal-li {
   padding-bottom: 10px;
-  color: #f1cdb3;
+  color: var(--color-primary);
 }
 
 .modal-span1 {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 700;
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: var(--color-modal);
   padding-left: 5px;
 }
 
 .modal-span2 {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: 0.06em;
-  color: #000000;
+  color: var(--color-modal);
 }
 
 /* ------------------ */
@@ -549,8 +590,8 @@ html {
 .previous-320 {
   width: 52px;
   height: 52px;
-  border: 2px solid #f1cdb3;
-  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-transparent);
   border-radius: 50%;
   margin-right: 5px;
   display: none;
@@ -559,8 +600,8 @@ html {
 .next-320 {
   width: 52px;
   height: 52px;
-  border: 2px solid #f1cdb3;
-  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-transparent);
   border-radius: 50%;
   margin-left: 5px;
   display: none;
@@ -568,7 +609,7 @@ html {
 
 .our-friends-button {
   padding: 15px 45px;
-  background: #f1cdb3;
+  background: var(--color-primary);
   border-radius: 100px;
   border: none;
   margin: 0 auto;
@@ -579,19 +620,20 @@ html {
 }
 
 .our-friends-button:hover {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
-  border: #fddcc4;
+  border: var(--color-light-m);
 }
 
 .our-friends-link {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 17px; */
   font-size: 1.7rem;
   line-height: 130%;
-  color: #292929;
+  color: var(--color-dark-3xl);
   letter-spacing: 0.06em;
 }
 
@@ -690,7 +732,7 @@ html {
 
 /* ----------------------------HELP---------------------------- */
 .help {
-  background: #ffffff;
+  background-color: var(--color-light-xl);
   background-size: 100%;
 }
 
@@ -700,7 +742,8 @@ html {
 }
 
 .help-title {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 35px; */
@@ -708,7 +751,7 @@ html {
   line-height: 127%;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
   margin-bottom: 57px;
   text-align: center;
 }
@@ -766,19 +809,20 @@ html {
 
 .help-text {
   text-align: center;
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 20px; */
   font-size: 2rem;
   line-height: 115%;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
 }
 
 /* ----------------------------IN ADDITION---------------------------- */
 .in-addition {
-  background: #f6f6f6;
+  background-color: var(--color-light-l);
   background-size: 100%;
 }
 
@@ -808,7 +852,8 @@ html {
 }
 
 .in-addition-title {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 35px; */
@@ -816,25 +861,26 @@ html {
   line-height: 130%;
   padding-bottom: 20px;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
 }
 
 .in-addition-text {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 15px; */
   font-size: 1.5rem;
   line-height: 110%;
   letter-spacing: 0.06em;
-  color: #545454;
+  color: var(--color-dark-l);
 }
 
 .credit-button {
   padding: 11px 15px;
   width: 349px;
   height: 43px;
-  background: #f1cdb3;
+  background: var(--color-primary);
   border-radius: 9px;
   border: none;
   margin: 20px 0;
@@ -846,7 +892,7 @@ html {
 }
 
 .credit-button:hover {
-  background: #fddcc4;
+  background-color: var(--color-light-m);
   cursor: pointer;
   background-image: url("../../assets/icons/credit-card.svg");
   background-repeat: no-repeat;
@@ -861,8 +907,9 @@ html {
 
 .credit-link {
   text-decoration: none;
-  color: #545454;
-  font-family: "Georgia", serif;
+  color: var(--color-dark-l);
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 20px; */
@@ -873,13 +920,13 @@ html {
 }
 
 .in-addition-text-transparent {
-  font-family: "Arial", serif;
+  /* font-family: "Arial", serif; */
   font-style: italic;
-  font-weight: 400;
+  /* font-weight: 400; */
   /* font-size: 12px; */
   font-size: 1.2rem;
   line-height: 18px;
-  color: #b2b2b2;
+  color: var(--color-dark-m);
 }
 
 /* ----------------------------FOOTER---------------------------- */
@@ -903,14 +950,15 @@ html {
 }
 
 .footer-title {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 35px; */
   font-size: 3.5rem;
   line-height: 130%;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-light-xl);
   width: 280px;
 }
 
@@ -932,14 +980,15 @@ html {
 }
 
 .footer-link {
-  font-family: "Georgia", serif;
+  /* font-family: "Georgia", serif; */
+  font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
   /* font-size: 20px; */
   font-size: 2rem;
   line-height: 115%;
   letter-spacing: 0.06em;
-  color: #f1cdb3;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
