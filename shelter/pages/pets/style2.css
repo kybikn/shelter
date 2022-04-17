@@ -124,7 +124,7 @@ html {
   line-height: 160%;
   color: var(--color-dark-l);
   text-decoration: none;
-  transition: 1s;
+  transition: 0.7s;
   border-bottom: 3px solid var(--color-transparent);
 }
 
@@ -194,7 +194,7 @@ html {
   align-items: center;
   background-color: var(--color-light-s);
   border-radius: 9px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .card:hover {
@@ -226,7 +226,7 @@ html {
   border-radius: 100px;
   background-color: var(--color-light-s);
   margin: 27px 0px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .card:hover .card-button {
@@ -256,7 +256,7 @@ html {
   bottom: 0;
   left: 0;
   background: rgba(41, 41, 41, 0.6);
-  transition: all 0.8s ease 0s;
+  transition: all 0.7s ease 0s;
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
@@ -283,7 +283,7 @@ html {
   border: none;
   transform: translate(0px, -100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 
 .close-all {
@@ -305,7 +305,7 @@ html {
   padding: 10px 15px;
   border: 2px solid var(--color-primary);
   border-radius: 50%;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .close:hover {
@@ -435,7 +435,7 @@ html {
 
 .switch {
   border: 2px solid var(--color-primary);
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .switch:hover {

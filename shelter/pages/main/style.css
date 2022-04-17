@@ -48,6 +48,7 @@ html {
 }
 
 /* ----------------------------HEADER---------------------------- */
+
 .header {
   background-image: url("../../assets/images/bg-1280.jpg");
   background-size: 100%;
@@ -57,6 +58,7 @@ html {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 40px;
+  width: calc(100% - 40);
 }
 
 .header-container {
@@ -119,7 +121,7 @@ html {
   line-height: 160%;
   color: var(--color-dark-s);
   text-decoration: none;
-  transition: 1s;
+  transition: 0.7s;
   border-bottom: 3px solid var(--color-transparent);
 }
 
@@ -186,7 +188,7 @@ html {
   height: 52px;
   background: var(--color-primary);
   border-radius: 100px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .not-only-button:hover {
@@ -317,13 +319,15 @@ html {
 }
 
 .previous {
+  /* display: block; */
+  flex-shrink: 0;
   width: 52px;
   height: 52px;
   border: 2px solid var(--color-primary);
   background-color: var(--color-transparent);
   border-radius: 50%;
   margin-top: 195px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .previous:hover {
@@ -333,13 +337,15 @@ html {
 }
 
 .next {
+  /* display: block; */
+  flex-shrink: 0;
   width: 52px;
   height: 52px;
   border: 2px solid var(--color-primary);
   background-color: var(--color-transparent);
   border-radius: 50%;
   margin-top: 195px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .next:hover {
@@ -366,7 +372,7 @@ html {
   align-items: center;
   background-color: var(--color-light-s);
   border-radius: 9px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .card:hover {
@@ -399,7 +405,7 @@ html {
   border-radius: 100px;
   background-color: var(--color-light-s);
   margin: 26px 0px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .card:hover .card-button {
@@ -429,7 +435,7 @@ html {
   bottom: 0;
   left: 0;
   background: rgba(41, 41, 41, 0.6);
-  transition: all 0.8s ease 0s;
+  transition: all 0.7s ease 0s;
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
@@ -456,7 +462,7 @@ html {
   border: none;
   transform: translate(0px, -100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.7s ease 0s;
 }
 
 .close-all {
@@ -478,7 +484,7 @@ html {
   padding: 10px 15px;
   border: 2px solid var(--color-primary);
   border-radius: 50%;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .close:hover {
@@ -614,9 +620,12 @@ html {
   border: none;
   margin: 0 auto;
   display: block;
+  flex-shrink: 0;
   margin-top: 42px;
-  width: 22%;
-  transition: 1s;
+  height: 52px;
+  transition: 0.7s;
+  /* width: 261px; */
+  /* width: 22%; */
 }
 
 .our-friends-button:hover {
@@ -626,15 +635,20 @@ html {
 }
 
 .our-friends-link {
-  /* font-family: "Georgia", serif; */
   font-family: var(--font-additional);
   font-style: normal;
   font-weight: 400;
-  /* font-size: 17px; */
   font-size: 1.7rem;
   line-height: 130%;
   color: var(--color-dark-3xl);
   letter-spacing: 0.06em;
+  /* flex-wrap: nowrap;
+  display: block;
+  flex-shrink: 0;
+  width: 261px;
+  height: 52px; */
+  /* font-family: "Georgia", serif; */
+  /* font-size: 17px; */
 }
 
 /* =============================== */
@@ -888,7 +902,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .credit-button:hover {
@@ -916,7 +930,7 @@ html {
   font-size: 2rem;
   line-height: 115%;
   letter-spacing: 0.06em;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .in-addition-text-transparent {

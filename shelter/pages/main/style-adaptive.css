@@ -308,7 +308,7 @@
     background-color: var(--color-primary);
     margin: 8px auto;
     transition: all 0.3s ease-in-out;
-    transition: 1s;
+    transition: 0.7s;
   }
 
   .hamburger:hover {
@@ -323,7 +323,7 @@
     top: 0;
     background-image: url("../../assets/images/bg-burger-320.jpg");
     overflow-x: hidden;
-    transition: right 0.8s;
+    transition: right 0.7s;
     z-index: 1;
     padding-top: 249px;
     padding-right: 21px;
