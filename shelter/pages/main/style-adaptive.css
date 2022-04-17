@@ -1,6 +1,4 @@
 :root {
-  color: var(--color-primary);
-
   --font-additional: "Georgia", serif;
   --color-primary: #f1cdb3;
   --color-modal: #000000;
@@ -265,10 +263,6 @@
     padding-top: 63px;
   }
 }
-
-/* @media (max-width: 767px) and (min-width: 320px){
-
-} */
 
 /* ----------------------- 320 px - 767px ------------------------- */
 @media (max-width: 767px) {

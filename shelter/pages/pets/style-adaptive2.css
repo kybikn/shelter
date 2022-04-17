@@ -1,6 +1,4 @@
 :root {
-  color: var(--color-dark-s);
-
   --font-additional: "Georgia", serif;
   --color-primary: #f1cdb3;
   --color-modal: #000000;
@@ -305,6 +303,14 @@
     align-items: center;
     justify-content: center;
     margin: 0 5px;
+  }
+
+  .one {
+    border: 2px solid var(--color-light-m);
+  }
+
+  .switch {
+    border: 2px solid var(--color-primary);
   }
 
   /* ------modal------- */
