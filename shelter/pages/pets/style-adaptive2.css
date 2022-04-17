@@ -175,10 +175,14 @@
     max-width: 100vw;
   }
 
+  .logo {
+    padding-left: 10px;
+  }
+
   .logo.active {
     position: absolute;
-    padding-left: 10px;
     z-index: 2;
+    right: 125px;
   }
 
   .logo-title {

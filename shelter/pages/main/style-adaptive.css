@@ -283,14 +283,12 @@
 
   .logo {
     padding-left: 10px;
-    z-index: 2;
-    /* margin-left: 500px; */
   }
 
   .logo.active {
     position: absolute;
     z-index: 2;
-    /* right: 70px; */
+    right: 125px;
   }
 
   .hamburger {
