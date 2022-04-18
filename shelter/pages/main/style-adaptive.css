@@ -266,6 +266,10 @@
 
 /* ----------------------- 320 px - 767px ------------------------- */
 @media (max-width: 767px) {
+  body.active {
+    overflow: hidden;
+  }
+
   .container {
     max-width: 320px;
     padding: 0;
@@ -274,6 +278,7 @@
     background: rgba(41, 41, 41, 0.6);
     opacity: 0.5;
   } */
+
   /* ----------------------------HEADER---------------------------- */
   .header {
     background-image: url("../../assets/images/bg-320.jpg");
