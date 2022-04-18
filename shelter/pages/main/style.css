@@ -47,6 +47,9 @@ html {
   font-weight: 400;
 }
 
+/* body.active {
+  overflow: hidden;
+} */
 /* ----------------------------HEADER---------------------------- */
 
 .header {
@@ -134,6 +137,10 @@ html {
   border-bottom: 3px solid var(--color-primary);
   padding-bottom: 4px;
   color: var(--color-light-s);
+}
+
+.shadow {
+  display: none;
 }
 
 /* ----------------------------NOT ONLY---------------------------- */
