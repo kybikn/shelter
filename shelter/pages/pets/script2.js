@@ -19,12 +19,15 @@ function toggleMenu() {
 }
 
 function closeMenu(event) {
-  if (event.target.classList.contains("header-nav")) {
+  if (
+    event.target.classList.contains("header-nav") ||
+    event.target.classList.contains("header-link")
+  ) {
     hamburger.classList.remove("active");
     nav.classList.remove("active");
     logo.classList.remove("active");
     header.classList.remove("active");
-    ourFriends.classList.remove("active");
+    notOnly.classList.remove("active");
     body.classList.remove("active");
   }
 }

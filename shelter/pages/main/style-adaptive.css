@@ -269,7 +269,15 @@
   body.active {
     overflow: hidden;
   }
+  /* .scroll {
+    overflow: scroll;
+    height: 100%;
+  } */
 
+  /* #help {
+    overflow: auto;
+    height: 100px;
+  } */
   .container {
     max-width: 320px;
     padding: 0;
