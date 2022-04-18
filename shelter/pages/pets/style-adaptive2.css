@@ -179,14 +179,14 @@
   }
 
   .logo {
-    padding-left: 10px;
+    padding-left: 0;
     transition: 0.7s;
   }
 
   .logo.active {
     position: absolute;
     z-index: 5;
-    transform: translate(calc(100vw - 300px), 0);
+    transform: translate(calc(100vw - 320px), 0);
   }
 
   .logo-title {
