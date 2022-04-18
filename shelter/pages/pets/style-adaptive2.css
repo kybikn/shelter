@@ -164,9 +164,9 @@
 
 /* ----------------------- 320 px - 767px ------------------------- */
 @media (max-width: 767px) {
-  /* body.active {
+  body.active {
     overflow: hidden;
-  } */
+  }
 
   .container {
     max-width: 320px;

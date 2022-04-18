@@ -7,7 +7,7 @@ const ourFriends = document.querySelector(".our-friends");
 const modal = document.querySelectorAll(".modal-block");
 const cardAll = document.querySelectorAll(".card");
 const shadow = document.querySelector(".shadow");
-// const body = document.querySelector("body");
+const body = document.querySelector("body");
 // const cardButton = document.querySelectorAll(".card-button");
 
 function toggleMenu() {
@@ -17,7 +17,7 @@ function toggleMenu() {
   header.classList.toggle("active");
   ourFriends.classList.toggle("active");
   shadow.classList.toggle("active");
-  // body.classList.toggle("active");
+  body.classList.toggle("active");
 }
 
 function closeMenu(event) {
@@ -32,7 +32,7 @@ function closeMenu(event) {
     header.classList.remove("active");
     ourFriends.classList.remove("active");
     shadow.classList.remove("active");
-    // body.classList.remove("active");
+    body.classList.remove("active");
   }
 }
 
