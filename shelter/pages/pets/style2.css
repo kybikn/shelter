@@ -293,7 +293,8 @@ html {
 }
 
 .close {
-  background: rgba(41, 41, 41, 0.6);
+  /* background: rgba(41, 41, 41, 0.6); */
+  background-color: var(--color-transparent);
   line-height: 25px;
   position: absolute;
   right: -43px;
