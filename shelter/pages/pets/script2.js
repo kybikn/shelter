@@ -32,14 +32,24 @@ function closeMenu(event) {
   }
 }
 
-function openModal(event) {
-  let card = event.currentTarget.dataset.modal;
-  if (modal) {
-    location.href = card;
+function toggleModal(event) {
+  event.preventDefault();
+  if (
+    event.target.classList.contains("close") ||
+    event.target.classList.contains("close-x") ||
+    event.target.classList.contains("close-all")
+  ) {
+    let card = event.currentTarget.dataset.modal;
+    let modal = document.querySelector(card);
+    modal.classList.remove("active-modal");
+  } else {
+    let card = event.currentTarget.dataset.modal;
+    let modal = document.querySelector(card);
+    modal.classList.add("active-modal");
   }
 }
 
 hamburger.addEventListener("click", toggleMenu);
 nav.addEventListener("click", closeMenu);
 shadow.addEventListener("click", closeMenu);
-cardAll.forEach((element) => element.addEventListener("click", openModal));
+cardAll.forEach((element) => element.addEventListener("click", toggleModal));

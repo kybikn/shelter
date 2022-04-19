@@ -397,19 +397,18 @@ html {
   bottom: 0;
   left: 0;
   background: rgba(41, 41, 41, 0.6);
-  transition: all 0.7s ease 0s;
   pointer-events: none;
   opacity: 0;
   visibility: hidden;
 }
 
-.modal-block:target {
+.modal-block.active-modal {
   pointer-events: auto;
   opacity: 1;
   visibility: visible;
 }
 
-.modal-block:target .modal-content {
+.modal-block.active-modal .modal-content {
   transform: translate(0px, 0px);
   opacity: 1;
 }
