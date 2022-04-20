@@ -705,19 +705,21 @@
     text-align: center;
     padding-left: 39px;
   }
-
+  .contacts {
+    padding-left: 0px;
+  }
   .footer-icon-contacts-email {
     padding-left: 34px;
     padding-bottom: 4px;
   }
 
   .link-email {
-    padding-right: 35px;
+    padding-right: 31px;
   }
 
   .link-tel {
     padding-bottom: 5px;
-    padding-right: 41px;
+    padding-right: 37px;
   }
 
   .footer-icon-contacts-phone {
