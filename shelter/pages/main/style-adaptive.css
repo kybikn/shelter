@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --font-additional: "Georgia", serif;
   --color-primary: #f1cdb3;
   --color-modal: #000000;
@@ -12,7 +12,7 @@
   --color-dark-l: #545454;
   --color-dark-xl: #4c4c4c;
   --color-dark-3xl: #292929;
-}
+} */
 
 /* -----------------------768px - 1279px------------------------- */
 @media (max-width: 1279px) {
