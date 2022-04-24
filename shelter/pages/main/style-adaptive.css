@@ -120,6 +120,34 @@
     padding-bottom: 0;
   }
 
+  /* @keyframes move-right {
+      from {
+        left: -620px;
+      }
+      to {
+        left: -1240px;
+      }
+    }
+    @keyframes move-left {
+      from {
+        left: -620px;
+      }
+      to {
+        left: 0px;
+      }
+    }
+  .transition-right {
+            animation-name: move-right;
+            animation-duration: 2s;
+  }
+  .transition-left {
+            animation-name: move-left;
+            animation-duration: 2s;
+  } */
+  .card:nth-child(3n) {
+    display: none;
+  }
+
   .card {
     margin: 0;
   }
@@ -479,7 +507,11 @@
     flex-direction: column;
     padding-top: 40px;
   }
-
+  /* ======================== */
+  .card:nth-child(2n) {
+    display: none;
+  }
+  /* ======================== */
   .card {
     margin: 0 auto;
     text-align: center;

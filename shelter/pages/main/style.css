@@ -327,6 +327,48 @@ html {
   padding-bottom: 3px;
 }
 
+/* ==================== */
+
+.carousel-wrapper {
+  width: 1080px;
+  overflow: hidden;
+}
+
+.carousel {
+  position: relative;
+  left: -1080px;
+  display: flex;
+}
+
+@keyframes move-right {
+  from {
+    left: -1080px;
+  }
+  to {
+    left: -2160px;
+  }
+}
+
+@keyframes move-left {
+  from {
+    left: -1080px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.transition-right {
+  animation-name: move-right;
+  animation-duration: 2s;
+}
+
+.transition-left {
+  animation-name: move-left;
+  animation-duration: 2s;
+}
+
+/* ============================= */
 .card-box {
   display: flex;
 }

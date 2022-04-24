@@ -1,3 +1,5 @@
+import pets from "./pets.js";
+
 // ----------------------hg------------------------
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".header-nav");
@@ -7,6 +9,12 @@ const modal = document.querySelectorAll(".modal-block");
 const cardAll = document.querySelectorAll(".card");
 const shadow = document.querySelector(".shadow");
 const body = document.querySelector("body");
+const carousel = document.querySelector(".carousel");
+const cardsLeft = document.querySelector("#cards-left");
+const cardsRight = document.querySelector("#cards-right");
+const cardsActive = document.querySelector("#cards-active");
+const petsArrowLeft = document.querySelector(".previous");
+const petsArrowRight = document.querySelector(".next");
 
 function toggleMenu() {
   hamburger.classList.toggle("active");
@@ -49,7 +57,60 @@ function toggleModal(event) {
   }
 }
 
+// ==================================
+// Carousel functions
+function createCard(pet) {
+  let card = `<div class="card card1">
+  <img class="card-image" src="../../assets/images/${pet.img}" alt="${pet.name}">
+  <h4 class="card-name">${pet.name}</h4>
+  <button class="card-button card-link">Learn more</button>
+  </div>`;
+  return card;
+}
+
+function moveLeft() {
+  carousel.classList.add("transition-left");
+  petsArrowLeft.removeEventListener("click", moveLeft);
+  petsArrowRight.removeEventListener("click", moveRight);
+}
+
+function moveRight() {
+  carousel.classList.add("transition-right");
+  petsArrowLeft.removeEventListener("click", moveLeft);
+  petsArrowRight.removeEventListener("click", moveRight);
+}
+
+function animationEnd(animationEvent) {
+  let changedItem;
+  if (animationEvent.animationName === "move-left") {
+    carousel.classList.remove("transition-left");
+    changedItem = cardsLeft;
+    cardsActive.innerHTML = cardsLeft.innerHTML;
+  } else {
+    carousel.classList.remove("transition-right");
+    changedItem = cardsRight;
+    cardsActive.innerHTML = cardsRight.innerHTML;
+  }
+
+  changedItem.innerHTML = "";
+  for (let i = 0; i < 3; i++) {
+    let pet_number = Math.ceil(Math.random() * 8);
+    let pet = pets.filter((element) => element.id === pet_number.toString())[0];
+    let activeCardsList = cardsActive.querySelectorAll(".card-image");
+    const card = createCard(pet);
+    changedItem.insertAdjacentHTML("beforeend", card);
+  }
+
+  petsArrowLeft.addEventListener("click", moveLeft);
+  petsArrowRight.addEventListener("click", moveRight);
+}
+
+// ========================
+
 hamburger.addEventListener("click", toggleMenu);
 nav.addEventListener("click", closeMenu);
 shadow.addEventListener("click", closeMenu);
 cardAll.forEach((element) => element.addEventListener("click", toggleModal));
+petsArrowLeft.addEventListener("click", moveLeft);
+petsArrowRight.addEventListener("click", moveRight);
+carousel.addEventListener("animationend", animationEnd);
