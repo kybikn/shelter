@@ -6,7 +6,7 @@ const nav = document.querySelector(".header-nav");
 const logo = document.querySelector(".logo");
 const header = document.querySelector(".header");
 const modal = document.querySelectorAll(".modal-block");
-const cardAll = document.querySelectorAll(".card");
+const cardsAll = document.querySelectorAll(".card");
 const shadow = document.querySelector(".shadow");
 const body = document.querySelector("body");
 const carousel = document.querySelector(".carousel");
@@ -52,15 +52,18 @@ function toggleModal(event) {
     let card = event.currentTarget.dataset.modal;
     let modal = document.querySelector(card);
     modal.classList.remove("active-modal");
+    body.classList.remove("active");
   } else {
     let card = event.currentTarget.dataset.modal;
     let modal = document.querySelector(card);
     modal.classList.add("active-modal");
+    body.classList.add("active");
+    // shadow.classList.add("active");
   }
 }
 
 // ==================================
-// Carousel functions
+// Carousel
 function createCard(pet) {
   let card = `<div class="card card1" data-pet-id="${pet.id}">
   <img class="card-image" src="../../assets/images/${pet.img}" alt="${pet.name}">
@@ -106,7 +109,6 @@ function animationEnd(animationEvent) {
   let newCardsArray = [];
 
   for (let i = 0; i < 3; i++) {
-    console.log("currentCardsArray:", currentCardsArray);
     //Генерируем случайный номер животного
     let newPet;
     while (!newPet) {
@@ -122,11 +124,9 @@ function animationEnd(animationEvent) {
         console.log("newPet:", newPet);
       }
     }
-    console.log("newCardsArray:", newCardsArray);
 
     // Берем данные животного из файла с животными по id
     let pet = pets.filter((element) => element.id === newPet)[0];
-    let activeCardsList = cardsActive.querySelectorAll(".card-image");
     const card = createCard(pet);
     changedItem.insertAdjacentHTML("beforeend", card);
   }
@@ -136,13 +136,13 @@ function animationEnd(animationEvent) {
   petsArrowLeftSmall.addEventListener("click", moveLeft);
   petsArrowRightSmall.addEventListener("click", moveRight);
 }
-
 // ========================
 
 hamburger.addEventListener("click", toggleMenu);
 nav.addEventListener("click", closeMenu);
 shadow.addEventListener("click", closeMenu);
-cardAll.forEach((element) => element.addEventListener("click", toggleModal));
+cardsAll.forEach((element) => element.addEventListener("click", toggleModal));
+// modal.forEach((element) => element.addEventListener("click", close));
 petsArrowLeft.addEventListener("click", moveLeft);
 petsArrowRight.addEventListener("click", moveRight);
 petsArrowLeftSmall.addEventListener("click", moveLeft);

@@ -19,7 +19,7 @@ function toggleMenu() {
 
 function closeMenu(event) {
   if (
-    event.target.classList.contains("header-nav") ||
+    // event.target.classList.contains("header-nav") ||
     event.target.classList.contains("header-link") ||
     event.target.classList.contains("shadow")
   ) {
@@ -42,10 +42,12 @@ function toggleModal(event) {
     let card = event.currentTarget.dataset.modal;
     let modal = document.querySelector(card);
     modal.classList.remove("active-modal");
+    body.classList.remove("active");
   } else {
     let card = event.currentTarget.dataset.modal;
     let modal = document.querySelector(card);
     modal.classList.add("active-modal");
+    body.classList.add("active");
   }
 }
 
