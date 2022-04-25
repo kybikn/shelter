@@ -1,5 +1,5 @@
-import pets from "../main/pets.js";
-// ----------------------hg------------------------
+import pets from "./pets.js";
+
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".header-nav");
 const logo = document.querySelector(".logo");
@@ -9,6 +9,7 @@ const cardAll = document.querySelectorAll(".card");
 const shadow = document.querySelector(".shadow");
 const body = document.querySelector("body");
 
+// ----------------------hg------------------------
 function toggleMenu() {
   hamburger.classList.toggle("active");
   nav.classList.toggle("active");
@@ -59,7 +60,6 @@ shadow.addEventListener("click", closeMenu);
 cardAll.forEach((element) => element.addEventListener("click", toggleModal));
 
 // --------------------pagination----------------------
-
 const firstPageButton = document.querySelector(".first-page-button");
 const previousPageButton = document.querySelector(".previous-page-button");
 const nextPageButton = document.querySelector(".next-page-button");
@@ -82,11 +82,6 @@ let pageNumber = 0;
 
 // создает карточку животного на основе объекта с животным
 function createCard(pet) {
-  let card0 = `<div class="card card${pet.id}" data-pet-id="${pet.id}">
-  <img class="card-image" src="../../assets/images/${pet.img}" alt="${pet.name}">
-  <h4 class="card-name">${pet.name}</h4>
-  <button class="card-button card-link">Learn more</button>
-  </div>`;
   let card = `<div class="card card${pet.id}" data-modal="#openModal${pet.id}" data-pet-id="${pet.id}">
 <img src="../../assets/images/${pet.img}" class="card-image"
     alt="${pet.name}">
@@ -160,7 +155,7 @@ function rewriteButtons(pageNumber, maxPages) {
     nextPageButton.classList.add("switch");
     lastPageButton.classList.add("switch");
   }
-  if ((pageNumber > 0) & (pageNumber < maxPages)) {
+  if (pageNumber > 0 && pageNumber < maxPages) {
     firstPageButton.classList.add("switch");
     previousPageButton.classList.add("switch");
     nextPageButton.classList.add("switch");
@@ -242,6 +237,7 @@ function switchPage(event) {
   rewriteButtons(pageNumber, maxPages);
 }
 
+// ----------------------------------------------
 window.addEventListener("resize", resizeListener);
 window.addEventListener("DOMContentLoaded", start());
 firstPageButton.addEventListener("click", switchPage);

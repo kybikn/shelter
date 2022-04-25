@@ -103,19 +103,6 @@ const pets = [
     diseases: ["none"],
     parasites: ["none"],
   },
-  {
-    id: "9",
-    name: "Junna",
-    img: "pets-junna.jpg",
-    type: "Cat",
-    breed: "Don Sphynx",
-    description:
-      "Junna is a sweet, affectionate and devoted pet. Likes to be the center of attention. She is calm, smart and independent. He does not like loneliness, he is strongly attached to the owner. It's almost impossible to piss her off. She is waiting for you.",
-    age: "2 months",
-    inoculations: ["none"],
-    diseases: ["none"],
-    parasites: ["none"],
-  },
 ];
 
 export default pets;

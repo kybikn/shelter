@@ -301,6 +301,14 @@ body.active {
   cursor: pointer;
 }
 
+.modal-block:hover .close {
+  background-color: var(--color-light-m);
+}
+
+.modal-content:hover .close {
+  background-color: transparent;
+}
+
 .modal-image {
   position: absolute;
   border-radius: 9px;

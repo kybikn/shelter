@@ -1,6 +1,5 @@
 import pets from "./pets.js";
 
-// ----------------------hg------------------------
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".header-nav");
 const logo = document.querySelector(".logo");
@@ -17,6 +16,8 @@ const petsArrowRightSmall = document.querySelector(".next-320");
 const cardsLeft = document.querySelector("#cards-left");
 const cardsRight = document.querySelector("#cards-right");
 const cardsActive = document.querySelector("#cards-active");
+
+// ----------------------hg------------------------
 
 function toggleMenu() {
   hamburger.classList.toggle("active");
@@ -42,6 +43,7 @@ function closeMenu(event) {
   }
 }
 
+// ----------------------modal------------------------
 function toggleModal(event) {
   event.preventDefault();
   if (
@@ -58,12 +60,11 @@ function toggleModal(event) {
     let modal = document.querySelector(card);
     modal.classList.add("active-modal");
     body.classList.add("active");
-    // shadow.classList.add("active");
   }
 }
 
-// ==================================
-// Carousel
+// ----------------------carousel------------------------
+
 function createCard(pet) {
   let card0 = `<div class="card card${pet.id}" data-pet-id="${pet.id}">
   <img class="card-image" src="../../assets/images/${pet.img}" alt="${pet.name}">
@@ -129,6 +130,25 @@ function moveRight() {
   petsArrowRightSmall.removeEventListener("click", moveRight);
 }
 
+function start() {
+  let blocks = ["cards-left", "cards-active", "cards-right"];
+  let petsIdArray = pets.map((element) => element.id);
+  for (let block of blocks) {
+    let available = [...petsIdArray];
+    for (let item = 0; item < 3; item++) {
+      const random = Math.floor(Math.random() * available.length - 1);
+      let petId = available.splice(random, 1)[0];
+      let pet = pets.filter((element) => element.id === petId)[0];
+      const card = createCard(pet);
+      const bl = document.querySelector(`#${block}`);
+      bl.insertAdjacentHTML("beforeend", card);
+    }
+  }
+  document
+    .querySelectorAll(".card")
+    .forEach((element) => element.addEventListener("click", toggleModal));
+}
+
 function animationEnd(animationEvent) {
   let changedItem;
   if (animationEvent.animationName === "move-left") {
@@ -161,7 +181,6 @@ function animationEnd(animationEvent) {
       } else {
         newCardsArray.push(randomPet);
         newPet = randomPet;
-        console.log("newPet:", newPet);
       }
     }
 
@@ -179,15 +198,16 @@ function animationEnd(animationEvent) {
     .querySelectorAll(".card")
     .forEach((element) => element.addEventListener("click", toggleModal));
 }
-// ========================
+
+// ----------------------------------------------
 
 hamburger.addEventListener("click", toggleMenu);
 nav.addEventListener("click", closeMenu);
 shadow.addEventListener("click", closeMenu);
 cardsAll.forEach((element) => element.addEventListener("click", toggleModal));
-// modal.forEach((element) => element.addEventListener("click", close));
 petsArrowLeft.addEventListener("click", moveLeft);
 petsArrowRight.addEventListener("click", moveRight);
 petsArrowLeftSmall.addEventListener("click", moveLeft);
 petsArrowRightSmall.addEventListener("click", moveRight);
 carousel.addEventListener("animationend", animationEnd);
+window.addEventListener("DOMContentLoaded", start());
