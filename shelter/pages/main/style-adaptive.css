@@ -606,6 +606,7 @@
     float: left;
     padding-bottom: 4px;
     color: var(--color-primary);
+    text-align: left;
   }
 
   .modal-span1 {
