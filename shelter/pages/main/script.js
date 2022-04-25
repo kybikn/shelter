@@ -10,11 +10,13 @@ const cardAll = document.querySelectorAll(".card");
 const shadow = document.querySelector(".shadow");
 const body = document.querySelector("body");
 const carousel = document.querySelector(".carousel");
+const petsArrowLeft = document.querySelector(".previous");
+const petsArrowRight = document.querySelector(".next");
+const petsArrowLeftSmall = document.querySelector(".previous-320");
+const petsArrowRightSmall = document.querySelector(".next-320");
 const cardsLeft = document.querySelector("#cards-left");
 const cardsRight = document.querySelector("#cards-right");
 const cardsActive = document.querySelector("#cards-active");
-const petsArrowLeft = document.querySelector(".previous");
-const petsArrowRight = document.querySelector(".next");
 
 function toggleMenu() {
   hamburger.classList.toggle("active");
@@ -27,7 +29,7 @@ function toggleMenu() {
 
 function closeMenu(event) {
   if (
-    event.target.classList.contains("header-nav") ||
+    // event.target.classList.contains("header-nav") ||
     event.target.classList.contains("header-link") ||
     event.target.classList.contains("shadow")
   ) {
@@ -60,7 +62,7 @@ function toggleModal(event) {
 // ==================================
 // Carousel functions
 function createCard(pet) {
-  let card = `<div class="card card1">
+  let card = `<div class="card card1" data-pet-id="${pet.id}">
   <img class="card-image" src="../../assets/images/${pet.img}" alt="${pet.name}">
   <h4 class="card-name">${pet.name}</h4>
   <button class="card-button card-link">Learn more</button>
@@ -72,12 +74,16 @@ function moveLeft() {
   carousel.classList.add("transition-left");
   petsArrowLeft.removeEventListener("click", moveLeft);
   petsArrowRight.removeEventListener("click", moveRight);
+  petsArrowLeftSmall.removeEventListener("click", moveLeft);
+  petsArrowRightSmall.removeEventListener("click", moveRight);
 }
 
 function moveRight() {
   carousel.classList.add("transition-right");
   petsArrowLeft.removeEventListener("click", moveLeft);
   petsArrowRight.removeEventListener("click", moveRight);
+  petsArrowLeftSmall.removeEventListener("click", moveLeft);
+  petsArrowRightSmall.removeEventListener("click", moveRight);
 }
 
 function animationEnd(animationEvent) {
@@ -93,9 +99,33 @@ function animationEnd(animationEvent) {
   }
 
   changedItem.innerHTML = "";
+
+  let currentCardsArray = Array.from(cardsActive.querySelectorAll(".card")).map(
+    (elem) => elem.dataset.petId
+  );
+  let newCardsArray = [];
+
   for (let i = 0; i < 3; i++) {
-    let pet_number = Math.ceil(Math.random() * 8);
-    let pet = pets.filter((element) => element.id === pet_number.toString())[0];
+    console.log("currentCardsArray:", currentCardsArray);
+    //Генерируем случайный номер животного
+    let newPet;
+    while (!newPet) {
+      let randomPet = Math.ceil(Math.random() * 8).toString();
+      if (
+        currentCardsArray.includes(randomPet) ||
+        newCardsArray.includes(randomPet)
+      ) {
+        continue;
+      } else {
+        newCardsArray.push(randomPet);
+        newPet = randomPet;
+        console.log("newPet:", newPet);
+      }
+    }
+    console.log("newCardsArray:", newCardsArray);
+
+    // Берем данные животного из файла с животными по id
+    let pet = pets.filter((element) => element.id === newPet)[0];
     let activeCardsList = cardsActive.querySelectorAll(".card-image");
     const card = createCard(pet);
     changedItem.insertAdjacentHTML("beforeend", card);
@@ -103,6 +133,8 @@ function animationEnd(animationEvent) {
 
   petsArrowLeft.addEventListener("click", moveLeft);
   petsArrowRight.addEventListener("click", moveRight);
+  petsArrowLeftSmall.addEventListener("click", moveLeft);
+  petsArrowRightSmall.addEventListener("click", moveRight);
 }
 
 // ========================
@@ -113,4 +145,6 @@ shadow.addEventListener("click", closeMenu);
 cardAll.forEach((element) => element.addEventListener("click", toggleModal));
 petsArrowLeft.addEventListener("click", moveLeft);
 petsArrowRight.addEventListener("click", moveRight);
+petsArrowLeftSmall.addEventListener("click", moveLeft);
+petsArrowRightSmall.addEventListener("click", moveRight);
 carousel.addEventListener("animationend", animationEnd);

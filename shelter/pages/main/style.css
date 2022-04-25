@@ -354,7 +354,7 @@ html {
     left: -1080px;
   }
   to {
-    left: 0px;
+    left: 0;
   }
 }
 
@@ -495,6 +495,18 @@ html {
   background-color: var(--color-light-m);
   cursor: pointer;
 }
+
+/* .close:hover .shadow.active-modal {
+  background-color: var(--color-light-m);
+  cursor: pointer;
+  color: red;
+} */
+/* .shadow.active .close {
+  background-color: var(--color-light-m);
+  cursor: pointer;
+  color: red;
+} */
+/* .card:hover .card-button  */
 
 .modal-image {
   position: absolute;

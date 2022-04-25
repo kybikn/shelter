@@ -228,7 +228,10 @@
     position: fixed;
     width: 320px;
     right: -320px;
-    height: 823px;
+    /* height: 823px; */
+    height: 2492px;
+    /* height: 100%; */
+    /* height: 100vh; */
     top: 0;
     background-color: var(--color-light-xl);
     overflow-x: hidden;
