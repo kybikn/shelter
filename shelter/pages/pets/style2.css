@@ -168,7 +168,7 @@ body.active {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  padding-bottom: 31px;
+  /* padding-bottom: 31px; */
 }
 
 .card-box {
@@ -187,6 +187,7 @@ body.active {
   background-color: var(--color-light-s);
   border-radius: 9px;
   transition: 0.7s;
+  margin-bottom: 31px;
 }
 
 .card:hover {
@@ -402,15 +403,24 @@ body.active {
   align-items: center;
   justify-content: center;
   margin: 0 10px;
+  color: #cdcdcd;
   background-color: var(--color-light-l);
+  font-family: var(--font-additional);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 115%;
+  letter-spacing: 0.06em;
 }
 
 .one {
   border: 2px solid var(--color-light-m);
   background-color: var(--color-light-m);
+  color: var(--color-dark-3xl);
 }
 
 .switch {
+  color: var(--color-dark-3xl);
   border: 2px solid var(--color-primary);
   transition: 0.7s;
 }

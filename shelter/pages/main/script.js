@@ -65,11 +65,51 @@ function toggleModal(event) {
 // ==================================
 // Carousel
 function createCard(pet) {
-  let card = `<div class="card card1" data-pet-id="${pet.id}">
+  let card0 = `<div class="card card${pet.id}" data-pet-id="${pet.id}">
   <img class="card-image" src="../../assets/images/${pet.img}" alt="${pet.name}">
   <h4 class="card-name">${pet.name}</h4>
   <button class="card-button card-link">Learn more</button>
   </div>`;
+  let card = `<div class="card card${pet.id}" data-modal="#openModal${pet.id}" data-pet-id="${pet.id}">
+<img src="../../assets/images/${pet.img}" class="card-image"
+    alt="${pet.name}">
+<h4 class="card-name">${pet.name}</h4>
+<button class="card-button card-link">Learn
+    more</button>
+<div id="openModal${pet.id}" class="modal-block">
+    <a href="" class="close-all"></a>
+    <div class="modal-content">
+        <form>
+            <button class="close" title="Закрыть"><img
+                    src="../../assets/icons/modal-close.svg" class="close-x"
+                    alt=""></button>
+        </form>
+        <img src="../../assets/images/${pet.img}" class="modal-image"
+            alt="${pet.name}">
+        <div class="modal-box">
+            <h2 class="modal-title">${pet.name}</h2>
+            <p class="modal-subtitle">${pet.breed}</p>
+            <p class="modal-text">${pet.description}
+            </p>
+            <ul class="modal-ul">
+                <li class="modal-li"><span class="modal-span1">Age:</span>
+                    <span class="modal-span2"> ${pet.age}</span>
+                </li>
+                <li class="modal-li"><span
+                        class="modal-span1">Inoculations:</span>
+                    <span class="modal-span2"> ${pet.inoculatuins}</span>
+                </li>
+                <li class="modal-li"><span class="modal-span1">Diseases:</span>
+                    <span class="modal-span2"> ${pet.diseases}</span>
+                </li>
+                <li class="modal-li"><span class="modal-span1">Parasites:</span>
+                    <span class="modal-span2"> ${pet.parasites}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>`;
   return card;
 }
 
@@ -135,6 +175,9 @@ function animationEnd(animationEvent) {
   petsArrowRight.addEventListener("click", moveRight);
   petsArrowLeftSmall.addEventListener("click", moveLeft);
   petsArrowRightSmall.addEventListener("click", moveRight);
+  document
+    .querySelectorAll(".card")
+    .forEach((element) => element.addEventListener("click", toggleModal));
 }
 // ========================
 
