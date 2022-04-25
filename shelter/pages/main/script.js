@@ -172,7 +172,7 @@ function animationEnd(animationEvent) {
     //Генерируем случайный номер животного
     let newPet;
     while (!newPet) {
-      let randomPet = Math.ceil(Math.random() * 8).toString();
+      let randomPet = Math.ceil(Math.random() * 9).toString();
       if (
         currentCardsArray.includes(randomPet) ||
         newCardsArray.includes(randomPet)
