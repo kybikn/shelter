@@ -19,29 +19,49 @@ const cardsActive = document.querySelector("#cards-active");
 
 // ----------------------hg------------------------
 
-function toggleMenu() {
-  hamburger.classList.toggle("active");
-  nav.classList.toggle("active");
-  logo.classList.toggle("active");
-  header.classList.toggle("active");
-  shadow.classList.toggle("active");
-  body.classList.toggle("active");
-}
+const menuElems = [hamburger, nav, logo, header, shadow, body];
 
-function closeMenu(event) {
+// const toggleActive = (elem) => {
+//   elem.classList.toggle("active");
+// };
+
+// const removeActive = (elem) => {
+//   elem.classList.remove("active");
+// };
+
+const toggleMenu = () => {
+  menuElems.forEach((elem) => elem.classList.toggle("active"));
+};
+// function toggleMenu() {
+//   hamburger.classList.toggle("active");
+//   nav.classList.toggle("active");
+//   logo.classList.toggle("active");
+//   header.classList.toggle("active");
+//   shadow.classList.toggle("active");
+//   body.classList.toggle("active");
+// }
+
+const closeMenu = (event) => {
   if (
-    // event.target.classList.contains("header-nav") ||
     event.target.classList.contains("header-link") ||
     event.target.classList.contains("shadow")
   ) {
-    hamburger.classList.remove("active");
-    nav.classList.remove("active");
-    logo.classList.remove("active");
-    header.classList.remove("active");
-    shadow.classList.remove("active");
-    body.classList.remove("active");
+    menuElems.forEach((elem) => elem.classList.remove("active"));
   }
-}
+};
+// function closeMenu(event) {
+//   if (
+//     event.target.classList.contains("header-link") ||
+//     event.target.classList.contains("shadow")
+//   ) {
+//     hamburger.classList.remove("active");
+//     nav.classList.remove("active");
+//     logo.classList.remove("active");
+//     header.classList.remove("active");
+//     shadow.classList.remove("active");
+//     body.classList.remove("active");
+//   }
+// }
 
 // ----------------------modal------------------------
 function toggleModal(event) {
