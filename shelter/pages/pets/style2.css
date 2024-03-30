@@ -62,6 +62,11 @@ body.active {
   height: 120px;
 }
 
+.logo {
+  text-decoration: none;
+  cursor: pointer;
+  }
+
 .logo-title {
   font-family: var(--font-additional);
   font-style: normal;
@@ -87,14 +92,10 @@ body.active {
 }
 
 .logo-link-title {
-  text-decoration: none;
-  cursor: pointer;
   color: var(--color-dark-l);
 }
 
 .logo-link-subtitle {
-  text-decoration: none;
-  cursor: pointer;
   color: var(--color-dark-3xl);
 }
 

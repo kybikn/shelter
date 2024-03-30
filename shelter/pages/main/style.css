@@ -63,6 +63,10 @@ body.active {
   align-items: center;
 }
 
+.logo {
+text-decoration: none;
+}
+
 .logo-title {
   font-family: var(--font-additional);
   font-style: normal;
